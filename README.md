@@ -1,6 +1,6 @@
 # Gitea: Blog
 
-[![Build Status](http://drone.gitea.io/api/badges/go-gitea/blog/status.svg)](http://drone.gitea.io/go-gitea/blog)
+[![Build Status](https://drone.gitea.com/api/badges/go-gitea/blog/status.svg)](https://drone.gitea.com/go-gitea/blog)
 [![Join the chat at https://img.shields.io/discord/322538954119184384.svg](https://img.shields.io/discord/322538954119184384.svg)](https://discord.gg/NsatcWJ)
 [![](https://images.microbadger.com/badges/image/gitea/blog.svg)](http://microbadger.com/images/gitea/blog "Get your own image badge on microbadger.com")
 
