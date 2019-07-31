@@ -33,7 +33,8 @@ A few things we would like to mention with this release:
 * We have changed our Docker tagging!
   * Starting now the `:1` and `:1.9` tags will only be updated on tagged release like `1.9.0` and not on every commit to a release branch. This means that those tags will be more stable. Release candidate tags will be ignored.
   * For example, the `:1` tag will follow `:1.10` that itself will only be created for the first stable release of `1.10.0`.
-  
+* Logging has been overhauled (thanks [**@zeripath**](https://github.com/zeripath)!) ([#6038](https://github.com/go-gitea/gitea/pull/6038))
+  * For a more complete overview, check out [the documentation](https://docs.gitea.io/en-us/logging-configuration/).
    
    
 With that out of the way, we are excited to show you what's new in Gitea version 1.9.0:
