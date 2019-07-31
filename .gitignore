@@ -1,2 +1,5 @@
 public/
 themes/
+
+# GoLand
+.idea/
