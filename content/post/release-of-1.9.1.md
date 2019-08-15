@@ -14,7 +14,7 @@ We have merged [22](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%
 
 You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.9.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
 
-We would like to give a special thanks to [zeripath](https://github.com/zeripath) for the security fix in this release.
+We would like to give a special thanks to Gabriel Campana from the [Ledger Security Team](https://twitter.com/donjonledger) for reporting the security issue that has been patched in this release.
 
 We'd like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.
 
