@@ -1,5 +1,5 @@
 ---
-date: "2019-010-08T12:00:00+00:00" 
+date: "2019-10-08T12:00:00+00:00" 
 author: "jolheiser"
 title: "Gitea 1.9.4 is released"
 tags: ["release"]
