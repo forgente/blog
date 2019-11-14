@@ -23,6 +23,8 @@ Several improvements have been made to the repository indexer. Please expect tem
 
 Please note that go 1.13 is now required for building the project.
 
+We would like to give a special thanks to Ilya Pavlov (https://github.com/Ilya33) for reporting the security issue that has been patched in this release.
+
 We'd like to thank all of our backers on
 [Open Collective](https://opencollective.com/gitea), who are helping us deliver
 a better piece of software.
@@ -376,16 +378,6 @@ as drone has removed support for `Basic` user/password authentication.
 
 To see all user-facing changes that went into the release, check out our
 [full changelog](https://github.com/go-gitea/gitea/blob/master/CHANGELOG.md#1100---2019-11-13).
-
-We would like to thank those who reported and/or fixed security issues in this
-release:
-
-* Guillermo Prandi ([@guillep2k](https://github.com/guillep2k)) ([#8395](https://github.com/go-gitea/gitea/pull/8395))
-* [@zeripath](https://github.com/zeripath) ([#7715](https://github.com/go-gitea/gitea/pull/7715)) ([#7651](https://github.com/go-gitea/gitea/pull/8901)) ([#8903](https://github.com/go-gitea/gitea/pull/8903))
-* [@techknowlogick](https://github.com/techknowlogick) ([#7637](https://github.com/go-gitea/gitea/pull/7637))
-
-We would like to give a special thanks to Ilya Pavlov (https://github.com/Ilya33) who reported the security issue
-behind [#8903](https://github.com/go-gitea/gitea/pull/8903), and to [@zeripath](https://github.com/zeripath) for fixing it.
 
 ## Help us out!
 
