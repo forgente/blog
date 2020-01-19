@@ -15,6 +15,7 @@ You can download one of our pre-built binaries from our [downloads page](https:/
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.
 
 We would like to thank those who reported and/or fixed security issues in this release:  
+
 * Masum Olgun for reporting [#9678](https://github.com/go-gitea/gitea/pull/9678)
   * With special thanks to [@zeripath](https://github.com/zeripath) for fixing
 * Brad Wadsworth from [Watermark Insights](https://www.watermarkinsights.com/) for reporting [#9682](https://github.com/go-gitea/gitea/pull/9682)
