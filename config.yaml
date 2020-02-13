@@ -50,7 +50,7 @@ menu:
       weight: 60
       pre: github
     - name: Discord Chat
-      url: https://discord.gg/NsatcWJ
+      url: https://discord.gg/Gitea
       weight: 70
       pre: comment
     - name: Forum

@@ -28,6 +28,9 @@ We'd like to thank all of our backers on
 [Open Collective](https://opencollective.com/gitea), who are helping us deliver
 a better piece of software.
 
+As of `1.11.0`, Gitea requires [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) to build from source.  
+More information can be found in the [documentation](https://docs.gitea.io/en-us/install-from-source/).
+
 With that out of the way, we are excited to show you what's new in Gitea version 1.11.0:
 
 <!--more-->
