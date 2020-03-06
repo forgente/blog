@@ -20,6 +20,19 @@ We would also like to thank all of our supporters on [Open Collective](https://o
 
 <!--more-->
 
+## Breaking Change: Various fixes in login sources ([#10428](https://github.com/go-gitea/gitea/pull/10428))
+
+This PR has two major components:
+
+* A breaking change whereby users from external login sources (eg. PAM and SMTP authentication) will only be autoregistered if the username is valid i.e. `[A-Za-z0-9_.-]+`.
+* For PAM authentication `pam_get_item(PAM_USER)` will be called to allow PAM pipelines to adjust the username.
+
+## Critical Bugfix: Fix release attachments being deleted while upgrading ([#10572](https://github.com/go-gitea/gitea/pull/10572)) ([#10573](https://github.com/go-gitea/gitea/pull/10573))
+
+This PR fixes a critical error in migration `models/migrations/v96.go` first reported as [#10526](https://github.com/go-gitea/gitea/issues/10526). This migration caused the permanent deletion of release attachments whilst upgrading to 1.10-rc1+. Unfortunately users affected by this bug will have had their release attachments deleted.
+
+Users who have not upgraded to 1.10/1.11 yet should upgrade straight to 1.10.5 or 1.11.2. (In general users should always upgrade to the last patch version available for each minor version and not iterate through each patch version.)
+
 ## Changelog
 
 ## [1.11.2](https://github.com/go-gitea/gitea/releases/tag/v1.11.2) - 2020-03-06
