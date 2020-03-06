@@ -31,7 +31,7 @@ This PR has two major components:
 
 This PR fixes a critical error in migration `models/migrations/v96.go` first reported as [#10526](https://github.com/go-gitea/gitea/issues/10526). This migration caused the permanent deletion of release attachments whilst upgrading to 1.10-rc1+. Unfortunately users affected by this bug will have had their release attachments deleted.
 
-Users who have not upgraded to 1.10/1.11 yet should upgrade straight to 1.10.5 or 1.11.2. (In general users should always upgrade to the last patch version available for each minor version and not iterate through each patch version.)
+Users who have not upgraded to 1.10 or 1.11 yet should upgrade straight to 1.10.5 or 1.11.2. (In general users should always upgrade to the last patch version available for each minor version and not iterate through each patch version.)
 
 ## Changelog
 
