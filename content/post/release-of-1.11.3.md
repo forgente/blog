@@ -14,7 +14,7 @@ to our 1.11 branch yet, please update your system to [1.10.6](https://dl.gitea.i
 
 Full disclosure, the following problems affected our recent releases:
 
-* 1.11.2 (now replaced by 1.11.3) was mistakenly compiled with Go 1.14, which Gitea is not currently not fully tested with and it's known to cause [a few issues](https://github.com/go-gitea/gitea/issues/10661).
+* 1.11.2 (now replaced by 1.11.3) was mistakenly compiled with Go 1.14, which Gitea is not currently fully tested with and it's known to cause [a few issues](https://github.com/go-gitea/gitea/issues/10661).
 * 1.10.5 (replaced by 1.10.6 if you need to keep using the 1.10 branch) was incorrectly tagged, and was in fact a snapshot of our development branch (1.12-dev). It was also compiled with Go 1.14.
 
 When upgrading, please skip any intermediate patch versions (e.g., **don't** go 1.11.0 &rarr; 1.11.1 &rarr; 1.11.2) but go straight to the latest patch release instead (you can upgrade to 1.11.3 directly from versions as old as 1.6.0). If you need or wish to upgrade through the intermediate major versions, always do it via the latest patch available for each one (1.6.4 &rarr; 1.7.6 &rarr; 1.8.3 &rarr; 1.9.6 &rarr; 1.10.6 &rarr; 1.11.3).
