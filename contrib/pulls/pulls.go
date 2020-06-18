@@ -39,7 +39,7 @@ func main() {
 		return
 	}
 
-	repl := pullRegex.ReplaceAll(data, []byte(`[#$1](`+pullURL+`$1)`))
+	repl := pullRegex.ReplaceAll(data, []byte(`[#$1](`+pullURL+`$1))`))
 	if _, err := fi.WriteAt(repl, 0); err != nil {
 		fmt.Println(err)
 		return
