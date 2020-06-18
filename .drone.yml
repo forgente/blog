@@ -4,7 +4,7 @@ name: default
 
 platform:
   os: linux
-  arch: amd64
+  arch: arm64
 
 workspace:
   base: /srv/app
@@ -13,14 +13,15 @@ workspace:
 steps:
 - name: build
   pull: always
-  image: webhippie/hugo:latest
+  image: plugins/hugo:latest
   commands:
+  - apk add --no-cache make bash curl
   - make clean
   - make build
 
 - name: publish
   pull: always
-  image: lucap/drone-netlify:latest
+  image: techknowlogick/drone-netlify:latest
   settings:
     path: public/
     site_id: b3cd7cc2-68be-4467-b3a6-38f1fdfa0cfc
