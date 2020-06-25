@@ -16,7 +16,7 @@ You can download one of our pre-built binaries from our [downloads page](https:/
 :exclamation: One of the features added in 1.12 is [language stats](#language-statistics-bar-for-repositories-8037-https-github-com-go-gitea-gitea-issues-8037).  
 Users upgrading should note that the initial calculation of repositories may take some time, so plan accordingly.
 
-:exclamation: Drone users, please note that for users synching many reposistories you will need to increase `MAX_RESPONSE_ITEMS` and `DEFAULT_PAGING_NUM` to a larger number until a new Drone version is released. Please see the [API pagination documentation](https://docs.gitea.io/en-us/config-cheat-sheet/#api-api) for more details.
+:exclamation: Drone users, due to pagination updates, please use, at minimum, version 1.8.1 of Drone.
 
 <!-- Security -->
 We would like to give a special thanks to the Competence Center for IT security, FZI Research Center for Information Technology
