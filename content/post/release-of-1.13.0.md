@@ -110,7 +110,7 @@ _Thanks to [**@lunny**](https://github.com/lunny)_
 ![kanban](/demos/8346/1.png)
 
 _Thanks to [**@adelowo**](https://github.com/adelowo)_  
-_Also thanks to [**@jaqra**](https://github.com/jaqra) and [**@TsakiDev**](https://github.com/TsakiDev) for additional support_
+_Also thanks to [**@jaqra**](https://github.com/jaqra), [**@TsakiDev**](https://github.com/TsakiDev), and [**@6543**](https://github.com/6543) for additional support_
 
 ## Server-side syntax highlighting for all code ([#12047](https://github.com/go-gitea/gitea/pull/12047))
 
