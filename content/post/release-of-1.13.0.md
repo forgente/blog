@@ -112,6 +112,23 @@ _Thanks to [**@lunny**](https://github.com/lunny)_
 _Thanks to [**@adelowo**](https://github.com/adelowo)_  
 _Also thanks to [**@jaqra**](https://github.com/jaqra) and [**@TsakiDev**](https://github.com/TsakiDev) for additional support_
 
+## Server-side syntax highlighting for all code ([#12047](https://github.com/go-gitea/gitea/pull/12047))
+
+### Old
+
+|![diff-old](/demos/12047/1o.png)|![diff-side-old](/demos/12047/2o.png)|
+|-|-|
+
+### New
+
+|![diff-new](/demos/12047/1n.png)|![diff-side-new](/demos/12047/2n.png)|
+|-|-|
+|![blame](/demos/12047/3n.png)|![comment](/demos/12047/4n.png)|
+
+
+_Thanks to [**@mrsdizzie**](https://github.com/mrsdizzie)_  
+_Additional thanks to [**@silverwind**](https://github.com/silverwind) for a **ton** of UI improvements for highlighting_
+
 ## Changelog
 
 ## [1.13.0](https://github.com/go-gitea/gitea/releases/tag/v1.13.0) - 2020-12-01
