@@ -87,11 +87,14 @@ _Thanks to [**@wmhilton**](https://github.com/wmhilton)_
 
 _Thanks to [**@jolheiser**](https://github.com/jolheiser)_
 
-## Storage layer for attachments ([#11387](https://github.com/go-gitea/gitea/pull/11387))
+## Storage layer for attachments / avatars / LFS ([#11387](https://github.com/go-gitea/gitea/pull/11387), [#11516](https://github.com/go-gitea/gitea/pull/12516), [#12518](https://github.com/go-gitea/gitea/pull/12518))
 
-Attachments can now be saved to disk, or served via minio. (More S3-compatible integrations may become available in the future!)
+Attachments, user avatars, repo avatars and LFS files can now be saved to disk, or served via minio. (More S3-compatible integrations may become available in the future!). Now there is no storage layer only on git data.
+See https://docs.gitea.io/en-us/config-cheat-sheet/#storage-storage about how to configure it.
 
 _Thanks to [**@lunny**](https://github.com/lunny)_
+
+And also thanks to _[**@zeripath**](https://github.com/zeripath)_ for simplifying the configuration [#12978](https://github.com/go-gitea/gitea/pull/12978)
 
 ## Push commits history comment on PR time-line ([#11167](https://github.com/go-gitea/gitea/pull/11167))
 
