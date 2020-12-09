@@ -38,10 +38,10 @@ menu:
       weight: 30
       pre: rss
       post: active
-    - name: Code
-      url: https://code.gitea.io/
+    - name: Shop
+      url: https://shop.gitea.io/
       weight: 40
-      pre: code
+      pre: shopping-cart
     - name: Downloads
       url: https://dl.gitea.io/
       weight: 50
