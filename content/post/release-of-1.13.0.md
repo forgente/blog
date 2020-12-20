@@ -27,6 +27,8 @@ You can download one of our pre-built binaries from our [downloads page](https:/
 :exclamation: Password complexity checks now default to `off`. ([#12557](https://github.com/go-gitea/gitea/pull/12557))  
 Alternative methods such as minimum length or checking against HaveIBeenPwned should be considered.
 
+:exclamation: The Webhook shared secret inside the webhook payload has been deprecated and will be removed in 1.14.0: https://github.com/go-gitea/gitea/issues/11755 please use the secret header that uses an hmac signature to validate the webhook payload.
+
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.
 
 **Have you heard? We now have a [swag shop](https://shop.gitea.io)! :shirt: :tea:**  
