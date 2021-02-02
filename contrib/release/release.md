@@ -19,6 +19,8 @@ You can download one of our pre-built binaries from our [downloads page](https:/
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.
 
+**Have you heard? We now have a [swag shop](https://shop.gitea.io)! :shirt: :tea:**
+
 <!--more-->
 
 ## Changelog
