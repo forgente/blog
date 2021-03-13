@@ -29,6 +29,15 @@ Alternative methods such as minimum length or checking against HaveIBeenPwned sh
 
 :exclamation: The Webhook shared secret inside the webhook payload has been deprecated and will be removed in 1.14.0: https://github.com/go-gitea/gitea/issues/11755 please use the secret header that uses an hmac signature to validate the webhook payload.
 
+:exclamation: Git hooks now default to `off`! ([#13058](https://github.com/go-gitea/gitea/pull/13058))  
+In your config, you can check the [security](https://docs.gitea.io/en-us/config-cheat-sheet/#security-security) section for
+`DISABLE_GIT_HOOKS`. To enable them again, you must set the setting to `false`.  
+**WARNING:** Custom git hooks can be used to perform arbitrary code execution on the host operating system. 
+This enables the users to access and modify this config file and the Gitea database and interrupt the Gitea service. 
+By modifying the Gitea database, users can gain Gitea administrator privileges. 
+It also enables them to access other resources available to the user on the operating system that is running the Gitea instance and perform arbitrary actions in the name of the Gitea OS user. 
+This may be harmful to you website or your operating system.
+
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.
 
 **Have you heard? We now have a [swag shop](https://shop.gitea.io)! :shirt: :tea:**  
