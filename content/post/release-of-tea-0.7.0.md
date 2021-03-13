@@ -18,11 +18,11 @@ for more options look at the [README.md](https://gitea.com/gitea/tea#installatio
 
 ## Demo
 
-![demo gif](https://gitea.com/gitea/tea/media/branch/master/demo.gif)
+![demo gif](/demos/13972/1.gif)
 
 ## Review Feature
 
-![review gif](https://gitea.com/attachments/78c64512-66d2-4434-8639-c00b01a9dd99)
+![review gif](/demos/13972/2.gif)
 
 _Thanks to [@noerw](https://github.com/noerw)_
 
