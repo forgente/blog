@@ -8,3 +8,5 @@ From the base directory
 ```
 go run contrib/pulls/pulls.go --release 1.11.4
 ```
+
+To convert tea release posts, switch to tea mode via `--tea` flag.

@@ -9,13 +9,16 @@ import (
 )
 
 var (
-	pullURL   = "https://github.com/go-gitea/gitea/pull/"
-	pullRegex = regexp.MustCompile(`#(\d+)\)`)
+	pullGiteaURL = "https://github.com/go-gitea/gitea/pull/"
+	pullTeaURL   = "https://gitea.com/gitea/tea/pulls/"
+	pullRegex    = regexp.MustCompile(`#(\d+)\)`)
 )
 
 func main() {
 	var release string
+	var tea bool
 	flag.StringVar(&release, "release", "", "The release to target")
+	flag.BoolVar(&tea, "tea", false, "switch to tea mode")
 	flag.Parse()
 
 	if release == "" {
@@ -23,7 +26,12 @@ func main() {
 		return
 	}
 
-	fi, err := os.OpenFile(fmt.Sprintf("content/post/release-of-%s.md", release), os.O_RDWR, os.ModePerm)
+	post := fmt.Sprintf("content/post/release-of-%s.md", release)
+	if tea {
+		post = fmt.Sprintf("content/post/release-of-tea-%s.md", release)
+	}
+
+	fi, err := os.OpenFile(post, os.O_RDWR, os.ModePerm)
 	if os.IsNotExist(err) {
 		fmt.Printf("could not find content/post/release-of-%s.md\n", release)
 		return
@@ -37,6 +45,11 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 		return
+	}
+
+	pullURL := pullGiteaURL
+	if tea {
+		pullURL = pullTeaURL
 	}
 
 	repl := pullRegex.ReplaceAll(data, []byte(`[#$1](`+pullURL+`$1))`))
