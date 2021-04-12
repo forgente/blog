@@ -40,7 +40,7 @@ Now, on to the changes!
 
 :exclamation: We now inline the `manifest.json` - users that expect to see requests for this file should adjust templates as necessary. ([#14038](https://github.com/go-gitea/gitea/pull/14038))
 
-:exclamation: The default location for repository data (`[repository]` `ROOT`) will now be in a subdirectory of the `APP_DATA_PATH` path. Set ([#13991](https://github.com/go-gitea/gitea/pull/13991))
+:exclamation: The default location for repository data (`[repository]` `ROOT`) will now be in a subdirectory of the `APP_DATA_PATH` path. ([#13991](https://github.com/go-gitea/gitea/pull/13991))
 
 :exclamation: The logging of failed attempts in the internal SSH has been changed to make them a little more consistent. Users with fail2ban set-ups may need to adjust their configuration. ([#13962](https://github.com/go-gitea/gitea/pull/13962))
 
@@ -50,7 +50,7 @@ Now, on to the changes!
 
 :exclamation: We now default to using a pure Git backend. The Go-Git backend remains in place and can be built using the build tag `gogit`. ([#13673](https://github.com/go-gitea/gitea/pull/13673))
 
-:exclamation: We have integrated the environment-to-ini command in to the docker - this allows override of any app.ini setting with [specially constructed environment variables](https://docs.gitea.io/en-us/install-with-docker/#managing-deployments-with-environment-variables).
+:exclamation: We have integrated the environment-to-ini command in to the docker - this allows override of any app.ini setting with [specially constructed environment variables](https://docs.gitea.io/en-us/install-with-docker/#managing-deployments-with-environment-variables). ([#14762](https://github.com/go-gitea/gitea/pull/14762))
 
 ## Major Features
 
@@ -68,13 +68,13 @@ _Thanks to [**@6543**](https://github.com/6543), [**@lunny**](https://github.com
 
 ### Minimal OpenID Connect implementation ([#14139](https://github.com/go-gitea/gitea/pull/14139))
 
-Gitea can now be used as an OpenIDC SSO
+Gitea can now be used as an OpenIDC SSO.
 
 _Thanks to [**@ojohnny**](https://github.com/ojohnny)_
 
 ### Display current stopwatch in navbar ([#14122](https://github.com/go-gitea/gitea/pull/14122))
 
-The current stopwatch timer is now displayed in the navbar
+The current stopwatch timer is now displayed in the navbar.
 
 _Thanks to [**@noerw**](https://github.com/noerw)_
 
@@ -82,7 +82,7 @@ _Thanks to [**@noerw**](https://github.com/noerw)_
 
 SVG files will now be rendered in the UI.
 
-_Thanks to [**jtran**](https://github.com/jtran)_
+_Thanks to [**@jtran**](https://github.com/jtran)_
 
 ### Reviews can now be dismissed ([#12674](https://github.com/go-gitea/gitea/pull/12674))
 
