@@ -36,7 +36,7 @@ Now, on to the changes!
 
 :exclamation: We no longer provide binary builds for MIPS architectures as it appears that they are not being used. ([#14174](https://github.com/go-gitea/gitea/pull/14174)) Instead we now provide binary builds for the M1 architecture. ([#14951](https://github.com/go-gitea/gitea/pull/14951))
 
-:exclamation: We have improved the mechanism for (customizing the default logo)[https://docs.gitea.io/en-us/customizing-gitea/#changing-the-default-logo] ([#13974](https://github.com/go-gitea/gitea/pull/13974)) ([#14136](https://github.com/go-gitea/gitea/pull/14136))
+:exclamation: We have improved the mechanism for [customizing the default logo](https://docs.gitea.io/en-us/customizing-gitea/#changing-the-default-logo) ([#13974](https://github.com/go-gitea/gitea/pull/13974)) ([#14136](https://github.com/go-gitea/gitea/pull/14136))
 
 :exclamation: We now inline the `manifest.json` - users that expect to see requests for this file should adjust templates as necessary. ([#14038](https://github.com/go-gitea/gitea/pull/14038))
 
