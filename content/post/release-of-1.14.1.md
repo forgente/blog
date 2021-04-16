@@ -12,7 +12,7 @@ We highly encourage users to update to this version for some important bug-fixes
 
 We have merged [25](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.14.1+is%3Amerged) pull requests to release this version.
 
-In this release, we switch back to go-git for windows binaries becuase of [#15482](https://github.com/go-gitea/gitea/pull/15482).
+In this release, we switch back to go-git for windows binaries because of [#15482](https://github.com/go-gitea/gitea/pull/15482).
 
 You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.14.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
 
