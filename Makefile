@@ -22,4 +22,4 @@ update: $(THEME)
 
 $(THEME):
 	mkdir -p $@
-	curl -s $(ARCHIVE) | tar xz -C $@
+	curl -sL $(ARCHIVE) | tar xz -C $@
