@@ -1,5 +1,5 @@
 ---
-date: "2021-07-16T09:02:55+01:00"
+date: "2021-08-05T09:02:55+01:00"
 author: "zeripath"
 title: "Gitea 1.14.6 is released"
 tags: ["release"]
