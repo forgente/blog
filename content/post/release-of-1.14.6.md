@@ -14,7 +14,7 @@ We have merged [6](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3
 
 We would like to give a special thanks to [@6543](https://gitea.com/6543) and [@zeripath](https://gitea.com/zeripath) for submitting the security patches for this release.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.14.5/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.14.6/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.
 
