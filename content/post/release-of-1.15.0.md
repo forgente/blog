@@ -28,9 +28,9 @@ Now, on to the changes!
 
 ## Breaking Changes (or potentially breaking)
 
-### :exclamation: Upgrade to the latest version of golang-jwt and increase minimum go to 1.15 ([#16590](https://github.com/go-gitea/gitea/pull/16590)) ([#16606](https://github.com/go-gitea/gitea/pull/16606))
+### :exclamation: Upgrade to the latest version of golang-jwt and increase minimum go to 1.16 ([#16590](https://github.com/go-gitea/gitea/pull/16590)) ([#16606](https://github.com/go-gitea/gitea/pull/16606)) ([#16710](https://github.com/go-gitea/gitea/pull/16710))
 
-The minimum version of Go Gitea can be compiled with has been increased to 1.15 as Go 1.14 is no longer supported by the go developers.
+The minimum version of Go Gitea can be compiled with has been increased to 1.16 as Go 1.14 and Go 1.15 are no longer supported by the go developers.
 
 ### :exclamation: Changed mapping of `:latest` on docker [#16421](https://github.com/go-gitea/gitea/pull/16421) 
 
