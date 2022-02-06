@@ -197,13 +197,19 @@ _Thanks to [**@nitul1991**](https://github.com/nitul1991), [**@qwerty287**](http
 
 ## Changelogs
 
-## [1.16.1](https://github.com/go-gitea/gitea/releases/tag/v1.16.1) - 2022-02-03
+## [1.16.1](https://github.com/go-gitea/gitea/releases/tag/v1.16.1) - 2022-02-06
 
 * SECURITY
   * Update JS dependencies, fix lint ([#18389](https://github.com/go-gitea/gitea/pull/18389)) ([#18540](https://github.com/go-gitea/gitea/pull/18540))
 * ENHANCEMENTS
   * Add dropdown icon to label set template dropdown ([#18564](https://github.com/go-gitea/gitea/pull/18564)) ([#18571](https://github.com/go-gitea/gitea/pull/18571))
 * BUGFIXES
+  * Comments on migrated issues/prs must link to the comment ID ([#18630](https://github.com/go-gitea/gitea/pull/18630)) ([#18637](https://github.com/go-gitea/gitea/pull/18637))
+  * Stop logging an error when notes are not found ([#18626](https://github.com/go-gitea/gitea/pull/18626)) ([#18635](https://github.com/go-gitea/gitea/pull/18635))
+  * Ensure that blob-excerpt links work for wiki ([#18587](https://github.com/go-gitea/gitea/pull/18587)) ([#18624](https://github.com/go-gitea/gitea/pull/18624))
+  * Only attempt to flush queue if the underlying worker pool is not finished ([#18593](https://github.com/go-gitea/gitea/pull/18593)) ([#18620](https://github.com/go-gitea/gitea/pull/18620))
+  * Ensure commit-statuses box is sized correctly in headers ([#18538](https://github.com/go-gitea/gitea/pull/18538)) ([#18606](https://github.com/go-gitea/gitea/pull/18606))
+  * Prevent merge messages from being sorted to the top of email chains ([#18566](https://github.com/go-gitea/gitea/pull/18566)) ([#18588](https://github.com/go-gitea/gitea/pull/18588))
   * Prevent panic on prohibited user login with oauth2 ([#18562](https://github.com/go-gitea/gitea/pull/18562)) ([#18563](https://github.com/go-gitea/gitea/pull/18563))
   * Collaborator trust model should trust collaborators ([#18539](https://github.com/go-gitea/gitea/pull/18539)) ([#18557](https://github.com/go-gitea/gitea/pull/18557))
   * Detect conflicts with 3way merge ([#18536](https://github.com/go-gitea/gitea/pull/18536)) ([#18537](https://github.com/go-gitea/gitea/pull/18537))
