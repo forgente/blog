@@ -12,7 +12,7 @@ We highly encourage users to update to this version for some important bug-fixes
 
 We have merged [17](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.16.4+is%3Amerged) pull requests to release this version.
 
-We would like to give a special thanks to **Maxim Suslov** (independent security researcher), [@huntrdev](https://twitter.com/huntrdev) to report the security problems and thanks to [@lunny](https://gitea.com/lunny), [@zeripath](https://gitea.com/zeripath) and [@6543](https://gitea.com/6543) for submitting the security patches for this release.
+We would like to give a special thanks to **Maxim Suslov** (independent security researcher), [E99p1ant](https://github.com/wuhan005) to report the security problems from huntr and thanks to [@lunny](https://gitea.com/lunny), [@zeripath](https://gitea.com/zeripath) and [@6543](https://gitea.com/6543) for submitting the security patches for this release.
 
 You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.16.4/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
 
