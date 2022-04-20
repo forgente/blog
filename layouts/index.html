@@ -16,7 +16,7 @@
 							<i>{{ .Date.Format "Mon Jan 2, 2006" }}</i>
 							{{ i18n "authored_by" }}
 							<b>
-								<a href="https://github.com/{{ .Params.author | default .Site.Params.author }}" target="_blank">
+								<a href="https://gitea.com/{{ .Params.author | default .Site.Params.author }}" target="_blank">
 									{{ .Params.author | default .Site.Params.author }}
 								</a>
 							</b>
