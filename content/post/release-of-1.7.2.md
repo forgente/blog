@@ -1,5 +1,5 @@
 ---
-date: "2019-02-14T12:00:00-05:00" 
+date: "2019-02-14T12:00:00+00:00" 
 author: "jolheiser"
 title: "Release of 1.7.2"
 tags: ["release"]

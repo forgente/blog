@@ -10,6 +10,8 @@ Gitea is designed to run on many different platforms and has very minimal requir
 
 Although you might like to self-host your own instance at times, you might not want to manage all of the moving elements of a server, such as firewalls, webservers, TLS certificates, and so on. This is where fly.io enters the picture. Fly.io is a platform with a generous free tier that allows you to tell them the Docker image you want to run and they'll take care of all the tough and time-consuming operational overhead.
 
+<!--more-->
+
 To get started, you'll need to sign up for a fly.io account. Luckily, they have a nice [getting started guide](https://fly.io/docs/getting-started/log-in-to-fly/#first-time-or-no-fly-account-sign-up-for-fly) that walks you through the process.
 
 Once you have an account you can get started with running Gitea on fly.io. 

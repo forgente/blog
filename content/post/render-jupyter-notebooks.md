@@ -6,9 +6,9 @@ tags: ["rendering", "jupyter", "ui"]
 draft: false
 ---
 
-# How to render Jupyter Notebooks on Gitea
----
 This guide will show you how to configure an external renderer to display [Jupyter Notebooks](https://jupyter.org/). However this guide will also work for other types of files and even binary files! The sky is the limit.
+
+<!--more-->
 
 ### How Gitea displays `.ipynb` files natively 
 Lets create a new repository on our Gitea instance and push an [example notebook](https://github.com/jupyter/notebook/blob/master/docs/source/examples/Notebook/Running%20Code.ipynb) to it:
