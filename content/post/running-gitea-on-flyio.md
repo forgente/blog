@@ -44,7 +44,6 @@ kill_timeout = 5
   GITEA__server__DOMAIN="gitea-on-fly.fly.dev"
   GITEA__server__SSH_DOMAIN="gitea-on-fly.fly.dev"
   GITEA__server__ROOT_URL="https://gitea-on-fly.fly.dev"
-  GITEA__server__REDIRECT_OTHER_PORT="true" # listen on port 80, and redirect to "ROOT_URL"
   GITEA__security__INSTALL_LOCK="true" # Don't show installer
   # GITEA__service__DISABLE_REGISTRATION="true" # TODO: uncomment once you have created your first user
 
@@ -60,19 +59,15 @@ kill_timeout = 5
   [[services.ports]]
     port = 22
 
-# for http->https redirect
-[[services]]
-  internal_port = 80
-  protocol = "tcp"
-
-  [[services.ports]]
-    handlers = ["http"]
-    port = 80
-
 # https traffic
 [[services]]
   internal_port = 3000
   protocol = "tcp"
+  
+  [[services.ports]]
+    handlers = ["http"]
+    force_https = true
+    port = 80
 
   [[services.ports]]
     handlers = ["tls", "http"]
