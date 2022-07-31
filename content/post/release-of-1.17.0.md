@@ -71,7 +71,7 @@ RSS-users will appreciate the new feeds for organizations and repositories that 
 
 ### :rocket: Auto merge pull requests when all checks succeeded ([#19648](https://github.com/go-gitea/gitea/pull/19648) & [#9307](https://github.com/go-gitea/gitea/pull/9307))
 
-Thanks to [@6543](https://github.com/6543) & [@kolaente](https://github.com/kolaente), Gitea now allows you to merge a Pull request when all required checks has passed, either via the WebUI or via the API.
+Thanks to [@6543](https://github.com/6543) & [@kolaente](https://github.com/kolaente), Gitea now allows you to merge a Pull request when all required checks have passed, either via the WebUI or via the API.
 Note that this feature will only be enabled when the target branch has branch protection.
 
 | | |
@@ -120,8 +120,8 @@ Stay tuned for what is yet to come!
 ### :exclamation: Internal Gitconfig ([#19732](https://github.com/go-gitea/gitea/pull/19732))
 
 Previously, Gitea used the users gitconfig (`$HOME/.gitconfig`) in addition to the system gitconfig (`/etc/gitconfig`).  
-Now, Gitea uses the system gitconfig (`/etc/gitconfig`) combined with an internal gitconfig located in `{[repository].ROOT}/.gitconfig`.
-If you customized your user gitconfig for Gitea, you should add these customizations to one of the available gitconfigs. Additional git-relevant files that are normally in your user home directory, like `$HOME/.gnupg`, should be moved/ copied to `{[repository].REPO}/` as well.
+Now, Gitea uses the system gitconfig (`/etc/gitconfig`) combined with an internal gitconfig located in `{[git].HOME_PATH}/.gitconfig`.
+If you customized your user gitconfig for Gitea, you should add these customizations to one of the available gitconfigs. Additional git-relevant files that are normally in your user home directory, like `$HOME/.gnupg`, should be moved/ copied to `{[git].HOME_PATH}/` as well.
 
 ### :exclamation: Email address validation restricted ([#17688](https://github.com/go-gitea/gitea/pull/17688))
 
@@ -155,7 +155,7 @@ This change is especially relevant for third party tools that assume the default
 
 Previously, Gitea would by default use the `collaborator` trust model.  
 This means only verified commits of collaborators can be trusted.  
-This is quite an aggressive trust model, and now it has changed to match GitHub's behavior of trusting the commiter.  
+This was quite an aggressive trust model, and now it has changed to match GitHub's behavior of trusting the commiter.
 This means verified commits in a repository from non-collaborators won't be marked as unverified.
 
 If you rely on the old behavior, you must set `DEFAULT_TRUST_MODEL` to `collaborator`.
@@ -175,7 +175,7 @@ The minimum version of Go needed to compile Gitea has been increased to **1.18**
 
 ### :exclamation: Changed handling of custom logo ([#18542](https://github.com/go-gitea/gitea/pull/18542))
 
-It is now not only possible to set a custom logo, but also a custom favicon as well.  
+It is now not only possible to set a custom logo, but also a custom favicon.
 If you are currently using a custom logo, you need to re-run the steps described [here](https://github.com/go-gitea/gitea/blob/main/docs/content/doc/advanced/customizing-gitea.en-us.md#changing-the-logo).
 
 ### :exclamation: `RequireHighlightJS` removed from templates ([#19615](https://github.com/go-gitea/gitea/pull/19615))
