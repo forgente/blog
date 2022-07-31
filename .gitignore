@@ -1,5 +1,6 @@
 public/
 themes/
+.hugo_build.lock
 
 # GoLand
 .idea/
