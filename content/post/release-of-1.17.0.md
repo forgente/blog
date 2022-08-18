@@ -189,9 +189,9 @@ The following usernames are **no longer** reserved: `help`, `install`, `less`, `
 
 If you want to check if you're affected, please run the following Gitea doctor command:
 ```
-gitea doctor --run check-user-name
+gitea doctor --run check-user-names
 ```
-Note that this command is only available after upgrading to 1.17.0.
+Note that this command is only available after upgrading to 1.17.1.
 
 ### :exclamation: Deprecated SSH ciphers removed from default setting ([#18697](https://github.com/go-gitea/gitea/pull/18697))
 
