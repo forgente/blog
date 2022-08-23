@@ -13,7 +13,7 @@ We highly encourage users to update to this version for some important bug-fixes
 We have merged [35](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.17.1+is%3Amerged) pull requests to release this version.
 
 <!-- Security Thanks! -->
-Thanks to the security researcher who reported the security issue in this release, and [@zeripath](https://gitea.com/zeripath) for the fix!
+Thanks to Aleksey Solovev (Positive Technologies) for the security issue in this release, and [@zeripath](https://gitea.com/zeripath) for the fix!
 
 You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.17.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
 
