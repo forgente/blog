@@ -23,6 +23,10 @@ We would also like to thank all of our supporters on [Open Collective](https://o
 
 **Have you heard? We now have a [swag shop](https://shop.gitea.io)! :shirt: :tea:**
 
+## :exclamation: Breaking change :exclamation:
+#### After release we discovered that a template function removal was backported, which may break user templates. ([#20932](https://github.com/go-gitea/gitea/pull/20932))
+#### Users may need to update their custom templates to stop using this function.
+
 <!--more-->
 
 ## Changelog
