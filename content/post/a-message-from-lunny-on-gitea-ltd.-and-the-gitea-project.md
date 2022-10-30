@@ -1,5 +1,5 @@
 ---
-date: "2022-10-30T18:25:00+08:00"
+date: "2022-10-30T18:25:00+09:15"
 author: "lunny"
 title: "A message from Lunny on Gitea Ltd. and the Gitea project"
 tags: ["announcement"]
@@ -33,10 +33,11 @@ To help ensure the operation and community decision-making of the Gitea project 
 We want to be clear that Gitea will always be a community-built project that is open. This means:
 
 * the Gitea project source code will remain open sourced, MIT licensed, and available to everyone
-* Gitea Ltd. will be open to building special versions for special customers and will contribute any features back to the main repository when possible
+* Gitea Ltd. will be open to building special versions for special clients and will contribute any features back to the main repository when possible
 * Gitea Ltd. will always prefer and recommend contracts that align with that project’s mission and values
 
 This is just the start of our new chapter for Gitea and we want to continue engaging with our community members. As our commitment to the community, we will also provide quarterly updates on our progress and will continue to be transparent about our business plan to remain accountable to our contributors. We are always open to your feedback and welcome new ideas to help better the Gitea project. 
 
 Sincerely,
+
 Lunny and techknowlogick
