@@ -45,7 +45,7 @@ There are many third-party CI/CD systems that can be integrated with Gitea. Here
 - Tea Runner
 - Woodpecker
 
-The new Gitea Actions system would allow these existing systems to push their results directly into Gitea, allowing them to be viewed in a unified way, and should a administrator wish not to have to manage multiple systems, they can be use the option of standalon runners.
+The new Gitea Actions system would allow these existing systems to push their results directly into Gitea, allowing them to be viewed in a unified way, and should a administrator wish not to have to manage multiple systems, they can be use the option of standalone runners.
 
 ## Create Gitea Actions
 
