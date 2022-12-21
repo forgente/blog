@@ -15,7 +15,8 @@ steps:
   pull: always
   image: plugins/hugo:latest
   commands:
-  - apk add --no-cache make bash curl
+  # https://github.com/drone-plugins/drone-hugo/issues/36
+  - apk --no-cache upgrade libcurl && apk add --no-cache make bash curl
   - make clean
   - make build
 
