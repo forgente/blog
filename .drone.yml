@@ -13,10 +13,8 @@ workspace:
 steps:
 - name: build
   pull: always
-  image: plugins/hugo:latest
+  image: golang:1.19
   commands:
-  # https://github.com/drone-plugins/drone-hugo/issues/36
-  - apk --no-cache upgrade libcurl && apk add --no-cache make bash curl
   - make clean
   - make build
 

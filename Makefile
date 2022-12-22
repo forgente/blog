@@ -2,6 +2,8 @@ THEME := themes/gitea
 PUBLIC := public
 ARCHIVE := https://dl.gitea.io/theme/master.tar.gz
 
+HUGO_PACKAGE := github.com/gohugoio/hugo@v0.81.0
+
 .PHONY: all
 all: build
 
@@ -11,11 +13,11 @@ clean:
 
 .PHONY: server
 server: $(THEME)
-	hugo server
+	go run $(HUGO_PACKAGE) server
 
 .PHONY: build
 build: $(THEME)
-	hugo --cleanDestinationDir
+	go run $(HUGO_PACKAGE) --cleanDestinationDir
 
 .PHONY: update
 update: $(THEME)
