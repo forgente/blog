@@ -16,7 +16,7 @@ We have merged [535](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone
 
 <!-- Security Thanks! -->
 We would like to thank [@pboguslawski](https://github.com/pboguslawski) for reporting the reverse proxy authentication issue, and [@zeripath](https://gitea.com/zeripath) for the subsequent fix.  
-We would also like to thank [@appleboy](https://gitea.com/appleboy) and [silverwind](https://gitea.com/silverwind) for the other security fixes in this release.
+We would also like to thank [@appleboy](https://gitea.com/appleboy) and [@silverwind](https://gitea.com/silverwind) for the other security fixes in this release.
 
 You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.18.0/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
 
@@ -157,7 +157,6 @@ Alternatively, you can also check `Purge User` inside the UI when deleting that 
 * The `mailer.DISABLE_HELO` (default false) option has been replaced with `mailer.ENABLE_HELO` (default true). It still does the same thing, but the option was negated to be less confusing.
 * The `mailer.SKIP_VERIFY` option has been replaced with `mailer.FORCE_TRUST_SERVER_CERT` to sound scarier, and to clarify what it does.
 * The `mailer.USE_CERTIFICATE`, `mailer.CERT_FILE`, and `mailer.KEY_FILE` have been deprecated and renamed to `mailer.USE_CLIENT_CERT`, `mailer.CLIENT_CERT_FILE`, and `mailer.CLIENT_KEY_FILE`.
-* The `gitea admin auth add/update-smtp` command now accepts an `--addr` option instead of `--host`.
 
 ### :exclamation: Authentication: Remove U2F support ([#20141](https://github.com/go-gitea/gitea/pull/20141))
 
