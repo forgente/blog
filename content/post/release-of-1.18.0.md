@@ -29,7 +29,34 @@ We would also like to thank all of our supporters on [Open Collective](https://o
 
 Now, let's get into the changes!
 
-## Important Features
+## Breaking Changes
+
+### :exclamation: Mailing: Rework mailer settings ([#18982](https://github.com/go-gitea/gitea/pull/18982))
+
+* If you specify credentials for sending emails but the server doesn't support using them, Gitea will fail to start instead of sending mails unauthenticated.
+* Use unique `mailer.PROTOCOL` for different mailers (SMTP family, sendmail, dummy), instead of `MAILER_TYPE`+`PROTOCOL`.
+* The combined `mailer.HOST` option has been deprecated in favor of the new `mailer.SMTP_ADDR` and `mailer.SMTP_PORT` options.
+* The `mailer.IS_TLS_ENABLED` option has been deprecated in favor of using the new `mailer.PROTOCOL` option, which accepts `smtp`, `smtps`, `smtp+startls`, or `smtp+unix` explicitly. If you don't know what protocol your provider uses but provide a port, you can leave it blank and it will be inferred by the given port. See the non-breaking changes section for more details on the new `smtp+unix` protocol.
+* The `mailer.DISABLE_HELO` (default false) option has been replaced with `mailer.ENABLE_HELO` (default true). It still does the same thing, but the option was negated to be less confusing.
+* The `mailer.SKIP_VERIFY` option has been replaced with `mailer.FORCE_TRUST_SERVER_CERT` to sound scarier, and to clarify what it does.
+* The `mailer.USE_CERTIFICATE`, `mailer.CERT_FILE`, and `mailer.KEY_FILE` have been deprecated and renamed to `mailer.USE_CLIENT_CERT`, `mailer.CLIENT_CERT_FILE`, and `mailer.CLIENT_KEY_FILE`.
+
+### :exclamation: Authentication: Remove U2F support ([#20141](https://github.com/go-gitea/gitea/pull/20141))
+
+Gitea 1.18 completelely removes U2F support. Users should migrate to webauthn if they haven't already.
+
+### :exclamation: Templates: Refactor `i18n` to `locale` ([#20153](https://github.com/go-gitea/gitea/pull/20153))
+
+Any user with custom templates will be affected by this and will need to replace `.i18n` with `.locale`.
+
+### :exclamation: Templates: Remove MD5 function  ([#20813](https://github.com/go-gitea/gitea/pull/20813))
+
+The `MD5` function was removed due being insecure, and due to being unused with the new approach.  
+Any user with custom templates will be affected by this and will need to remove any occurrence of the `MD5` function.
+
+---
+
+## Feature Highlights
 
 ### :rocket: Add color previews in markdown ([#21474](https://github.com/go-gitea/gitea/pull/21474))
 
@@ -143,33 +170,6 @@ From time to time, spam users will register.
 Previously, admins had a hard time removing such a user.  
 This is now much easier, as you can purge any trace of a user simply by executing `gitea admin user delete --purge $USER`. \
 Alternatively, you can also check `Purge User` inside the UI when deleting that user from the admin dashboard.
-
----
-
-## Breaking Changes
-
-### :exclamation: Mailing: Rework mailer settings ([#18982](https://github.com/go-gitea/gitea/pull/18982))
-
-* If you specify credentials for sending emails but the server doesn't support using them, Gitea will fail to start instead of sending mails unauthenticated.
-* Use unique `mailer.PROTOCOL` for different mailers (SMTP family, sendmail, dummy), instead of `MAILER_TYPE`+`PROTOCOL`.
-* The combined `mailer.HOST` option has been deprecated in favor of the new `mailer.SMTP_ADDR` and `mailer.SMTP_PORT` options.
-* The `mailer.IS_TLS_ENABLED` option has been deprecated in favor of using the new `mailer.PROTOCOL` option, which accepts `smtp`, `smtps`, `smtp+startls`, or `smtp+unix` explicitly. If you don't know what protocol your provider uses but provide a port, you can leave it blank and it will be inferred by the given port. See the non-breaking changes section for more details on the new `smtp+unix` protocol.
-* The `mailer.DISABLE_HELO` (default false) option has been replaced with `mailer.ENABLE_HELO` (default true). It still does the same thing, but the option was negated to be less confusing.
-* The `mailer.SKIP_VERIFY` option has been replaced with `mailer.FORCE_TRUST_SERVER_CERT` to sound scarier, and to clarify what it does.
-* The `mailer.USE_CERTIFICATE`, `mailer.CERT_FILE`, and `mailer.KEY_FILE` have been deprecated and renamed to `mailer.USE_CLIENT_CERT`, `mailer.CLIENT_CERT_FILE`, and `mailer.CLIENT_KEY_FILE`.
-
-### :exclamation: Authentication: Remove U2F support ([#20141](https://github.com/go-gitea/gitea/pull/20141))
-
-Gitea 1.18 completelely removes U2F support. Users should migrate to webauthn if they haven't already.
-
-### :exclamation: Templates: Refactor `i18n` to `locale` ([#20153](https://github.com/go-gitea/gitea/pull/20153))
-
-Any user with custom templates will be affected by this and will need to replace `.i18n` with `.locale`.
-
-### :exclamation: Templates: Remove MD5 function  ([#20813](https://github.com/go-gitea/gitea/pull/20813))
-
-The `MD5` function was removed due being insecure, and due to being unused with the new approach.  
-Any user with custom templates will be affected by this and will need to remove any occurrence of the `MD5` function.
 
 ## Changelog
 
