@@ -41,6 +41,11 @@ Now, let's get into the changes!
 * The `mailer.SKIP_VERIFY` option has been replaced with `mailer.FORCE_TRUST_SERVER_CERT` to sound scarier, and to clarify what it does.
 * The `mailer.USE_CERTIFICATE`, `mailer.CERT_FILE`, and `mailer.KEY_FILE` have been deprecated and renamed to `mailer.USE_CLIENT_CERT`, `mailer.CLIENT_CERT_FILE`, and `mailer.CLIENT_KEY_FILE`.
 
+### :exclamation: Some configuration moved from config file to database ([#18058](https://github.com/go-gitea/gitea/pull/18058))
+
+Two configurations, `picture.DISABLE_GRAVATAR` and `picture.ENABLE_FEDERATED_AVATAR`, have been copied to database config setting table so that admins can change them in the admin panel without restarting the gitea service.  
+The existing config settings in `app.ini` will be migrated to the database on first run after upgrading, then the database settings will take precedence. 
+
 ### :exclamation: Authentication: Remove U2F support ([#20141](https://github.com/go-gitea/gitea/pull/20141))
 
 Gitea 1.18 completelely removes U2F support. Users should migrate to webauthn if they haven't already.
