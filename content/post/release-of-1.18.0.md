@@ -31,6 +31,10 @@ Now, let's get into the changes!
 
 ## Breaking Changes
 
+### :exclamation: Remove ReverseProxy authentication from the API ([#22219](https://github.com/go-gitea/gitea/pull/22219]))
+
+Access to the API was removed for ReverseProxy authentication. Users will now be required to use tokens or basic auth.
+
 ### :exclamation: Mailing: Rework mailer settings ([#18982](https://github.com/go-gitea/gitea/pull/18982))
 
 * If you specify credentials for sending emails but the server doesn't support using them, Gitea will fail to start instead of sending mails unauthenticated.
