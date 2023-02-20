@@ -16,7 +16,7 @@ permalinks:
 
 params:
   description: Git with a cup of tea
-  author: The Gitea Authors
+  author: Gitea
   website: https://blog.gitea.io
 
 menu:
