@@ -6,6 +6,12 @@ tags: ["release"]
 draft: false
 ---
 
+Attention please.
+
+Due to an Admin Merge / Auto Merge regression bug found in 1.18.4, we are going to release 1.18.5 soon. If you are affected by that bug, you could downgrade to 1.18.3 safely and wait for 1.18.5.
+
+---
+
 We are proud to present the release of Gitea version 1.18.4.
 
 We highly encourage users to update to this version for some important bug-fixes.
