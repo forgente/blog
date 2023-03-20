@@ -1,6 +1,6 @@
 ---
-date: "2023-03-09T01:00:00+01:00"
-author: "13tm3nt3r"
+date: "2023-03-20T13:00:00+01:00"
+author: "https://github.com/13tm3nt3r"
 title: "Feature Preview: Mapping OIDC Groups to Teams"
 draft: false
 ---
@@ -74,6 +74,6 @@ Update the Authentication Source and test it with OpenID login option. Your user
 
 ![Gitea screenshot copying in the OIDC Auto discovery URL and adding in the mapping](/demos/oidcmapping/12.png)
 
-Finally, a big thank you to [KN4CK3R](https://gitea.com/KN4CK3R) for their work on the PR that made this possible.
+Finally, a big thank you to [KN4CK3R](https://gitea.com/KN4CK3R) for his work on the PR that made this possible.
 
 Hope this helps anyone that wants to use SSO with Azure and add automatically their users to an organization team 😃. If you do use this, and find any issues, please feel free to open up an issue on the [Gitea issue tracker](https://github.com/go-gitea/gitea/issues).
