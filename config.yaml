@@ -19,6 +19,12 @@ params:
   author: Gitea
   website: https://blog.gitea.io
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 menu:
   page:
     - name: Website
