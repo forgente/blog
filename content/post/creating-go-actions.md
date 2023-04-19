@@ -37,7 +37,7 @@ runs:
   main: 'main.go'
 ```
 
-To read more about the about matadata syntax, you can see the [Metadata syntax for GitHub Actions](https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions).
+To read more about the matadata syntax, you can see the [Metadata syntax for GitHub Actions](https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions).
 
 You may notice that we use `using: 'go'` in the metadata, specifying Go as the runtime for this action. Since GitHub doesn't support Go actions natively, you won't find this in GitHub's documentation.
 
