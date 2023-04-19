@@ -2,7 +2,7 @@
 date: "2018-11-22T21:23:00+08:00"
 author: "lunny"
 title: "Gitea 1.6.0 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 ---
 
 The time has come for another major release! We are proud to present Gitea

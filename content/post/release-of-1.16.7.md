@@ -2,7 +2,7 @@
 date: "2022-05-02T13:14:52+07:00"
 author: "jolheiser"
 title: "Gitea 1.16.7 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

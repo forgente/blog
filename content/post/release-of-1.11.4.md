@@ -2,7 +2,7 @@
 date: "2020-04-01T10:00:00+00:00"
 author: "jolheiser"
 title: "Gitea 1.11.4 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

@@ -7,7 +7,7 @@ authors:
     - "yardenshoham"
     - "techknowlogick"
 title: "Gitea 1.19.0 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

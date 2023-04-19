@@ -4,7 +4,7 @@ authors:
   - "jolheiser"
   - "delvh"
 title: "Gitea 1.18.0 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

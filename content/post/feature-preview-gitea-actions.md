@@ -2,7 +2,7 @@
 date: "2022-12-19T10:10:00+08:00"
 author: "xinyu"
 title: "Feature Preview: Gitea Actions"
-tags: ["actions"]
+tags: ["actions", "feature"]
 draft: false
 ---
 

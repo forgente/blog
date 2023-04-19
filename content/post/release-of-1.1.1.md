@@ -2,7 +2,7 @@
 date: "2017-05-04T17:20:00+02:00"
 author: "bkcsoft"
 title: "Release of 1.1.1"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

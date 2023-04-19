@@ -2,7 +2,7 @@
 date: "2017-01-05T15:00:00+02:00"
 author: "tboerger"
 title: "Release of 1.0.1"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

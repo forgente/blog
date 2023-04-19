@@ -2,7 +2,7 @@
 date: "2021-10-21T17:04:26+07:00"
 author: "zeripath"
 title: "Gitea 1.15.5 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

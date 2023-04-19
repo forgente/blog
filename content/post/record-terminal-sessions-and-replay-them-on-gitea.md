@@ -5,7 +5,7 @@ authors:
     - "delvh"
     - "jolheiser"
 title: "Gitea x Asciicast | Recording and viewing terminal sessions on Gitea"
-tags: []
+tags: ["feature", "tutorial"]
 draft: false
 ---
 

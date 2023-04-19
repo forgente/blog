@@ -2,7 +2,7 @@
 date: "2019-01-04T01:00:00+02:00"
 author: "jonasfranz"
 title: "Release of 1.6.3"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

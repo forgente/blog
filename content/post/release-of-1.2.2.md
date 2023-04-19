@@ -2,7 +2,7 @@
 date: "2017-10-26T17:21:30+02:00"
 author: "Lafriks"
 title: "Release of 1.2.2"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

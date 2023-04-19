@@ -2,7 +2,7 @@
 date: "2017-06-12T17:21:30+08:00"
 author: "appleboy"
 title: "Release of 1.1.2"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

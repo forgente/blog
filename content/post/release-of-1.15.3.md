@@ -2,7 +2,7 @@
 date: "2021-09-23T13:31:00+02:00"
 author: "norwin"
 title: "Gitea 1.15.3 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

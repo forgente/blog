@@ -2,7 +2,7 @@
 date: "2017-02-22T13:57:00+08:00"
 author: "lunny"
 title: "Release of 1.0.2"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

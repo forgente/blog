@@ -5,7 +5,7 @@ authors:
   - "Gusted"
   - "delvh"
 title: "Gitea 1.17.0 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

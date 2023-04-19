@@ -2,7 +2,7 @@
 date: "2021-03-24T09:37:25+08:00"
 author: "lunny"
 title: "Gitea 1.13.6 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

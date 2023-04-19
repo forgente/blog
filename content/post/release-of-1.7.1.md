@@ -2,7 +2,7 @@
 date: "2019-02-01T09:12:00+08:00"
 author: "lunny"
 title: "Release of 1.7.1"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

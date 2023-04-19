@@ -2,7 +2,7 @@
 date: "2018-06-26T09:30:00+00:00"
 author: "techknowlogick"
 title: "Release of 1.4.3"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

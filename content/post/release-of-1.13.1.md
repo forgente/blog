@@ -2,7 +2,7 @@
 date: "2020-12-28T14:52:46+07:00"
 author: "techknowlogick"
 title: "Gitea 1.13.1 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 date: "2018-10-09T23:00:00+03:00"
 author: "lafriks"
 title: "Gitea 1.5.2 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 ---
 
 We are happy to announce version 1.5.2 of Gitea has now been released. This

@@ -2,7 +2,7 @@
 date: "2018-03-25T10:00:00+00:00"
 author: "thehowl"
 title: "Gitea 1.4.0 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

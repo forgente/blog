@@ -2,7 +2,7 @@
 date: "2017-10-16T17:22:30+01:00"
 author: "daviian"
 title: "Release of 1.2.1"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

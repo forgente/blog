@@ -2,7 +2,7 @@
 date: "2020-09-07T20:00:00+00:00"
 author: "techknowlogick"
 title: "Introducing an Official Helm Chart for Gitea"
-tags: ["release", "helm-chart"]
+tags: ["release", "helm-chart", "deployment"]
 draft: false
 ---
 

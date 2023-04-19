@@ -2,7 +2,7 @@
 date: "2020-03-06T10:00:00+00:00"
 author: "zeripath"
 title: "Gitea 1.11.2 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

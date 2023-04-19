@@ -2,7 +2,7 @@
 date: "2023-03-31T10:00:00+08:00"
 author: "wolfogre"
 title: "Hacking on Gitea Actions"
-tags: ["actions"]
+tags: ["actions", "feature", "tutorial"]
 draft: false
 ---
 

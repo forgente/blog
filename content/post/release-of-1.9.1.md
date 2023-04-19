@@ -2,7 +2,7 @@
 date: "2019-08-14T10:50:00+01:00" 
 author: "jolheiser"
 title: "Gitea 1.9.1 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 date: "2019-09-08T10:53:00+01:00" 
 author: "lunny"
 title: "Gitea 1.9.3 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

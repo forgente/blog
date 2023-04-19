@@ -2,7 +2,7 @@
 date: "2019-03-12T12:00:00+00:00" 
 author: "techknowlogick"
 title: "Gitea 1.7.4 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 

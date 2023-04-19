@@ -2,7 +2,7 @@
 date: "2022-01-14T19:16:06+00:00"
 author: "zeripath"
 title: "Gitea 1.15.10 is released"
-tags: ["release"]
+tags: ["release", "gitea"]
 draft: false
 ---
 
