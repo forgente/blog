@@ -8,10 +8,8 @@
   title: Gitea maintainer
   url: https://gitea.com/6543
 BKC:
-  image_url: https://gitea.com/BKC.png
   name: BKC
   title: Gitea maintainer
-  url: https://gitea.com/BKC
 Gitea:
   image_url: https://gitea.com/Gitea.png
   name: Gitea
@@ -40,19 +38,15 @@ appleboy:
   title: Gitea maintainer
   url: https://gitea.com/appleboy
 bkcsoft:
-  image_url: https://gitea.com/bkcsoft.png
   name: bkcsoft
   title: Gitea maintainer
-  url: https://gitea.com/bkcsoft
 dachary:
   image_url: https://gitea.com/dachary.png
   name: dachary
   url: https://gitea.com/dachary
 daviian:
-  image_url: https://gitea.com/daviian.png
   name: daviian
   title: Gitea maintainer
-  url: https://gitea.com/daviian
 delvh:
   image_url: https://gitea.com/delvh.png
   name: delvh
@@ -93,11 +87,6 @@ noerw:
   name: noerw
   title: Gitea maintainer
   url: https://gitea.com/noerw
-norwin:
-  image_url: https://gitea.com/norwin.png
-  name: norwin
-  title: Gitea maintainer
-  url: https://gitea.com/norwin
 pat-s:
   image_url: https://gitea.com/pat-s.png
   name: pat-s
@@ -124,9 +113,7 @@ techknowlogick:
   title: Gitea maintainer
   url: https://gitea.com/techknowlogick
 thehowl:
-  image_url: https://gitea.com/thehowl.png
   name: thehowl
-  url: https://gitea.com/thehowl
 wolfogre:
   image_url: https://gitea.com/wolfogre.png
   name: wolfogre
