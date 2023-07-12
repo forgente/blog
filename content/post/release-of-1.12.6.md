@@ -1,6 +1,6 @@
 ---
-date: "2020-11-16T15:00:00+00:00"
-author: "gary-kim"
+date: 2020-11-16T15:00:00+00:00
+authors: "gary-kim"
 title: "Gitea 1.12.6 is released"
 tags: ["release", "gitea"]
 draft: false

@@ -1,6 +1,6 @@
 ---
-date: "2021-09-23T14:03:27+02:00"
-author: "norwin"
+date: 2021-09-23T14:03:27+02:00
+authors: "norwin"
 title: "Tea 0.8.0 is released"
 tags: ["release", "tea"]
 draft: false

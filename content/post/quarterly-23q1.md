@@ -1,5 +1,5 @@
 ---
-date: "2023-02-03T09:06:54+07:00"
+date: 2023-02-03T09:06:54+07:00
 author: "Gitea"
 title: "Gitea Quarterly Report 23Q1"
 tags: ["quarterly"]

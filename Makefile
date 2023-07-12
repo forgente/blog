@@ -1,23 +1,20 @@
 THEME := themes/gitea
-PUBLIC := public
 ARCHIVE := https://dl.gitea.com/theme/main.tar.gz
-
-HUGO_PACKAGE := github.com/gohugoio/hugo@v0.111.3
 
 .PHONY: all
 all: build
 
 .PHONY: clean
 clean:
-	rm -rf $(PUBLIC) $(THEME)
+	rm -rf $(THEME)
 
 .PHONY: server
 server: $(THEME)
-	go run $(HUGO_PACKAGE) server
+	npm run start
 
 .PHONY: build
 build: $(THEME)
-	go run $(HUGO_PACKAGE) --cleanDestinationDir
+	npm run build
 
 .PHONY: update
 update: $(THEME)

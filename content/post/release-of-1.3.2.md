@@ -1,6 +1,6 @@
 ---
-date: "2017-12-14T12:40:00+02:00"
-author: "lafriks"
+date: 2017-12-14T12:40:00+02:00
+authors: "lafriks"
 title: "Release of 1.3.2"
 tags: ["release", "gitea"]
 draft: false

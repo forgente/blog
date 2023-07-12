@@ -1,6 +1,6 @@
 ---
-date: "2023-03-20T13:00:00+01:00"
-author: "https://github.com/13tm3nt3r"
+date: 2023-03-20T13:00:00+01:00
+authors: "13tm3nt3r"
 title: "Feature Preview: Mapping OIDC Groups to Teams"
 tags: ["feature", "tutorial"]
 draft: false

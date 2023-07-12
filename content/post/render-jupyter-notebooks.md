@@ -1,6 +1,6 @@
 ---
-date: "2022-04-28T20:00:00+00:00"
-author: "HarvsG"
+date: 2022-04-28T20:00:00+00:00
+authors: "HarvsG"
 title: "How to render Jupyter Notebooks on Gitea"
 tags: ["rendering", "jupyter", "ui", "feature", "tutorial"]
 draft: false

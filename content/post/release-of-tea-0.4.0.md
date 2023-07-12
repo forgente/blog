@@ -1,6 +1,6 @@
 ---
-date: "2020-07-18T20:00:00+00:00"
-author: "6543"
+date: 2020-07-18T20:00:00+00:00
+authors: "6543"
 title: "tea 0.4.0 is released"
 tags: ["release", "tea"]
 draft: false

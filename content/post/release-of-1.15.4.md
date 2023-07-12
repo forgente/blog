@@ -1,6 +1,6 @@
 ---
-date: "2021-10-08T17:04:26+07:00"
-author: "jolheiser"
+date: 2021-10-08T17:04:26+07:00
+authors: "jolheiser"
 title: "Gitea 1.15.4 is released"
 tags: ["release", "gitea"]
 draft: false

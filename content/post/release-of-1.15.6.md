@@ -1,6 +1,6 @@
 ---
-date: "2021-10-28T09:28:00+0100"
-author: "zeripath"
+date: 2021-10-28
+authors: "zeripath"
 title: "Gitea 1.15.6 is released"
 tags: ["release", "gitea"]
 draft: false

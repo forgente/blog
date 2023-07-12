@@ -1,6 +1,6 @@
 ---
-date: "2020-05-10T10:00:00+00:00"
-author: "guillep2k"
+date: 2020-05-10T10:00:00+00:00
+authors: "guillep2k"
 title: "Gitea 1.11.5 is released"
 tags: ["release", "gitea"]
 draft: false

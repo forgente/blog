@@ -1,6 +1,6 @@
 ---
-date: "2023-05-08T22:18:00+08:00"
-author: "lunny"
+date: 2023-05-08T22:18:00+08:00
+authors: "lunny"
 title: "Gitea 1.19.3 is released"
 tags: ["release"]
 draft: false

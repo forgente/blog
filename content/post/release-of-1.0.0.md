@@ -1,6 +1,6 @@
 ---
-date: "2016-12-23T08:00:00+02:00"
-author: "tboerger"
+date: 2016-12-23T08:00:00+02:00
+authors: "tboerger"
 title: "Release of 1.0.0"
 tags: ["release", "gitea"]
 draft: false

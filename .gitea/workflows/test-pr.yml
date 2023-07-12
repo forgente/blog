@@ -9,16 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Setup Hugo
-        uses: https://github.com/peaceiris/actions-hugo@v2
+      - uses: https://github.com/actions/setup-node@v3
         with:
-          hugo-version: '0.111.3'
-          extended: true
-      - name: setup go
-        uses: https://github.com/actions/setup-go@v4
-        with:
-          go-version: '>=1.20.1'
+          node-version: 16
       - name: Build
         run: |
-          make clean
-          make build
+          npm ci
+          npm run build

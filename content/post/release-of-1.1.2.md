@@ -1,6 +1,6 @@
 ---
-date: "2017-06-12T17:21:30+08:00"
-author: "appleboy"
+date: 2017-06-12T17:21:30+08:00
+authors: "appleboy"
 title: "Release of 1.1.2"
 tags: ["release", "gitea"]
 draft: false

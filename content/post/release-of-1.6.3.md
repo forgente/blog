@@ -1,6 +1,6 @@
 ---
-date: "2019-01-04T01:00:00+02:00"
-author: "jonasfranz"
+date: 2019-01-04T01:00:00+02:00
+authors: "jonasfranz"
 title: "Release of 1.6.3"
 tags: ["release", "gitea"]
 draft: false

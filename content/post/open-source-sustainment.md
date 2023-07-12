@@ -1,6 +1,6 @@
 ---
-date: "2022-10-25T00:00:00+02:00"
-author: "techknowlogick"
+date: 2022-10-25T00:00:00+02:00
+authors: "techknowlogick"
 title: "Open source sustainment and the future of Gitea"
 tags: ["announcement"]
 draft: false

@@ -1,6 +1,6 @@
 ---
-date: "2022-12-19T10:10:00+08:00"
-author: "xinyu"
+date: 2022-12-19T10:10:00+08:00
+authors: "xinyu"
 title: "Feature Preview: Gitea Actions"
 tags: ["actions", "feature"]
 draft: false

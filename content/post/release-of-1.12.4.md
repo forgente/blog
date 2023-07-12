@@ -1,6 +1,6 @@
 ---
-date: "2020-09-04T04:00:00+00:00"
-author: "6543"
+date: 2020-09-04T04:00:00+00:00
+authors: "6543"
 title: "Gitea 1.12.4 is released"
 tags: ["release", "gitea"]
 draft: false

@@ -1,6 +1,6 @@
 ---
-date: "2016-12-08T11:00:00+02:00"
-author: "strk"
+date: 2016-12-08T11:00:00+02:00
+authors: "strk"
 title: "Welcome to Gitea"
 tags: ["announcement"]
 draft: false

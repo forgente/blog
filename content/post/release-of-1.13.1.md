@@ -1,6 +1,6 @@
 ---
-date: "2020-12-28T14:52:46+07:00"
-author: "techknowlogick"
+date: 2020-12-28T14:52:46+07:00
+authors: "techknowlogick"
 title: "Gitea 1.13.1 is released"
 tags: ["release", "gitea"]
 draft: false

@@ -1,6 +1,6 @@
 ---
-date: "2017-11-03T18:45:00+01:00"
-author: "BKC"
+date: 2017-11-03T18:45:00+01:00
+authors: "BKC"
 title: "Release of 1.2.3"
 tags: ["release", "gitea"]
 draft: false

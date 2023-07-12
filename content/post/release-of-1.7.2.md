@@ -1,6 +1,6 @@
 ---
-date: "2019-02-14T12:00:00+00:00" 
-author: "jolheiser"
+date: 2019-02-14T12:00:00+00:00
+authors: "jolheiser"
 title: "Release of 1.7.2"
 tags: ["release", "gitea"]
 draft: false

@@ -1,6 +1,6 @@
 ---
-date: "2021-05-09T11:58:17+07:00"
-author: "6543"
+date: 2021-05-09T11:58:17+07:00
+authors: "6543"
 title: "Gitea 1.14.2 is released"
 tags: ["release", "gitea"]
 draft: false

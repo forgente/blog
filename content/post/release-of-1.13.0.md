@@ -1,6 +1,6 @@
 ---
-date: "2020-12-02T10:49:02+07:00"
-author: "jolheiser"
+date: 2020-12-02T10:49:02+07:00
+authors: "jolheiser"
 title: "Gitea 1.13.0 is released"
 tags: ["release", "gitea"]
 draft: false
@@ -284,7 +284,7 @@ _Additional thanks to [**@silverwind**](https://github.com/silverwind) for a **t
   * Dark theme for line numbers in blame view (#12632)
   * Fix message when deleting last owner from an organization (#12628)
   * Use shellquote to unpack arguments to gitea serv (#12624)
-  * Fix signing.wont_sign.%!s(<nil>) if Require Signing commits but not signed in. (#12581)
+  * Fix signing.wont_sign.%!s(`<nil>`) if Require Signing commits but not signed in. (#12581)
   * Set utf8mb4 as the default charset on MySQL if CHARSET is unset (#12563)
   * Set context for running CreateArchive to that of the request (#12555)
   * Prevent redirect back to /user/events (#12462)

@@ -1,6 +1,6 @@
 ---
-date: "2022-03-14T23:54:02+07:00"
-author: "6543"
+date: 2022-03-14T23:54:02+07:00
+authors: "6543"
 title: "Gitea 1.16.4 is released"
 tags: ["release", "gitea"]
 draft: false

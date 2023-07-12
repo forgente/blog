@@ -1,6 +1,6 @@
 ---
-date: "2021-03-24T09:37:25+08:00"
-author: "lunny"
+date: 2021-03-24T09:37:25+08:00
+authors: "lunny"
 title: "Gitea 1.13.6 is released"
 tags: ["release", "gitea"]
 draft: false

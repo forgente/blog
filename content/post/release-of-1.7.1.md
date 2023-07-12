@@ -1,6 +1,6 @@
 ---
-date: "2019-02-01T09:12:00+08:00"
-author: "lunny"
+date: 2019-02-01T09:12:00+08:00
+authors: "lunny"
 title: "Release of 1.7.1"
 tags: ["release", "gitea"]
 draft: false

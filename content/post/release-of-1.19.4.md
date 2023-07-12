@@ -1,6 +1,6 @@
 ---
-date: "2023-07-05T15:02:48+07:00"
-author: "6543"
+date: 2023-07-05T15:02:48+07:00
+authors: "6543"
 title: "Gitea 1.19.4 is released"
 tags: ["release"]
 draft: false

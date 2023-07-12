@@ -1,6 +1,6 @@
 ---
-date: "2020-07-11T20:00:00+00:00"
-author: "lafriks"
+date: 2020-07-11T20:00:00+00:00
+authors: "lafriks"
 title: "Gitea 1.12.2 is released"
 tags: ["release", "gitea"]
 draft: false

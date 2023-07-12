@@ -1,6 +1,6 @@
 ---
-date: "2022-02-03T18:08:00+00:00"
-author: "zeripath"
+date: 2022-02-03T18:08:00+00:00
+authors: "zeripath"
 title: "Gitea 1.16.0 and 1.16.1 released"
 tags: ["release", "gitea"]
 draft: false
@@ -355,7 +355,7 @@ _Thanks to [**@nitul1991**](https://github.com/nitul1991), [**@qwerty287**](http
   * Move key forms before list and add cancel button ([#17432](https://github.com/go-gitea/gitea/pull/17432))
   * When copying executables to the docker chmod them ([#17423](https://github.com/go-gitea/gitea/pull/17423))
   * Remove deprecated `extendDefaultPlugins` method of svgo ([#17399](https://github.com/go-gitea/gitea/pull/17399))
-  * Fix the click behavior for <tr> and <td> with [data-href] ([#17388](https://github.com/go-gitea/gitea/pull/17388))
+  * Fix the click behavior for `<tr>` and `<td>` with [data-href] ([#17388](https://github.com/go-gitea/gitea/pull/17388))
   * Refactor update checker to use AppState ([#17387](https://github.com/go-gitea/gitea/pull/17387))
   * Improve async/await usage, and sort init calls in `index.js` ([#17386](https://github.com/go-gitea/gitea/pull/17386))
   * Use a variable but a function for IsProd because of a slight performance increment ([#17368](https://github.com/go-gitea/gitea/pull/17368))

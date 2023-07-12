@@ -1,6 +1,6 @@
 ---
-date: "2023-03-27T13:00:00+01:00"
-author: "techknowlogick"
+date: 2023-03-27T13:00:00+01:00
+authors: "techknowlogick"
 title: "Introducing Versioned Documentation"
 tags: ["docs"]
 draft: false

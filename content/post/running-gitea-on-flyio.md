@@ -1,6 +1,6 @@
 ---
-date: "2022-04-19T14:03:27+02:00"
-author: "techknowlogick"
+date: 2022-04-19T14:03:27+02:00
+authors: "techknowlogick"
 title: "Running Gitea on fly.io"
 tags: ["deployment", "tutorial"]
 draft: false

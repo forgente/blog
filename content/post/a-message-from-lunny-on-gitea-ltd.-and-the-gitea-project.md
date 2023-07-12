@@ -1,6 +1,6 @@
 ---
-date: "2022-10-30T18:25:00+09:15"
-author: "lunny"
+date: 2022-10-30T18:25:00+09:15
+authors: "lunny"
 title: "A message from Lunny on Gitea Ltd. and the Gitea project"
 tags: ["announcement"]
 draft: false

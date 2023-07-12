@@ -1,5 +1,5 @@
 ---
-date: "2023-04-08T19:00:00+08:00"
+date: 2023-04-08T19:00:00+08:00
 authors:
     - "sillyguodong"
     - "delvh"

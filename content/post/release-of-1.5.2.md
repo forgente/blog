@@ -1,6 +1,6 @@
 ---
-date: "2018-10-09T23:00:00+03:00"
-author: "lafriks"
+date: 2018-10-09T23:00:00+03:00
+authors: "lafriks"
 title: "Gitea 1.5.2 is released"
 tags: ["release", "gitea"]
 ---

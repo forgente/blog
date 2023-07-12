@@ -1,6 +1,6 @@
 ---
-date: "2017-09-05T11:53:30+08:00"
-author: "lunny"
+date: 2017-09-05T11:53:30+08:00
+authors: "lunny"
 title: "Release of 1.1.4"
 tags: ["release", "gitea"]
 draft: false

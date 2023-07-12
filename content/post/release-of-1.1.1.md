@@ -1,6 +1,6 @@
 ---
-date: "2017-05-04T17:20:00+02:00"
-author: "bkcsoft"
+date: 2017-05-04T17:20:00+02:00
+authors: "bkcsoft"
 title: "Release of 1.1.1"
 tags: ["release", "gitea"]
 draft: false

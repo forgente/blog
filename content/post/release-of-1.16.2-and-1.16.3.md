@@ -1,6 +1,6 @@
 ---
-date: "2022-03-03T20:10:00+08:00"
-author: "lunny"
+date: 2022-03-03T20:10:00+08:00
+authors: "lunny"
 title: "Gitea 1.16.2 and 1.16.3 released"
 tags: ["release", "gitea"]
 draft: false

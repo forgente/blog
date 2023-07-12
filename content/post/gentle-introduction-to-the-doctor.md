@@ -1,6 +1,6 @@
 ---
-date: "2022-06-14T14:03:27+02:00"
-author: "dachary"
+date: 2022-06-14T14:03:27+02:00
+authors: "dachary"
 title: "A gentle introduction to the gitea doctor"
 tags: ["tutorial"]
 draft: false

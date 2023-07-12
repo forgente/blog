@@ -1,6 +1,6 @@
 ---
-date: "2018-06-04T09:30:00+00:00"
-author: "techknowlogick"
+date: 2018-06-04T09:30:00+00:00
+authors: "techknowlogick"
 title: "Release of 1.4.2"
 tags: ["release", "gitea"]
 draft: false

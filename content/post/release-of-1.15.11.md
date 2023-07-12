@@ -1,6 +1,6 @@
 ---
-date: "2022-01-30T18:08:00+00:00"
-author: "zeripath"
+date: 2022-01-30T18:08:00+00:00
+authors: "zeripath"
 title: "Gitea 1.15.11 is released"
 tags: ["release", "gitea"]
 draft: false
