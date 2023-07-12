@@ -1,1 +1,2 @@
-https://gitea-blog.netlify.com/* https://blog.gitea.io/:splat 302!
+https://gitea-blog.netlify.com/* https://blog.gitea.com/:splat 302!
+https://blog.gitea.io/* https://blog.gitea.com/:splat 302!
