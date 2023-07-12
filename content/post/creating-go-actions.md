@@ -14,7 +14,7 @@ Gitea's CI system, Gitea Actions, was recently released in version 1.19.0. Gitea
 Go actions provide a way for gophers who are not familiar with JavaScript to create native actions.
 However, compared to JavaScript actions, Go actions may be slower because they need to be built as executables before running. But you don't need to put the generated javascript files into dist in a Go action.
 
-In this guide, we'll show you how to create a Go action in Gitea. Before diving in, you should have a basic understanding of Gitea Actions. If you're not familiar with it, we recommend reading [Hacking on Gitea Actions](https://blog.gitea.io/2023/03/hacking-on-gitea-actions/).
+In this guide, we'll show you how to create a Go action in Gitea. Before diving in, you should have a basic understanding of Gitea Actions. If you're not familiar with it, we recommend reading [Hacking on Gitea Actions](https://blog.gitea.com/hacking-on-gitea-actions/).
 
 ## A Simple Go Action
 

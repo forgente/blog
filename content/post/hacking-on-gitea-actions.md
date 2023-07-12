@@ -16,7 +16,7 @@ It should be noted that the information presented pertains to the current situat
 
 ## Usage
 
-In [Feature Preview: Gitea Actions](https://blog.gitea.io/2022/12/feature-preview-gitea-actions/), we discussed how to try it out.
+In [Feature Preview: Gitea Actions](https://blog.gitea.com/feature-preview-gitea-actions/), we discussed how to try it out.
 However, some things have changed since then, so let's go over it again.
 
 ### Set up Gitea

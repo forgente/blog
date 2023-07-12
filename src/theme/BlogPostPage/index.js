@@ -11,6 +11,9 @@ import BlogPostPageMetadata from '@theme/BlogPostPage/Metadata';
 import TOC from '@theme/TOC';
 import styles from './styles.module.css';
 
+// customized:
+// Hide toc
+// Added Cover Image to the post
 function BlogPostPageContent({sidebar, children}) {
   const {metadata, toc} = useBlogPost();
   const {nextItem, prevItem, frontMatter, title} = metadata;
@@ -21,15 +24,8 @@ function BlogPostPageContent({sidebar, children}) {
   } = frontMatter;
   return (
     <BlogLayout
-      toc={
-        !hideTableOfContents && toc.length > 0 ? (
-          <TOC
-            toc={toc}
-            minHeadingLevel={tocMinHeadingLevel}
-            maxHeadingLevel={tocMaxHeadingLevel}
-          />
-        ) : undefined
-      }>
+      sidebar={sidebar}
+    >
       <BlogPostItem>
         {frontMatter.coverImage && <figure>
           <img

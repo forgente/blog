@@ -8,7 +8,7 @@ draft: false
 
 We are proud to present the release of Gitea version 1.13.0.
 
-As we approach Gitea's [4th birthday](https://blog.gitea.io/2016/12/release-of-1.0.0/), I just want to give a special thanks to everyone who has been a part of the project, whether it's the implementation of a feature, or just enjoying the software.  
+As we approach Gitea's [4th birthday](https://blog.gitea.com/release-of-1.0.0/), I just want to give a special thanks to everyone who has been a part of the project, whether it's the implementation of a feature, or just enjoying the software.  
 Thank you all!
 
 We have merged an incredible [649](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.13.0+is%3Amerged) pull requests to release this version.

@@ -1,6 +1,6 @@
 ---
 date: 2023-02-03T09:06:54+07:00
-author: "Gitea"
+authors: "Gitea"
 title: "Gitea Quarterly Report 23Q1"
 tags: ["quarterly"]
 draft: false
@@ -12,7 +12,7 @@ Thanks to votesUP, which allows for election observers, we were able to have enh
 
 ## Election Results
 The results of the ownership election yielded the same ownership team of the past year, where [@techknowlogick](https://gitea.com/techknowlogick), [@lunny](https://gitea.com/lunny), and [@zeripath](https://gitea.com/zeripath) were elected.  
-As a followup from a [previous post](https://blog.gitea.io/2022/10/a-message-from-lunny-on-gitea-ltd.-and-the-gitea-project/), the maintainership team of the Gitea project has been in discussion over the past couple of months around what the future governance of the project looks like. These discussions resulted in the proposal of a governance charter for the project which was also voted on, and was passed with overwhelming support.  
+As a followup from a [previous post](https://blog.gitea.com/a-message-from-lunny-on-gitea-ltd.-and-the-gitea-project/), the maintainership team of the Gitea project has been in discussion over the past couple of months around what the future governance of the project looks like. These discussions resulted in the proposal of a governance charter for the project which was also voted on, and was passed with overwhelming support.  
 We'd like to send a sincere thank you to everyone who reached out and provided assistance and their experience with this process.  
 The governance charter proposed a technical oversight comittee (TOC) which expands the ownership team of the Gitea project from the current three elected positions to six positions, where three would be elected as it happened over past years, and the other three would consist of appointed members from the company.
 
@@ -81,7 +81,7 @@ The TOC and other maintainers are currently discussing the roadmap, but here is 
 * Implement a high-availability concept
 
 #### CI/CD
-* Polish and introduce/promote [Actions](https://blog.gitea.io/2022/12/feature-preview-gitea-actions/) to help ease migrations to Gitea and provide a small (but powerful!) optional CI
+* Polish and introduce/promote [Actions](https://blog.gitea.com/feature-preview-gitea-actions/) to help ease migrations to Gitea and provide a small (but powerful!) optional CI
 * Work on a better UX for third-party CI to be able to upload and view build logs in a unified interface
 
 ## TOC & Working groups

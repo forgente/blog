@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Gitea Blogs',
   tagline: 'Git with a cup of tea',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.svg',
   url: 'https://blog.gitea.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -25,9 +25,7 @@ const config = {
         showReadingTime: true,
         routeBasePath: '/',
         editUrl: 'https://gitea.com/gitea/blog/src/branch/main/',
-        blogSidebarTitle: 'All posts',
-        blogSidebarCount: 'ALL',
-        postsPerPage: 10,
+        postsPerPage: 12,
         path: 'content/post',
         blogTagsPostsComponent: require.resolve(
           "./src/theme/BlogListPage/index.js",
@@ -164,11 +162,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      },
-      tableOfContents: {
-        minHeadingLevel: 2,
-        maxHeadingLevel: 2,
-      },
+      }
     }),
 };
 

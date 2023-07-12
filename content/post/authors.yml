@@ -12,6 +12,10 @@ BKC:
   name: BKC
   title: Gitea maintainer
   url: https://gitea.com/BKC
+Gitea:
+  image_url: https://gitea.com/Gitea.png
+  name: Gitea
+  url: https://gitea.com/Gitea
 Gusted:
   image_url: https://git.gusted.xyz/avatars/f069668bb7706c629bed11e2ae8b392c
   name: Gusted
@@ -129,9 +133,7 @@ wolfogre:
   title: Gitea maintainer
   url: https://gitea.com/wolfogre
 xinyu:
-  image_url: https://gitea.com/xinyu.png
   name: xinyu
-  url: https://gitea.com/xinyu
 yardenshoham:
   image_url: https://gitea.com/yardenshoham.png
   name: yardenshoham

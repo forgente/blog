@@ -133,7 +133,7 @@ jobs:
 
 Huge thanks to the authors of actions ([@wolfogre](https://gitea.com/wolfogre), [@lunny](https://gitea.com/lunny), [@appleboy](https://gitea.com/appleboy) and [@fuxiaohei](https://gitea.com/fuxiaohei)), of [@nektos](https://github.com/nektos), [all contributors of act](https://github.com/nektos/act) for [act_runner](https://gitea.com/gitea/act_runner), and [@delvh](https://gitea.com/delvh) for significant effort spent reviewing the PRs.
 
-More information can be found [in the issue to implement actions](https://github.com/go-gitea/gitea/issues/13539), and you can find a small tutorial [in our blog](https://blog.gitea.io/2022/12/feature-preview-gitea-actions/).
+More information can be found [in the issue to implement actions](https://github.com/go-gitea/gitea/issues/13539), and you can find a small tutorial [in our blog](https://blog.gitea.com/feature-preview-gitea-actions/).
 
 ### :rocket: Asciicast support ([#22448](https://github.com/go-gitea/gitea/issues/22448))
 It is now possible to view uploaded Asciicast (`.cast`) files.

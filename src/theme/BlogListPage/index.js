@@ -61,7 +61,7 @@ function BlogListPageContent(props) {
         <h2 className={styles.title}>Filter by Tag</h2>
         <div className={styles.categories}>
           <Chips
-            activeChip={metadata.permalink}
+            activeChipLabel={isTagsPage? props.tag.label: null}
             items={tags}
           />
         </div>
