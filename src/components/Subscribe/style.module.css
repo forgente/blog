@@ -30,7 +30,7 @@
 }
 
 .checkbox {
-  display: none;
+  display: none !important;
 }
 
 .input::placeholder {
