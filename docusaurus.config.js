@@ -194,6 +194,7 @@ const config = {
           alt: 'Gitea Logo',
           src: 'img/logo.svg',
           href: 'https://about.gitea.com/',
+          target: '_self',
         },
         items: [
           {
@@ -201,12 +202,14 @@ const config = {
             label: 'Docs',
             position: 'left',
             className: 'internal-href',
+            target: '_self',
           },
           {
             href: 'https://docs.gitea.com/api/1.19/',
             label: 'API',
             position: 'left',
             className: 'internal-href',
+            target: '_self',
           },
           {
             to: '/',
@@ -227,12 +230,14 @@ const config = {
             position: 'right',
             label: 'Support',
             className: 'internal-href',
+            target: '_self',
           },
           {
             href: 'https://gitea.com/user/login',
             label: 'Sign In',
             position: 'right',
             className: 'internal-href signin-button',
+            target: '_self',
           },
         ],
       },
@@ -246,6 +251,7 @@ const config = {
                 label: 'Tutorial',
                 href: 'https://docs.gitea.com/',
                 className: 'internal-href',
+                target: '_self',
               },
             ],
           },
