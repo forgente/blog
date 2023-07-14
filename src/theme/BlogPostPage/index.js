@@ -1,19 +1,19 @@
 // Ejected unsafe, need to check if this changes and maintain this component
 // https://github.com/facebook/docusaurus/blob/main/packages/docusaurus-theme-classic/src/theme/BlogPostPage/index.tsx
-import React from 'react';
-import clsx from 'clsx';
-import {HtmlClassNameProvider, ThemeClassNames} from '@docusaurus/theme-common';
-import {BlogPostProvider, useBlogPost} from '@docusaurus/theme-common/internal';
-import BlogLayout from '@theme/BlogLayout';
-import BlogPostItem from '@theme/BlogPostItem';
-import BlogPostPaginator from '@theme/BlogPostPaginator';
-import BlogPostPageMetadata from '@theme/BlogPostPage/Metadata';
-import TOC from '@theme/TOC';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import {HtmlClassNameProvider, ThemeClassNames} from "@docusaurus/theme-common";
+import {BlogPostProvider, useBlogPost} from "@docusaurus/theme-common/internal";
+import BlogLayout from "@theme/BlogLayout";
+import BlogPostItem from "@theme/BlogPostItem";
+import BlogPostPaginator from "@theme/BlogPostPaginator";
+import BlogPostPageMetadata from "@theme/BlogPostPage/Metadata";
+import TOC from "@theme/TOC";
+import styles from "./styles.module.css";
 
 // customized:
-// Hide toc
-// Added Cover Image to the post
+// - Hide toc
+// - Added Cover Image to the post
 function BlogPostPageContent({sidebar, children}) {
   const {metadata, toc} = useBlogPost();
   const {nextItem, prevItem, frontMatter, title} = metadata;
@@ -25,11 +25,12 @@ function BlogPostPageContent({sidebar, children}) {
   return (
     <BlogLayout
       sidebar={sidebar}
+      toc={undefined}
     >
       <BlogPostItem>
         {frontMatter.coverImage && <figure>
           <img
-            alt={`Banner for blog post with title '${title}'`}
+            alt={`Banner for blog post with title "${title}"`}
             className={clsx(styles.image, {
               [styles["image--title"]]: children != null,
             })}
