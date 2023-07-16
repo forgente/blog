@@ -131,3 +131,8 @@ zeripath:
   name: zeripath
   title: Gitea maintainer
   url: https://gitea.com/zeripath
+denyskon:
+  image_url: https://gitea.com/denyskon.png
+  name: denyskon
+  title: Gitea maintainer
+  url: https://gitea.com/denyskon
