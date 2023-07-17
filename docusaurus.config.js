@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Gitea Blogs',
+  title: 'Gitea Blog',
   tagline: 'Git with a cup of tea',
   favicon: 'img/favicon.svg',
   url: 'https://blog.gitea.com',
