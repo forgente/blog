@@ -119,9 +119,10 @@ If it fails to do so, it won't start. In that case, please do what the error mes
 
 ### :warning: `actions` table metrics collector was removed ([#25062](https://github.com/go-gitea/gitea/pull/25062))
 
-The statistic of how many entries are in the `actions` table has always been rather useless as this table will always be (ridiculuously) large.  
-As such, we removed the metrics collector for it.  
+The statistic of how many entries are in the `actions` table that records activities has always been rather useless as this table will always be (ridiculuously) large.
+As such, we removed the metrics collector for promethues for them.  
 Please do not rely on its output anymore.
+This is not related to Gitea Actions.
     
 ### :warning: Rework storage settings ([#23911](https://github.com/go-gitea/gitea/pull/23911))
 
