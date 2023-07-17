@@ -205,7 +205,7 @@ const config = {
             target: '_self',
           },
           {
-            href: 'https://docs.gitea.com/api/1.19/',
+            href: 'https://docs.gitea.com/api/1.20/',
             label: 'API',
             position: 'left',
             className: 'internal-href',
