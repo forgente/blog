@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start --port 1313",
-    "build": "docusaurus build",
+    "start": "cross-env WEBPACK_URL_LOADER_LIMIT=0 docusaurus start --port 1313",
+    "build": "cross-env WEBPACK_URL_LOADER_LIMIT=0 docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -25,7 +25,8 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.4.1"
+    "@docusaurus/module-type-aliases": "2.4.1",
+    "cross-env": "^7.0.3"
   },
   "browserslist": {
     "production": [
