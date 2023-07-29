@@ -4,6 +4,7 @@ authors: "zeripath"
 title: "Gitea 1.15.10 is released"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.15.10"
 ---
 
 We are proud to present the release of Gitea version 1.15.10.

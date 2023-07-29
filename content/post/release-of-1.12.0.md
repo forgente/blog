@@ -4,6 +4,7 @@ authors: "jolheiser"
 title: "Gitea 1.12.0 and 1.12.1 are released"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.12"
 ---
 
 We are proud to present the release of Gitea version 1.12.0, and subsequently 1.12.1 with some hotfixes.

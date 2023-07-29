@@ -4,6 +4,7 @@ authors: "lunny"
 title: "Gitea 1.16.2 and 1.16.3 released"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.16.2/3"
 ---
 
 We are proud to present the release of Gitea version 1.16.3, (and 1.16.2)

@@ -3,6 +3,7 @@ date: 2018-10-31T12:00:00+03:00
 authors: "lafriks"
 title: "Gitea 1.5.3 is released"
 tags: ["release", "gitea"]
+coverImageRelease: "1.5.3"
 ---
 
 We are happy to announce version 1.5.3 of Gitea has now been released. This

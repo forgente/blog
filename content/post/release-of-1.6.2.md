@@ -4,6 +4,7 @@ authors: "techknowlogick"
 title: "Release of 1.6.2"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.6.2"
 ---
 
 We proudly present the bugfix release of Gitea version 1.6.2. This release contains important

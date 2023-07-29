@@ -4,6 +4,7 @@ authors: "zeripath"
 title: "Gitea 1.15.1 and 1.14.7 are released"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.14.7/1.15.1"
 ---
 
 We are proud to present the release of Gitea version 1.15.1 (and v1.14.7). We have specially released v1.14.7 as it contains an important fix for an issue with `gitea dump` on versions 1.14.3-1.14.6 and version 1.15.0.

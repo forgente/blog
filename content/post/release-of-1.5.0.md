@@ -3,6 +3,7 @@ date: 2018-08-10T10:00:00+00:00
 authors: "thehowl"
 title: "Gitea 1.5.0 is released"
 tags: ["release", "gitea"]
+coverImageRelease: "1.5"
 ---
 
 The time has come for another major release! We are happy to present Gitea

@@ -4,6 +4,7 @@ authors: "jolheiser"
 title: "Gitea 1.9.0 is released"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.9"
 ---
 
 It's time for another major release! We are proud to present Gitea

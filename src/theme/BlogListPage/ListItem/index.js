@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import Link from "@docusaurus/Link";
 import { Chip } from "../Chip";
 import { ensureTrailingSlash } from "@site/src/utils/ensureTrailingSlash.js";
+import BlogPostCoverImage from "@theme/BlogReleaseCoverImage";
 
 export const ListItem = ({ content, belowFold }) => {
   const {metadata, frontMatter} = content;
@@ -14,11 +15,13 @@ export const ListItem = ({ content, belowFold }) => {
     <div className={styles.root}>
       <div className={styles.imageBox}>
         <Link to={postUrl} className={styles.image}>
-          <img
-            loading={belowFold ? "lazy" : "eager"}
-            src={imageUrl}
-            alt={`Banner for blog post with title "${title}"`}
-          />
+          {frontMatter.coverImageRelease ?
+            BlogPostCoverImage({ version: frontMatter.coverImageRelease })
+            : <img
+              loading={belowFold ? "lazy" : "eager"}
+              src={imageUrl}
+              alt={`Banner for blog post with title "${title}"`}
+              />}
         </Link>
       </div>
 

@@ -4,6 +4,7 @@ authors: "guillep2k"
 title: "Gitea 1.10.0 is released"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.10"
 ---
 
 It's time for another major release! We are proud to present Gitea 1.10.0 to the world.

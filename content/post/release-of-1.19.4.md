@@ -4,6 +4,7 @@ authors: "6543"
 title: "Gitea 1.19.4 is released"
 tags: ["release"]
 draft: false
+coverImageRelease: "1.19.4"
 ---
 
 We are proud to present the release of Gitea version 1.19.4.
