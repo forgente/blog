@@ -4,7 +4,6 @@ authors: "zeripath"
 title: "Gitea 1.8.0 is released"
 tags: ["release", "gitea"]
 draft: false
-coverImageRelease: "1.8"
 ---
 
 The time has come for another major release! We are proud to present Gitea

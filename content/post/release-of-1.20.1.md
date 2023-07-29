@@ -6,7 +6,7 @@ authors:
 title: "Gitea 1.20.1 is released"
 tags: ["release"]
 draft: false
-coverImageRelease: "1.20.1"
+coverImage: /article-logo/1.20.1-release.webp
 ---
 
 Gitea 1.20.1 is now released including [21](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.20.1+is%3Aclosed) merged PRs.

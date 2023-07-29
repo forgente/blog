@@ -4,7 +4,6 @@ authors: "lunny"
 title: "Release of 1.3.1"
 tags: ["release", "gitea"]
 draft: false
-coverImageRelease: "1.3.1"
 ---
 
 We proudly present the bugfix release of Gitea version 1.3.1. We have merged [7 pull requests](https://github.com/go-gitea/gitea/milestone/18?closed=1) to release this version. You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.3.1/), you just need to select the correct platform. For further details of the installation follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).

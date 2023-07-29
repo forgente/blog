@@ -4,7 +4,6 @@ authors: "zeripath"
 title: "Gitea 1.7.6 is released"
 tags: ["release", "gitea"]
 draft: false
-coverImageRelease: "1.7.6"
 ---
 
 We proudly present the security release of Gitea version 1.7.6. **This release contains a very important security fix so it is highly recommended to update to this version.** Users running our version 1.8 release candidates should also update.

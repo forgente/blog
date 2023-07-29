@@ -4,7 +4,6 @@ authors: "lafriks"
 title: "Release of 1.2.2"
 tags: ["release", "gitea"]
 draft: false
-coverImageRelease: "1.2.2"
 ---
 
 We proudly present the bugfix release of Gitea version 1.2.2. We have merged [5 pull requests](https://github.com/go-gitea/gitea/milestone/16?closed=1) to release this version. You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.2.2/), you just need to select the correct platform. For further details of the installation follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).

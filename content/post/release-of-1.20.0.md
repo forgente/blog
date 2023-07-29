@@ -9,7 +9,7 @@ authors:
 title: "Gitea 1.20 is released"
 tags: ["release"]
 draft: false
-coverImageRelease: "1.20"
+coverImage: /article-logo/1.20.0-release.webp
 ---
 
 Gitea 1.20.0 is now released.

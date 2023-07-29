@@ -4,7 +4,6 @@ authors: "jolheiser"
 title: "Gitea 1.7.5 is released"
 tags: ["release", "gitea"]
 draft: false
-coverImageRelease: "1.7.5"
 ---
 
 We are happy to announce that version 1.7.5 of Gitea has now been released. This version only has 3 merged pull requests as we prepare for 1.8.0! 

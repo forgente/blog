@@ -4,7 +4,6 @@ authors: "techknowlogick"
 title: "Release of 1.4.2"
 tags: ["release", "gitea"]
 draft: false
-coverImageRelease: "1.4.2"
 ---
 
 It's been a wild and wonderful weekend. Many new users have found Gitea and we are so happy to be able to help you with your self-hosting Git journey. Thank you to all of our backers on [Open Collective](https://opencollective.com/gitea), you are helping us deliver a better piece of software.

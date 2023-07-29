@@ -4,7 +4,6 @@ authors: "lafriks"
 title: "Release of 1.3.3"
 tags: ["release", "gitea"]
 draft: false
-coverImageRelease: "1.3.3"
 ---
 
 We proudly present the bugfix release of Gitea version 1.3.3. This release contains important

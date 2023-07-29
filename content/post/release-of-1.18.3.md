@@ -4,7 +4,6 @@ authors: "jolheiser"
 title: "Gitea 1.18.3 is released"
 tags: ["release", "gitea"]
 draft: false
-coverImageRelease: "1.18.3"
 ---
 
 Gitea version 1.18.3 has been released as a security release.

@@ -4,7 +4,6 @@ authors: "jolheiser"
 title: "Release of 1.7.2"
 tags: ["release", "gitea"]
 draft: false
-coverImageRelease: "1.7.2"
 ---
 
 We proudly present the minor release of Gitea version 1.7.2.

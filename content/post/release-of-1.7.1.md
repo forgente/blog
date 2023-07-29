@@ -4,7 +4,6 @@ authors: "lunny"
 title: "Release of 1.7.1"
 tags: ["release", "gitea"]
 draft: false
-coverImageRelease: "1.7.1"
 ---
 
 We proudly present the minor release of Gitea version 1.7.1. **This release contains some

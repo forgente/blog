@@ -3,7 +3,6 @@ date: 2018-11-22T21:23:00+08:00
 authors: "lunny"
 title: "Gitea 1.6.0 is released"
 tags: ["release", "gitea"]
-coverImageRelease: "1.6"
 ---
 
 The time has come for another major release! We are proud to present Gitea

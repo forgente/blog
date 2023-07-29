@@ -4,7 +4,6 @@ authors: "techknowlogick"
 title: "Release of 1.4.1"
 tags: ["release", "gitea"]
 draft: false
-coverImageRelease: "1.4.1"
 ---
 
 We proudly present the bugfix release of Gitea version 1.4.1. This release contains important

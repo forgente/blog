@@ -4,7 +4,6 @@ authors: "jolheiser"
 title: "Gitea 1.18.4 is released"
 tags: ["release", "gitea"]
 draft: false
-coverImageRelease: "1.18.4"
 ---
 
 Attention please.

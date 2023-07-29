@@ -8,7 +8,6 @@ import BlogLayout from "@theme/BlogLayout";
 import BlogPostItem from "@theme/BlogPostItem";
 import BlogPostPaginator from "@theme/BlogPostPaginator";
 import BlogPostPageMetadata from "@theme/BlogPostPage/Metadata";
-import BlogPostCoverImage from "@theme/BlogReleaseCoverImage";
 import TOC from "@theme/TOC";
 import styles from "./styles.module.css";
 
@@ -29,10 +28,7 @@ function BlogPostPageContent({sidebar, children}) {
       toc={undefined}
     >
       <BlogPostItem>
-        {frontMatter.coverImageRelease ? (<figure>
-          {BlogPostCoverImage({ version: frontMatter.coverImageRelease })}
-        </figure>)
-        : frontMatter.coverImage && <figure>
+        {frontMatter.coverImage && <figure>
           <img
             alt={`Banner for blog post with title "${title}"`}
             className={clsx(styles.image, {
