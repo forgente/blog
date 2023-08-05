@@ -4,6 +4,7 @@ authors: "guillep2k"
 title: "Gitea 1.11.3 and 1.10.6 released"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.10.6/1.11.3"
 ---
 
 We are proud to present the releases of Gitea versions 1.11.3 and 1.10.6.

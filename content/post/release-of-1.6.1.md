@@ -3,6 +3,7 @@ date: 2018-12-08T12:00:00+03:00
 authors: "techknowlogick"
 title: "Gitea 1.6.1 is released"
 tags: ["release", "gitea"]
+coverImageRelease: "1.6.1"
 ---
 
 We are happy to announce version 1.6.1 of Gitea has now been released. This

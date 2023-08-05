@@ -4,6 +4,7 @@ authors: "techknowlogick"
 title: "Gitea 1.13.1 is released"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.13.1"
 ---
 
 We are proud to present the release of Gitea version 1.13.1.

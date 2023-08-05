@@ -4,6 +4,7 @@ authors: "zeripath"
 title: "Gitea 1.15.2 is released"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.15.2"
 ---
 
 Unfortunately following the release of 1.15.1 it has become apparent that there is an issue with upgrading from 1.15.0 to 1.15.1 due to problem with a table constraint that was unexpectedly automatically dropped. Users who upgraded straight from 1.14.x to 1.15.1 are not affected and users who upgraded from 1.15.0 to 1.15.1 can fix the problem using `gitea doctor recreate-table issue_index` or upgrade to 1.15.2.

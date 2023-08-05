@@ -9,6 +9,7 @@ authors:
 title: "Gitea 1.19.0 is released"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.19"
 ---
 
 We are proud to present the release of Gitea version 1.19.0.

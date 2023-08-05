@@ -4,6 +4,7 @@ authors: "lunny"
 title: "Release of 1.2.0"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.2"
 ---
 
 We proudly present that we have released the third big version of Gitea v1.2.0. We have merged [676](https://github.com/go-gitea/gitea/milestone/3?closed=1) pull requests to release this version. You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.2.0/), you just need to select the correct platform. For further details of the installation follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).

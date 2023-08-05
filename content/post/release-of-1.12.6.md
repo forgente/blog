@@ -4,6 +4,7 @@ authors: "gary-kim"
 title: "Gitea 1.12.6 is released"
 tags: ["release", "gitea"]
 draft: false
+coverImageRelease: "1.12.6"
 ---
 
 We are proud to present the release of Gitea version 1.12.6.
