@@ -149,6 +149,12 @@ const config = {
           ],
         },
       ],
+      [
+        'docusaurus-plugin-plausible',
+        {
+          domain: 'blog.gitea.com',
+        },
+      ],
 
   ],
   presets: [
