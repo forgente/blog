@@ -14,9 +14,9 @@ In this release, we've merged
 The list includes 97 features and enhancements, and more than 150 bug fixes and documentation improvements.
 
 You can download one of our pre-built binaries from our
-[downloads page](https://dl.gitea.io/gitea/1.10.0/) - make sure to select the
+[downloads page](https://dl.gitea.com/gitea/1.10.0/) - make sure to select the
 correct platform! For further details on how to install, follow our
-[installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+[installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 If you are running Raspbian and you are having problems starting Gitea, please check [raspberrypi/linux/issues/#3271](https://github.com/raspberrypi/linux/issues/3271) for a possible fix. Unfortunately, there is still no armv7 build, but using armv6 has worked for many users, so please try that in the meantime.
 

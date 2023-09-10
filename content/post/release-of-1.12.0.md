@@ -12,7 +12,7 @@ We are proud to present the release of Gitea version 1.12.0, and subsequently 1.
 In this release we merged a whopping [673](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.12.0+is%3Amerged) pull requests! That's the highest number *ever* in a release!  
 We cannot express enough gratitude to those who support us, big or small.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.12.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.12.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 :exclamation: One of the features added in 1.12 is [language stats](#language-statistics-bar-for-repositories-8037-https-github-com-go-gitea-gitea-issues-8037).  
 Users upgrading should note that the initial calculation of repositories may take some time, so plan accordingly.

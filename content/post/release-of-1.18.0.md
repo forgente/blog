@@ -19,7 +19,7 @@ We have merged [535](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone
 We would like to thank [@pboguslawski](https://github.com/pboguslawski) for reporting the reverse proxy authentication issue, and [@zeripath](https://gitea.com/zeripath) for the subsequent fix.  
 We would also like to thank [@appleboy](https://gitea.com/appleboy) and [@silverwind](https://gitea.com/silverwind) for the other security fixes in this release.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.18.0/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.18.0/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.

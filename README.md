@@ -1,15 +1,11 @@
 # Gitea: Blog
 
-[![Build Status](https://drone.gitea.com/api/badges/gitea/blog/status.svg)](https://drone.gitea.com/gitea/blog)
-[![Join the chat at https://img.shields.io/discord/322538954119184384.svg](https://img.shields.io/discord/322538954119184384.svg)](https://discord.gg/NsatcWJ)
+[![Join the chat at https://img.shields.io/discord/322538954119184384.svg](https://img.shields.io/discord/322538954119184384.svg)](https://discord.gg/Gitea)
 
 ## Hosting
 
 This page is hosted on our infrastructure within Docker containers, it gets
-automcatically updated on every push to the `master` branch.
-
-If you want to host this page on your own you can take our docker image
-[gitea/blog](https://hub.docker.com/r/gitea/blog/).
+automcatically updated on every push to the `main` branch.
 
 ## Install
 
@@ -50,5 +46,5 @@ for the full license text.
 ## Copyright
 
 ```
-Copyright (c) 2016 The Gitea Authors <https://gitea.io>
+Copyright (c) 2016 The Gitea Authors <https://about.gitea.com>
 ```

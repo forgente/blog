@@ -16,7 +16,7 @@ We have merged [35](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%
 <!-- Security Thanks! -->
 Thanks to Aleksey Solovev (Positive Technologies) for the security issue in this release, and [@zeripath](https://gitea.com/zeripath) for the fix!
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.17.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.17.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.

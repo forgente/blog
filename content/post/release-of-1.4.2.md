@@ -11,7 +11,7 @@ It's been a wild and wonderful weekend. Many new users have found Gitea and we a
 
 We are happy to release version 1.4.2 of Gitea. We have merged [13 pull requests](https://github.com/go-gitea/gitea/milestone/23?closed=1) to release version.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.4.2/), you just need to select the correct platform. For further details of the installation follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.4.2/), you just need to select the correct platform. For further details of the installation follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 <!--more-->
 

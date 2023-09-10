@@ -12,9 +12,9 @@ is a smaller release, with only 4 merged PRs, but it contains an important
 security related fix and so we recommend upgrading whenever possible.
 
 You can download one of our pre-built binaries from our
-[downloads page](https://dl.gitea.io/gitea/1.7.4/) - make sure to select the
+[downloads page](https://dl.gitea.com/gitea/1.7.4/) - make sure to select the
 correct platform! For further details on how to install, follow our
-[installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+[installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We'd like to thank [Anti Räis](https://bitflipper.eu) for reporting the security issue that has been patched
 in this release. Another thank you goes to all of our supporters on

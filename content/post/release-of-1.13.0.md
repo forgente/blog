@@ -19,7 +19,7 @@ We would like to give a special thanks to Michael Scherer ([@mscherer](https://g
 Thanks to [@zeripath](https://github.com/zeripath) for fixing in [#12685](https://github.com/go-gitea/gitea/pull/12685)
 
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.13.0/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.13.0/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 :exclamation: As of this version, Gitea supports TLS version 1.2 at _minimum_. ([#12689](https://github.com/go-gitea/gitea/pull/12689))
 

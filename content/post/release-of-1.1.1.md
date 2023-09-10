@@ -7,7 +7,7 @@ draft: false
 coverImageRelease: "1.1.1"
 ---
 
-We proudly present the bugfix release of Gitea version 1.1.1. We have merged [10](https://github.com/go-gitea/gitea/milestone/10?closed=1) pull requests to release this version of Gitea. You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.1.1/), you just need to select the correct platform. For further details of the installation follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+We proudly present the bugfix release of Gitea version 1.1.1. We have merged [10](https://github.com/go-gitea/gitea/milestone/10?closed=1) pull requests to release this version of Gitea. You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.1.1/), you just need to select the correct platform. For further details of the installation follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 <!--more-->
 

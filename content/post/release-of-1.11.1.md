@@ -10,13 +10,13 @@ coverImageRelease: "1.11.1"
 We are proud to present the release of Gitea version 1.11.1.
 
 There is a known high priority bug that will be fixed in `1.11.2` ([#10318](https://github.com/go-gitea/gitea/pull/10318)).  
-If anyone experiences this problem, you may want to use the [1.11 branch download](https://dl.gitea.io/gitea/1.11/) until `1.11.2` is released.
+If anyone experiences this problem, you may want to use the [1.11 branch download](https://dl.gitea.com/gitea/1.11/) until `1.11.2` is released.
 
 This release fixes a serious bug in the worker pool that leads to a deadlock. ([#10284](https://github.com/go-gitea/gitea/pull/10284))
 
 We have merged [14](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.11.1+is%3Aclosed) pull requests to release this version.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.11.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.11.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.
 

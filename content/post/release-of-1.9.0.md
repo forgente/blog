@@ -16,9 +16,9 @@ In this release, we merged
 **This version of Gitea contains security fixes that could not be backported to 1.8. For this reason, we strongly recommend updating.**
 
 You can download one of our pre-built binaries from our
-[downloads page](https://dl.gitea.io/gitea/1.9.0/) - make sure to select the
+[downloads page](https://dl.gitea.com/gitea/1.9.0/) - make sure to select the
 correct platform! For further details on how to install, follow our
-[installation guide](https://docs.gitea.io/en-us/install-from-binary/).  
+[installation guide](https://docs.gitea.com/installation/install-from-binary).  
 Unfortunately, there is a known issue with our prebuilt images on armv7, see [#6700](https://github.com/go-gitea/gitea/issues/6700). 
 Using armv6 has worked for many users, so please try that in the meantime.
 

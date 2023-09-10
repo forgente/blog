@@ -13,7 +13,7 @@ We have merged [7](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3
 
 **This release contains two security fixes, so we highly recommend updating.**
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.9.2/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.9.2/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We would like to give a special thanks to Bruno Pagani ([@ArchangeGabriel](https://github.com/ArchangeGabriel)) for reporting the security issue that has been patched in this release.
 

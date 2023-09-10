@@ -26,7 +26,7 @@ Thanks to [@zeripath](https://gitea.com/zeripath) as well for the new admin comm
 
 :exclamation: This release will also contain an updated `git` binary in the docker images to fix the recent CVEs. Anyone not using docker will need to update their `git` binary manually! More information can be found at <https://cve.circl.lu/cve/CVE-2023-22490> and <https://cve.circl.lu/cve/CVE-2023-23946>.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.18.4/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.18.4/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.

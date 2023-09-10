@@ -12,9 +12,9 @@ security fix for vulnerability that could potentially allow for authorized
 users to do remote code excution.
 
 You can download one of our pre-built binaries from our
-[downloads page](https://dl.gitea.io/gitea/1.5.3/) - make sure to select the
+[downloads page](https://dl.gitea.com/gitea/1.5.3/) - make sure to select the
 correct platform! For further details on how to install, follow our
-[installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+[installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We'd like to thank [5alt](https://github.com/5alt) for reporting security issue
 that have been patched in this release. Another thank you goes to all of our

@@ -14,9 +14,9 @@ In this release, we've merged
 Special thanks to everyone, past and present, who have contributed and made this possible.
 
 You can download one of our pre-built binaries from our
-[downloads page](https://dl.gitea.io/gitea/1.11.0/) - make sure to select the
+[downloads page](https://dl.gitea.com/gitea/1.11.0/) - make sure to select the
 correct platform! For further details on how to install, follow our
-[installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+[installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 <!-- raspi https://github.com/raspberrypi/linux/issues/3271 -->
 Unfortunately, there is still no ARMv7 build, but using ARMv6 has worked for many users, so please try that in the meantime.

@@ -16,7 +16,7 @@ We have merged [4](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3
 <!-- Security Thanks! -->
 Thanks to [@Gusted](https://gusted.xyz) for the report, and for the patch which [@KN4CK3R](https://gitea.com/KN4CK3R) applied!
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.18.3/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.18.3/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.

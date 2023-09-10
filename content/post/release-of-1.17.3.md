@@ -17,7 +17,7 @@ We have merged [29](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%
 
 A big thank you to Ngo Wei Lin ([@Creastery](https://twitter.com/creastery)) of STAR Labs ([@starlabs_sg](https://twitter.com/starlabs_sg)) for reporting issues [#21465](https://github.com/go-gitea/gitea/pull/21465) and [#21464](https://github.com/go-gitea/gitea/pull/21464), and a thank you to to [techknowlogick](https://gitea.com/techknowlogick), [wxiaoguang](https://gitea.com/wxiaoguang), and [6543](https://gitea.com/6543) for sending patches to resolve them.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.17.3/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.17.3/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.
 

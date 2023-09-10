@@ -20,7 +20,7 @@ It has been changed to `repo.actions` for consistency.
 If you haven't placed it there explicitly, no action is required.  
 While Gitea aims for stability in already released versions, we decided to release this breaking change in 1.19.1 because Gitea Actions are still experimental and this option was previously undocumented, so we expect that a vast majority of users are likely unaffected.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.19.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.19.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.

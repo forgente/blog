@@ -13,7 +13,7 @@ We highly encourage users to update to this version for some important bug-fixes
 
 We have merged [8](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.13.4+is%3Amerged) pull requests to release this version.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.13.4/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.13.4/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We would like to give a special thanks to Septatrix for reporting a security issue that was patched in this release.
 

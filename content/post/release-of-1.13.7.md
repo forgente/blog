@@ -18,7 +18,7 @@ We have merged [8](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3
 We would like to give a special thanks to [Kevin Chung](https://blog.kchung.co/) and [a-codingkiwi](https://github.com/a-codingkiwi) for both independently reporting a security issue that was patched in this release.
 Thanks to [bluemonday](https://github.com/microcosm-cc/bluemonday) and [@zeripath](https://github.com/zeripath) for fixing [#15294](https://github.com/go-gitea/gitea/pull/15294), Thanks to [@zeripath](https://github.com/zeripath) for another one in [#15160](https://github.com/go-gitea/gitea/pull/15160)
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.13.7/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.13.7/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.
 

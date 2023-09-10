@@ -11,7 +11,7 @@ We proudly present the security release of Gitea version 1.7.6. **This release c
 
 We have merged 2 pull requests to release this version.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.7.6/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.7.6/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We would like to say special thanks to [zeripath](https://github.com/zeripath) who reported and fixed the security issue fixed in this release, and [mrsdizzie](https://github.com/mrsdizzie) who confirmed and produced a minimal exploitable testcase for the security issue.
 

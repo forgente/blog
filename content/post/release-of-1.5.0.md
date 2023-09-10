@@ -12,9 +12,9 @@ The time has come for another major release! We are happy to present Gitea
 -- just a bit more than last time (236).
 
 You can download one of our pre-built binaries from our
-[downloads page](https://dl.gitea.io/gitea/1.5.0/) - make sure to select the
+[downloads page](https://dl.gitea.com/gitea/1.5.0/) - make sure to select the
 correct platform! For further details on how to install, follow our
-[installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+[installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We'd like to thank all of our backers on
 [Open Collective](https://opencollective.com/gitea), who are helping us deliver

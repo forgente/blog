@@ -18,7 +18,7 @@ We would like to give a special thanks to Sebastian Goettsch ([@sgoettsch](https
 Thanks to [@zeripath](https://github.com/zeripath) for fixing in [#14154](https://github.com/go-gitea/gitea/pull/14154), and [@6543](https://github.com/6543) for fixing another one in [#14031](https://github.com/go-gitea/gitea/pull/14031).
 
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.13.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.13.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.

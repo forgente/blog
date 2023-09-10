@@ -21,7 +21,7 @@ This release also includes an update to the `go-redis` library used by Gitea whi
 
 Thanks to [@KN4CK3R](https://gitea.com/KN4CK3R) for reporting both security issues patched in this release, and thanks to him and [@lunny](https://gitea.com/lunny) for the subsequent fixes!
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.19.2/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.19.2/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.

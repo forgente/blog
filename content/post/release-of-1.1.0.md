@@ -7,7 +7,7 @@ draft: false
 coverImageRelease: "1.1"
 ---
 
-We proudly present the release of Gitea version 1.1.0. We have closed [126](https://github.com/go-gitea/gitea/issues?q=is%3Aissue+is%3Aclosed+milestone%3A1.1.0) issues and we also merged [348](https://github.com/go-gitea/gitea/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Amerged%20milestone%3A1.1.0) pull requests to release this version of Gitea. You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.1.0/), you just need to select the correct platform. For further details of the installation follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+We proudly present the release of Gitea version 1.1.0. We have closed [126](https://github.com/go-gitea/gitea/issues?q=is%3Aissue+is%3Aclosed+milestone%3A1.1.0) issues and we also merged [348](https://github.com/go-gitea/gitea/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Amerged%20milestone%3A1.1.0) pull requests to release this version of Gitea. You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.1.0/), you just need to select the correct platform. For further details of the installation follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 <!--more-->
 

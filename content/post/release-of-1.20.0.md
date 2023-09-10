@@ -232,7 +232,7 @@ With it, you can force users to open issues from a template, or to display addit
 blank_issues_enabled: false
 contact_links:
   - name: Gitea
-    url: https://gitea.io
+    url: https://about.gitea.com
     about: Visit the Gitea Website
   - name: Security issues
     url: mailto:security@gitea.io

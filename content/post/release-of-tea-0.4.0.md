@@ -17,7 +17,7 @@ With the new v0.4.0 release tea can now:
 
 <!--more-->
 
-![gif](https://dl.gitea.io/screenshots/tea_demo.gif)
+![gif](https://dl.gitea.com/screenshots/tea_demo.gif)
 
 ## Changelog
 

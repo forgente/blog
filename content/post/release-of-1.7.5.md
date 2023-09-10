@@ -10,9 +10,9 @@ coverImageRelease: "1.7.5"
 We are happy to announce that version 1.7.5 of Gitea has now been released. This version only has 3 merged pull requests as we prepare for 1.8.0! 
 
 You can download one of our pre-built binaries from our
-[downloads page](https://dl.gitea.io/gitea/1.7.5/) - make sure to select the
+[downloads page](https://dl.gitea.com/gitea/1.7.5/) - make sure to select the
 correct platform! For further details on how to install, follow our
-[installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+[installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We'd like to thank all of our supporters on
 [Open Collective](https://opencollective.com/gitea) who are helping us

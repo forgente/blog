@@ -9,7 +9,7 @@ draft: false
 We are proud to present the release of `tea` version 0.8.0,
 a CLI tool that allows you to work with pull requests, issues and more in your terminal.
 
-You can download prebuilt binaries from [dl.gitea.io/tea](https://dl.gitea.io/tea/0.8.0),
+You can download prebuilt binaries from [dl.gitea.io/tea](https://dl.gitea.com/tea/0.8.0),
 for more options look at the [README.md](https://gitea.com/gitea/tea#installation).
 
 <!--more-->

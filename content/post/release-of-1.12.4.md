@@ -15,7 +15,7 @@ We have merged [24](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%
 
 We would like to give a special thanks to Jeffrey C. Ollie ([@jcollie](https://github.com/jcollie)), Osama Hamad ([@osamahamad](https://github.com/osamahamad)) and [RedTeam Pentesting GmbH](https://www.redteam-pentesting.de/) for reporting security issues that have been patched in this release.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.12.4/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.12.4/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 
 

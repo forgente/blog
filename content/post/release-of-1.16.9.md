@@ -19,7 +19,7 @@ We would like to thank [usd AG](https://herolab.usd.de/en/security-advisories/) 
 
 We would also like to thank [@Gusted](https://codeberg.org/Gusted) for the other security patch in this release.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.16.9/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.16.9/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.

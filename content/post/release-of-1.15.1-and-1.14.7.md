@@ -13,7 +13,7 @@ We highly encourage users on versions v1.14.3-v1.14.7 to update to v1.14.7 befor
 
 We have merged [26](https://github.com/go-gitea/gitea/pulls?q=is:pr+milestone:1.15.1+is:merged) pull requests to release version 1.15.1 and [6](https://github.com/go-gitea/gitea/pulls?q=is:pr+milestone:1.14.7+is:merged) pull requests to release version 1.14.7.
 
-You can download one of our pre-built binaries for 1.15.1 from our [downloads page](https://dl.gitea.io/gitea/1.15.1/) ([1.14.7](https://dl.gitea.io/gitea/1.14.7/)) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries for 1.15.1 from our [downloads page](https://dl.gitea.com/gitea/1.15.1/) ([1.14.7](https://dl.gitea.com/gitea/1.14.7/)) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.
 

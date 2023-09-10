@@ -16,6 +16,6 @@ To show you how quick it is to install Gitea using our helm chart is, here is a 
 
 First you'll need to [install KinD](https://github.com/kubernetes-sigs/kind#installation-and-usage), and create a cluster with it using `kind create cluster` and tell your local tools where they can get the configuration to connect to your newly created cluster using `export KUBECONFIG="$(kind get kubeconfig-path --name="kind")` 
 
-Now that your cluster has been created, you'll need to tell helm where it can look for the helm chart using `helm repo add gitea-charts https://dl.gitea.io/charts/` and to ensure that helm has the latest updates you can have it pull down the latest repo changes with `helm repo update`.
+Now that your cluster has been created, you'll need to tell helm where it can look for the helm chart using `helm repo add gitea-charts https://dl.gitea.com/charts/` and to ensure that helm has the latest updates you can have it pull down the latest repo changes with `helm repo update`.
 
 Finally, you can install Gitea using the default configuration with `helm install gitea gitea-charts/gitea`. There are many [configuration options](https://gitea.com/gitea/helm-chart/#configuration) available including setting up an ingress, using an external database, and much more!

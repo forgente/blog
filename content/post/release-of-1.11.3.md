@@ -10,8 +10,8 @@ coverImageRelease: "1.10.6/1.11.3"
 We are proud to present the releases of Gitea versions 1.11.3 and 1.10.6.
 
 These are maintenance releases, and replace their respective previous patch versions due to a few mishaps that occurred during their release.
-Our current latest release is now Gitea [1.11.3](https://dl.gitea.io/gitea/1.11.3/), but if you are running Gitea 1.10 and don't wish to upgrade
-to our 1.11 branch yet, please update your system to [1.10.6](https://dl.gitea.io/gitea/1.10.6/), the latest of the 1.10 branch.
+Our current latest release is now Gitea [1.11.3](https://dl.gitea.com/gitea/1.11.3/), but if you are running Gitea 1.10 and don't wish to upgrade
+to our 1.11 branch yet, please update your system to [1.10.6](https://dl.gitea.com/gitea/1.10.6/), the latest of the 1.10 branch.
 
 Full disclosure, the following problems affected our recent releases:
 
@@ -22,7 +22,7 @@ When upgrading, please skip any intermediate patch versions (e.g., **don't** go 
 
 In particular, **do not use** any of these versions, as a bug in the upgrade process will delete attachments from the releases on your repositories. The affected versions are: v1.10.0, v1.10.1, v1.10.2, v1.10.3, v1.10.4, v1.11.0, and v1.11.1. See [#10526](https://github.com/go-gitea/gitea/issues/10526) for more information.
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.11.3/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.11.3/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We would like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.
 

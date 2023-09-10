@@ -9,8 +9,8 @@ coverImageRelease: "1.7.3"
 
 We proudly present the minor release of Gitea version 1.7.3.
 We have merged 11 pull requests to release this version.
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.7.3/),
-you just need to select the correct platform. For further installation details, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.7.3/),
+you just need to select the correct platform. For further installation details, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 Another thank you goes to all of our supporters on [Open Collective](https://opencollective.com/gitea)
 who are also helping us with financial sustainment.

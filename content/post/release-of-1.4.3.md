@@ -10,8 +10,8 @@ coverImageRelease: "1.4.3"
 We proudly present the bugfix release of Gitea version 1.4.3. This release contains important
 security fixes so it is highly recommended to update to latest release.
 We have merged [9 pull requests](https://github.com/go-gitea/gitea/milestone/25?closed=1) to release this version.
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.4.3/), you just need to select the correct platform.
-For further details of the installation follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.4.3/), you just need to select the correct platform.
+For further details of the installation follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We would like to say special thanks to those who reported security issues fixed in this release.
 

@@ -18,7 +18,7 @@ We would like to give a special thanks to [E99p1ant](https://github.com/wuhan005
 and thanks to [@6543](https://gitea.com/6543) for submitting the security patch for this release.
 
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.16.7/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.16.7/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 
 We would also like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.

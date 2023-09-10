@@ -13,7 +13,7 @@ We have merged [11](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%
 
 **This release fixed go-get private repository bug with go1.13, so we highly recommend updating.**
 
-You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.io/gitea/1.9.3/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.io/en-us/install-from-binary/).
+You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.9.3/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
 
 We'd like to thank all of our supporters on [Open Collective](https://opencollective.com/gitea) who are helping to sustain us financially.
 
