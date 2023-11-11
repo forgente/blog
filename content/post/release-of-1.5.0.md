@@ -145,7 +145,7 @@ _Thanks to [**@JonasFranzDEV**](https://github.com/JonasFranzDEV)_
 * You can now sort repos in Explore and the admin panel by stars or forks.
   ([#3969](https://github.com/go-gitea/gitea/pull/3969))
 * If you use drone, there is now a handy plugin to create releases and
-  attachments: <http://plugins.drone.io/drone-plugins/drone-gitea-release/>
+  attachments: http://plugins.drone.io/drone-plugins/drone-gitea-release/
 * Starting from 1.5.0, we'll sign all our releases with our
   [GPG Key,](http://pool.sks-keyservers.net/pks/lookup?op=get&hash=on&fingerprint=on&search=0x2D9AE806EC1592E2)
   so you can be sure it's us.

@@ -41,7 +41,7 @@ We would also like to thank all of our supporters on [Open Collective](https://o
   * Fix context cache bug & enable context cache for dashabord commits' authors([#26991](https://github.com/go-gitea/gitea/pull/26991)) ([#27017](https://github.com/go-gitea/gitea/pull/27017))
   * Fix INI parsing for value with trailing slash ([#26995](https://github.com/go-gitea/gitea/pull/26995)) ([#27001](https://github.com/go-gitea/gitea/pull/27001))
   * Fix PushEvent NullPointerException jenkinsci/github-plugin ([#27203](https://github.com/go-gitea/gitea/pull/27203)) ([#27249](https://github.com/go-gitea/gitea/pull/27249))
-  * Fix organization field being null in POST /orgs/{orgid}/teams ([#27150](https://github.com/go-gitea/gitea/pull/27150)) (#27167 & [#27162](https://github.com/go-gitea/gitea/pull/27162))
+  * Fix organization field being null in POST `/orgs/{orgid}/teams` ([#27150](https://github.com/go-gitea/gitea/pull/27150)) (#27167 & [#27162](https://github.com/go-gitea/gitea/pull/27162))
   * Fix bug of review request number ([#27406](https://github.com/go-gitea/gitea/pull/27406)) ([#27104](https://github.com/go-gitea/gitea/pull/27104))
 * TESTING
   * services/wiki: Close() after error handling ([#27129](https://github.com/go-gitea/gitea/pull/27129)) ([#27137](https://github.com/go-gitea/gitea/pull/27137))

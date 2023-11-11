@@ -162,9 +162,8 @@ Gitea now supports the following package registries as well:
 - RPM ([#23380](https://github.com/go-gitea/gitea/pull/23380))
 - Swift ([#22404](https://github.com/go-gitea/gitea/pull/22404))
 
-So, 
-<details><summary>the complete list of supported package registries is now</summary>
-
+<details>
+<summary>The complete list of supported package registries is now</summary>
 |Name	|Language|	Package client|
 |-------|--------|----------------|
 |Alpine|-|`apk`|
@@ -188,7 +187,6 @@ So,
 |RubyGems|Ruby|`gem`, `Bundler`|
 |Swift|Swift|`swift`|
 |Vagrant|-|`vagrant`|
-
 </details>
 
 ### :rocket: Gitea Actions

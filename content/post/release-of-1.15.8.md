@@ -38,7 +38,7 @@ We would also like to thank all of our supporters on [Open Collective](https://o
 ## [1.15.8](https://github.com/go-gitea/gitea/releases/tag/v1.15.8) - 2021-12-20
 
 * BUGFIXES
-  * Move POST /{username}/action/{action} to simply POST /{username} ([#18045](https://github.com/go-gitea/gitea/pull/18045)) ([#18046](https://github.com/go-gitea/gitea/pull/18046))
+  * Move POST `/{username}/action/{action}` to simply POST `/{username}` ([#18045](https://github.com/go-gitea/gitea/pull/18045)) ([#18046](https://github.com/go-gitea/gitea/pull/18046))
   * Fix delete u2f keys bug ([#18040](https://github.com/go-gitea/gitea/pull/18040)) ([#18042](https://github.com/go-gitea/gitea/pull/18042))
   * Reset Session ID on login ([#18018](https://github.com/go-gitea/gitea/pull/18018)) ([#18041](https://github.com/go-gitea/gitea/pull/18041))
   * Prevent off-by-one error on comments on newly appended lines ([#18029](https://github.com/go-gitea/gitea/pull/18029)) ([#18035](https://github.com/go-gitea/gitea/pull/18035))

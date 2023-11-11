@@ -166,7 +166,7 @@ _Thanks to [**@sapk**](https://github.com/sapk)_
   * Get pull, return head branch sha, even if deleted ([#14931](https://github.com/go-gitea/gitea/pull/14931))
   * Export LFS & TimeTracking function status ([#14753](https://github.com/go-gitea/gitea/pull/14753))
   * Show Gitea version in swagger ([#14654](https://github.com/go-gitea/gitea/pull/14654))
-  * Fix PATCH /repos/{owner}/{repo} panic ([#14637](https://github.com/go-gitea/gitea/pull/14637))
+  * Fix PATCH `/repos/{owner}/{repo}` panic ([#14637](https://github.com/go-gitea/gitea/pull/14637))
   * Add Restricted Field to User ([#14630](https://github.com/go-gitea/gitea/pull/14630))
   * Add support for ref parameter to get raw file API ([#14602](https://github.com/go-gitea/gitea/pull/14602))
   * Add affected files of commits to commit struct ([#14579](https://github.com/go-gitea/gitea/pull/14579))

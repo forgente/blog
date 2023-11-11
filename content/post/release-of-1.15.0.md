@@ -401,7 +401,7 @@ _Thanks to [**@jpraet**](https://github.com/jpraet)_
   * Fix missing icons and colorpicker when mounted on suburl ([#15501](https://github.com/go-gitea/gitea/pull/15501))
   * Create a session on ReverseProxy and ensure that ReverseProxy users cannot change username ([#15304](https://github.com/go-gitea/gitea/pull/15304))
   * Prevent double-login for Git HTTP and LFS and simplify login ([#15303](https://github.com/go-gitea/gitea/pull/15303))
-  * Resolve Object { type: "error", data: undefined } in stopwatch.js ([#15278](https://github.com/go-gitea/gitea/pull/15278))
+  * Resolve Object `{ type: "error", data: undefined }` in stopwatch.js ([#15278](https://github.com/go-gitea/gitea/pull/15278))
   * Fix heatmap activity ([#15252](https://github.com/go-gitea/gitea/pull/15252))
   * Remove vendored copy of fomantic-dropdown ([#15193](https://github.com/go-gitea/gitea/pull/15193))
   * Update repository size on cron gc task ([#15177](https://github.com/go-gitea/gitea/pull/15177))

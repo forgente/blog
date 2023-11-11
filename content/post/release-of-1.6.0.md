@@ -86,7 +86,7 @@ _Thanks to [**@adelowo**](https://github.com/adelowo)_
 
 It is now possibe to enable automatic Let's Encrypt certificates for easier HTTPS configuration.
 
-_Thanks to [**@Fluf**](fluf@warpmail.net)_
+_Thanks to **@Fluf**_
 
 ## Add push webhook support for mirrored repositories ([#4127](https://github.com/go-gitea/gitea/pull/4127))
 
@@ -100,7 +100,7 @@ _Thanks to [**@lafriks**](https://github.com/lafriks)_
 
 You can enable recaptcha when registering in Gitea.
 
-_Thanks to [**@Fluf**](fluf@warpmail.net)_
+_Thanks to **@Fluf**_
 
 ## Other changes
 
@@ -210,7 +210,7 @@ _Thanks to [**@Fluf**](fluf@warpmail.net)_
   * Add missing History link to directory listings v2 (#4829)
   * Locale for Edit and Remove due date issue (#4802)
   * Disable 'May Import Local Repository' when is disabled by setting (Is… (#4780)
-  * API /admin/users/{username} missing parameter (#4775)
+  * API `/admin/users/{username}` missing parameter (#4775)
   * Display error when adding a user to a team twice (#4746)
   * Remove UsePrivilegeSeparation from the Docker sshd_config, see #2876 (#4722)
   * Focus title input when clicking helper link (#4696)

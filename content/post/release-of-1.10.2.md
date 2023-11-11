@@ -29,7 +29,7 @@ We would also like to thank all of our supporters on [Open Collective](https://o
   * Fix deleted branch not removed when pushing the branch again ([#9516](https://github.com/go-gitea/gitea/pull/9516)) ([#9524](https://github.com/go-gitea/gitea/pull/9524))
   * Fix missing repository status when migrating repository via API ([#9511](https://github.com/go-gitea/gitea/pull/9511))
   * Trigger webhook when deleting a branch after merging a PR ([#9510](https://github.com/go-gitea/gitea/pull/9510))
-  * Fix pagination on /repos/{owner}/{repo}/git/trees/{sha} API endpoint ([#9482](https://github.com/go-gitea/gitea/pull/9482))
+  * Fix pagination on `/repos/{owner}/{repo}/git/trees/{sha}` API endpoint ([#9482](https://github.com/go-gitea/gitea/pull/9482))
   * Fix NewCommitStatus ([#9434](https://github.com/go-gitea/gitea/pull/9434)) ([#9435](https://github.com/go-gitea/gitea/pull/9435))
   * Use OriginalURL instead of CloneAddr in migration logging ([#9418](https://github.com/go-gitea/gitea/pull/9418)) ([#9420](https://github.com/go-gitea/gitea/pull/9420))
   * Fix Slack webhook payload title generation to work with Mattermost ([#9404](https://github.com/go-gitea/gitea/pull/9404))

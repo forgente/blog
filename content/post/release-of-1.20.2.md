@@ -37,7 +37,7 @@ We recommend that you upgrade. However, the Golang team has already pre-announce
   * Avoid writing config file if not installed ([#26107](https://github.com/go-gitea/gitea/pull/26107)) ([#26113](https://github.com/go-gitea/gitea/pull/26113))
   * Fix escape problems in the branch selector ([#25875](https://github.com/go-gitea/gitea/pull/25875)) ([#26103](https://github.com/go-gitea/gitea/pull/26103))
   * Fix handling of Debian files with trailing slash ([#26087](https://github.com/go-gitea/gitea/pull/26087)) ([#26098](https://github.com/go-gitea/gitea/pull/26098))
-  * Fix Missing 404 swagger response docs for /admin/users/{username} ([#26086](https://github.com/go-gitea/gitea/pull/26086)) ([#26089](https://github.com/go-gitea/gitea/pull/26089))
+  * Fix Missing 404 swagger response docs for `/admin/users/{username}` ([#26086](https://github.com/go-gitea/gitea/pull/26086)) ([#26089](https://github.com/go-gitea/gitea/pull/26089))
   * Use stderr as fallback if the log file can't be opened ([#26074](https://github.com/go-gitea/gitea/pull/26074)) ([#26083](https://github.com/go-gitea/gitea/pull/26083))
   * Fix wrong workflow status when rerun a job in an already finished workflow ([#26119](https://github.com/go-gitea/gitea/pull/26119)) ([#26124](https://github.com/go-gitea/gitea/pull/26124))
   * Fix duplicated url prefix on issue context menu ([#26066](https://github.com/go-gitea/gitea/pull/26066)) ([#26067](https://github.com/go-gitea/gitea/pull/26067))

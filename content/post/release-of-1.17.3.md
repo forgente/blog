@@ -40,7 +40,7 @@ We would also like to thank all of our supporters on [Open Collective](https://o
   * Make the vscode clone link respect transport protocol ([#20557](https://github.com/go-gitea/gitea/pull/20557)) ([#21128](https://github.com/go-gitea/gitea/pull/21128))
 * BUGFIXES
   * Do DB update after merge in hammer context ([#21401](https://github.com/go-gitea/gitea/pull/21401)) ([#21416](https://github.com/go-gitea/gitea/pull/21416))
-  * Add Num{Issues,Pulls} stats checks ([#21404](https://github.com/go-gitea/gitea/pull/21404)) ([#21414](https://github.com/go-gitea/gitea/pull/21414))
+  * Add `Num{Issues,Pulls}` stats checks ([#21404](https://github.com/go-gitea/gitea/pull/21404)) ([#21414](https://github.com/go-gitea/gitea/pull/21414))
   * Stop logging CheckPath returns error: context canceled ([#21064](https://github.com/go-gitea/gitea/pull/21064)) ([#21405](https://github.com/go-gitea/gitea/pull/21405))
   * Parse OAuth Authorization header when request omits client secret ([#21351](https://github.com/go-gitea/gitea/pull/21351)) ([#21374](https://github.com/go-gitea/gitea/pull/21374))
   * Ignore port for loopback redirect URIs ([#21293](https://github.com/go-gitea/gitea/pull/21293)) ([#21373](https://github.com/go-gitea/gitea/pull/21373))

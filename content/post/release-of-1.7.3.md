@@ -21,7 +21,7 @@ who are also helping us with financial sustainment.
 
 * BUGFIXES
   * Fix server 500 when trying to migrate to an already existing repository ([#6188](https://github.com/go-gitea/gitea/pull/6188)) ([#6197](https://github.com/go-gitea/gitea/pull/6197))
-  * Load Issue attributes for API /repos/{owner}/{repo}/issues/{index} ([#6122](https://github.com/go-gitea/gitea/pull/6122)) ([#6185](https://github.com/go-gitea/gitea/pull/6185))
+  * Load Issue attributes for API `/repos/{owner}/{repo}/issues/{index}` ([#6122](https://github.com/go-gitea/gitea/pull/6122)) ([#6185](https://github.com/go-gitea/gitea/pull/6185))
   * Fix bug whereby user could change private repository to public when force private enabled. ([#6156](https://github.com/go-gitea/gitea/pull/6156)) ([#6165](https://github.com/go-gitea/gitea/pull/6165))
   * Fix bug when update owner team then visit team's repo return 404 ([#6119](https://github.com/go-gitea/gitea/pull/6119)) ([#6166](https://github.com/go-gitea/gitea/pull/6166))
   * Fix heatmap and repository menu display in Internet Explorer 9+ ([#6117](https://github.com/go-gitea/gitea/pull/6117)) ([#6137](https://github.com/go-gitea/gitea/pull/6137))

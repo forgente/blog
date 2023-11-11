@@ -55,8 +55,6 @@ After two years of research and discussion, development task of Gitea's built-in
 
 ### Implement
 
-> <https://github.com/go-gitea/gitea/issues/13539>
-
 Gitea Actions implements a built-in CI/CD system framework, compatible with GitHub Actions' YAML workflow format, and compatible with most existing Actions plugins in GitHub Marketplace.
 
 The system has three parts:
@@ -135,8 +133,8 @@ Then register the Runner to the Gitea server.
 
 And you will be asked to input:
 
-- Gitea instance URL, like <http://192.168.1.100:3000/>. You should use your gitea instance ROOT_URL as the instance argument and you should not use localhost or 127.0.0.1 as instance IP;
-- Runner token, you can get it from <http://192.168.1.100:3000/admin/runners>;
+- Gitea instance URL, like `http://192.168.1.100:3000/`. You should use your gitea instance ROOT_URL as the instance argument and you should not use localhost or 127.0.0.1 as instance IP;
+- Runner token, you can get it from `http://192.168.1.100:3000/admin/runners`;
 - Runner name, you can just leave it blank;
 - Runner labels, you can just leave it blank.
 
