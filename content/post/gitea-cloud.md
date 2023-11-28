@@ -14,7 +14,7 @@ Gitea Cloud is a service designed for enterprise organizations to set up and run
 
 ![Screenshot of gitea cloud instance management dashboard showing details of subscription, and resources used by instance](/demos/gitea-cloud/screenshot.png)
 
-Gitea Cloud is offered by "CommitGo, Inc.", a Delaware company founded by members of Gitea's Technical Oversight Committee to offer services, support, and training to companies and others using Gitea.
+Gitea Cloud is offered by "CommitGo, Inc.", a Delaware company which is behind Gitea to offer services, support, and training to companies and others using Gitea.
 
 ### What can Gitea Cloud bring to you?
 
