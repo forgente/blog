@@ -234,6 +234,11 @@ const config = {
             position: 'left',
           },
           {
+            href: 'https://docs.gitea.com/enterprise',
+            label: 'Enterprise',
+            position: 'left',
+          },
+          {
             type: 'search',
             position: 'right',
           },
