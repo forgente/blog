@@ -54,4 +54,16 @@ Functionality previously commissioned for development by customers may include i
 
 It won't. The Gitea project has a robust governance charter to ensure that the project is self-sufficient, and this does not propose any changes to it. Each subscription includes a support contract to ensure that reports or support requests do not overwhelm the community tracker.
 
+- Why is this a paid offering?
+
+The open-source Gitea project can be found for no cost, and provides pre-built binaries you can use with community provided support.
+
+CommitGo is fortunate that there are customers who commision custom functionality, allow us to license code as MIT, and also submit it to the Gitea project.
+
+Many features, and enhancements are prevented from being built for the Gitea project due to high upfront costs, and lack of resources to maintain them. This leads to them not being developed or accepted into the project. With this offering, CommitGo is able to provide a version to paying customers with a support contract, and allowing us to develop and maintain these features to contribute to the Gitea project.
+
+This model has already allowed us to contribute and maintain several features in the Gitea project, including Gitea Actions, which was dogfooded and provided to customers while it awaited review of inclusion in the Gitea project itself.
+
+Features, and enhancements commisioned by customers, may include knowledge of internal company information or trade secrets, and so they require analysis to ensure that no sesitive information is included prior to submission of functionality to the Gitea project.
+
 Thank you for being part of the Gitea journey. We look forward to serving you even more to ensure your success.
