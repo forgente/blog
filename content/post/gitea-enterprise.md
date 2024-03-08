@@ -9,7 +9,7 @@ tags: ["announcement"]
 coverImage: /demos/gitea-enterprise/cover.png
 ---
 
-CommitGo, a company founded by members of the Gitea Technical Oversight Committee, is happy to announce the release of Gitea Enterprise.
+CommitGo, the company which is behind Gitea, is happy to announce the release of Gitea Enterprise.
 
 Gitea Enterprise is a premium offering designed to take your collaboration and code management to new heights.
 
