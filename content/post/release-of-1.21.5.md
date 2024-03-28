@@ -23,7 +23,7 @@ We would also like to thank all of our supporters on [Open Collective](https://o
 
 ## Changelog
 
-## [1.21.5](https://github.com/go-gitea/gitea/releases/tag/1.21.5) - 2024-01-31
+## [1.21.5](https://github.com/go-gitea/gitea/releases/tag/v1.21.5) - 2024-01-31
 
 * SECURITY
   * Prevent anonymous container access if `RequireSignInView` is enabled ([#28877](https://github.com/go-gitea/gitea/pull/28877)) ([#28882](https://github.com/go-gitea/gitea/pull/28882))

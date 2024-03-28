@@ -23,7 +23,7 @@ We would also like to thank all of our supporters on [Open Collective](https://o
 
 ## Changelog
 
-## [1.21.3](https://github.com/go-gitea/gitea/releases/tag/1.21.3) - 2023-12-21
+## [1.21.3](https://github.com/go-gitea/gitea/releases/tag/v1.21.3) - 2023-12-21
 
 * SECURITY
   * Update golang.org/x/crypto ([#28519](https://github.com/go-gitea/gitea/pull/28519))

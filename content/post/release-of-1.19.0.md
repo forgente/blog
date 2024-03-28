@@ -258,7 +258,7 @@ Lastly, we also want to thank all the maintainers of Gitea who support the commu
 
 ## Changelog
 
-### [1.19.0](https://github.com/go-gitea/gitea/releases/tag/1.19.0) - 2023-03-19
+### [1.19.0](https://github.com/go-gitea/gitea/releases/tag/v1.19.0) - 2023-03-19
 
 * BREAKING
   * Add loading yaml label template files (#22976) (#23232)

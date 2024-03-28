@@ -24,7 +24,7 @@ We would also like to thank all of our supporters on [Open Collective](https://o
 
 ## Changelog
 
-## [1.21.2](https://github.com/go-gitea/gitea/releases/tag/1.21.2) - 2023-12-12
+## [1.21.2](https://github.com/go-gitea/gitea/releases/tag/v1.21.2) - 2023-12-12
 
 * SECURITY
   * Rebuild with recently released golang version
