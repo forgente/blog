@@ -5,7 +5,7 @@ authors:
 title: "1.21.8/9/10 are released"
 tags: ["release"]
 draft: false
-coverImageRelease: "1.21.8/9/10"
+coverImageRelease: "1.21.10"
 ---
 
 Gitea 1.21.10 is now released. 1.21.10 includs [8](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.21.10+is%3Amerged) merged PRs. You are highly recommanded to upgrade to this version ASAP. This is also include the bug fixes in 1.21.8 and 1.21.9 which weren't announcemented. 1.21.8 includes [50](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.21.8+is%3Amerged) merged PRs and 1.21.9 includes [33](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.21.9+is%3Amerged) merged PRs
