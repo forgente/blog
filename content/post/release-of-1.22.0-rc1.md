@@ -5,6 +5,7 @@ authors:
 title: "Gitea 1.22.0 Release Candidate"
 tags: ["release"]
 draft: false
+coverImageRelease: 1.22.0-rc1
 ---
 
 We are very excited to release the second release candidate (RC) of Gitea 1.22! Gitea 1.22 is packed with new features and improvements. Getting the RC (release candidate) allows you to experiment with it early, try it on your workloads, and report any issues before the final release. Here are some notable changes and features in Gitea 1.22; for the full list, refer to the full release notes.

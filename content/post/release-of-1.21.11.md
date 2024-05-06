@@ -5,6 +5,7 @@ authors:
 title: "Gitea 1.21.11 is released"
 tags: ["release"]
 draft: false
+coverImageRelease: 1.21.11
 ---
 
 We are proud to present the release of Gitea version 1.21.11.
