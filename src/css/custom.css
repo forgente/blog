@@ -145,6 +145,10 @@
   border-color: var(--bs-btn-hover-border-color);
 }
 
+img {
+  border-radius: var(--ifm-global-border-radius);
+}
+
 @media (max-width: 996px) {
   .navbar__item.signin-button {
     display: none;
