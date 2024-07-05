@@ -358,6 +358,10 @@ Now you can use the actions [`actions/upload-artifact@v4`](https://github.com/ac
 
 Thank you to [**@ChristopherHX**](https://github.com/ChristopherHX) for contributing this new protocol implementation.
 
+::: warning
+The feature needs patched `actions/upload-artifact@v4` / `actions/download-artifact@v4`, like `christopherhx/gitea-upload-artifact@v4` and `christopherhx/gitea-download-artifact@v4`, to not return errors due to GHES not beeing supported yet.
+:::
+
 ### :rocket: Artifact deletion in actions ui ([#27172](https://github.com/go-gitea/gitea/pull/27172))
 
 Now you can delete artifacts from the UI.
