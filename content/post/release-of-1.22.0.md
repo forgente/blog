@@ -15,7 +15,7 @@ We are thrilled to announce the latest release of Gitea **v1.22.0**.
 
 This release stands as a monumental milestone in our development journey with a record-breaking incorporation of [1481](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.22.0+is%3Amerged) pull requests. It marks the most extensive update in Gitea's history, showcasing a plethora of new features and infrastructure improvements.
 
-Noteworthy advancements in this release include the introduction of `HTMX` and `Tailwind`, signaling a strategic shift as we gradually phase out `jquery` and `Fomantic UI`. These changes reflect our commitment to embracing modern technologies and enhancing the user experience. Especially thanks to [**@silverwind**](https://github.com/silverwind) and [**@yardenshoham**](https://github.com/yardenshoham) for their contributions on this work.
+Noteworthy advancements in this release include the introduction of `HTMX` and `Tailwind`, signaling a strategic shift as we gradually phase out `jquery` and `Fomantic UI`. These changes reflect our commitment to embracing modern technologies and enhancing the user experience. Especially thanks to [**@silverwind**](https://github.com/silverwind) and [**@yardenshoham**](https://github.com/yardenshoham) for their contributions to this work.
 
 <!-- Security Thanks! -->
 
@@ -31,7 +31,7 @@ As always, the changes are sorted descending by what we deem most important for 
 
 ### :warning: Increased DB requirements ([#27337](https://github.com/go-gitea/gitea/pull/27337))
 
-Gitea only officially supports DBs that have not reached EOL. There are many database versions end of life.
+Gitea only officially supports DBs that have not reached EOL. There are many database versions that have reached End of Life.
 
 * Ref: [https://endoflife.date/mysql](https://endoflife.date/mysql)
 * Ref: [https://endoflife.date/postgresql](https://endoflife.date/postgresql)
@@ -55,7 +55,7 @@ If you have to use an unsupported database version, please [get in touch with us
 
 `MySQL` (including `MariaDB`) and `MSSQL` create databases **case-insensitively** by default, meaning for example that `gitea` is equal to `GITea`.
 
-Historically, this lead to many bugreports of functionality behaving unexpectedly, i.e. branches not being able to be inserted because a new branch only differed in casing compared to an existing branch.
+Historically, this led to many bug reports of functionality behaving unexpectedly, i.e. branches not being able to be inserted because a new branch only differed in casing compared to an existing branch.
 Gitea was never intended to be used in a case-insensitive DB.
 
 Now, Gitea will explicitly warn you if it detects being run in a case-insensitive DB.
@@ -67,12 +67,12 @@ If you haven't done so already, please convert your DB to a case-sensitive one.
 
 ### :warning: Breaking summary for template refactoring ([#29395](https://github.com/go-gitea/gitea/pull/29395))
 
-The template system have been refactored, some template functions maybe changed or removed.
+The template system has been refactored, and some template functions may have been changed or removed.
 
 * `Safe` is renamed to `SafeHTML`, and in most cases it shouldn't be used.
 * `Escape` is renamed to `HTMLEscape`, and in most cases it shouldn't be used. The template should escape most variables automatically.
 * `Str2html` is renamed to `SanitizeHTML`, only use it when necessary, it only "sanitizes" the input by pre-defined rules, but it doesn't "render" or "convert" the content.
-* Use `HTMLFormat` instead of `printf` when processing HTML related contents.
+* Use `HTMLFormat` instead of `printf` when processing HTML-related contents.
 
 :::warning
 If you use custom templates (either for the UI or for emails), please read through [#29395](https://github.com/go-gitea/gitea/pull/29395) to ensure your custom templates will work again.
@@ -136,8 +136,8 @@ Now, you can only use basic markdown features such as **bold**, *italic*, or `hi
 
 There were two minor breaking changes to the API in this release:
 
-* Previously, the push mirror API returned timestamps in an incorrect format. This has now been updated to behave exactly like any other timestamp
-* The already deprecated (and due to a bug unusable) pagination parameter `per_page` has been removed from the `list releases` endpoint. Instead, you should use the `limit` parameter.
+* Previously, the push mirror API returned timestamps in an incorrect format. This has now been updated to behave exactly like any other timestamp.
+* The already deprecated (and due to a bug, unusable) pagination parameter `per_page` has been removed from the `list releases` endpoint. Instead, you should use the `limit` parameter.
 
 ### :warning: Login is now remembered for a month by default ([#30150](https://github.com/go-gitea/gitea/pull/30150))
 
@@ -163,12 +163,12 @@ Some settings are no longer used. If you previously set any of them, you can now
 * ~~`[cache.last_commit].ENABLED`~~
 
 :::warning
-Caches now are enabled by default and cannot be disalbed. The default adapter is `memory` you can change it to `redis` and etc. More details are in https://docs.gitea.com/administration/config-cheat-sheet#cache-cache
+Caches are now enabled by default and cannot be disabled. The default adapter is `memory`, you can change it to `redis`, etc. More details are in https://docs.gitea.com/administration/config-cheat-sheet#cache-cache
 :::
 
 ### :warning: Support storage base path as prefix ([#27827](https://github.com/go-gitea/gitea/pull/27827))
 
-This PR will affect all configurations having `base_path` on `storage` section but having no `base_path` on derived storage configuration sections. The `base_path` on `[storage]` will become a prefix for them but not share the same `base_path`.
+This PR will affect all configurations having `base_path` in the `storage` section but no `base_path` in the derived storage configuration sections. The `base_path` on `[storage]` will become a prefix for them but will not share the same `base_path`.
 
 ```ini title="app.ini"
 [storage]
@@ -181,7 +181,7 @@ base_path = xxx
 
 The default value of `[server].OFFLINE_MODE` has been changed to `true`, so Gitea will not allow Gravatar queries by default.
 
-However, most existing instances won't be affected by this as this setting is only used as the **default value** for the Gravatar settings, not the actual value.
+However, most existing instances won't be affected by this, as this setting is only used as the **default value** for the Gravatar settings, not the actual value.
 
 Additionally, it is saved into the config when you install Gitea.
 
@@ -195,7 +195,7 @@ Instead of the previous green-gray mix, it is now a more blue-black mix.
 
 ![new repo layout](/demos/29283/1.png)
 
-We hope you like the new design even though it is completely different from the previous experience.
+We hope you like the new design, even though it is completely different from the previous experience.
 
 Gitea also introduced initial support for colorblindness-friendly themes. Now, users are able to select an alternative theme, which would be easier for them to use should they need the different themes.
 
@@ -227,11 +227,11 @@ Both that **this decision is irreversible** once the repo has been created and t
 :::
 
 :::warning
-Additionally note that the Gitea `GoGit` version does not support SHA256.
+Additionally, note that the Gitea `GoGit` version does not support SHA256.
 :::
 
 Why would you want to use a `SHA256` repo nonetheless?
-`SHA1`, the predecessor of and only competitor to `SHA256` for git, is outdated by now, and no longer considered safe while `SHA256` is not yet known to be unsafe.
+`SHA1`, the predecessor of and only competitor to `SHA256` for git, is outdated by now and no longer considered safe, while `SHA256` is not yet known to be unsafe.
 
 :::success
 Fun Fact: As far as we know at the time of writing, Gitea is the first hoster that allows for storing SHA256 repos.
@@ -241,11 +241,11 @@ Fun Fact: As far as we know at the time of writing, Gitea is the first hoster th
 
 Thank you to [**@AdamMajer**](https://github.com/AdamMajer) for their work in contributing this functionality.
 
-### :rocket: Put an edit file button on pull request files to allow a quick online operation ([#29697](https://github.com/go-gitea/gitea/pull/29697))
+### :rocket: Put an Edit File button on Pull Request files to allow a quick online operation ([#29697](https://github.com/go-gitea/gitea/pull/29697))
 
-This PR put an edit file button on pull request files to allow a quick edit for a file in the pull request. After the edit finished, it will return back to the viewed file position on pull request files tab.
+This PR put an `Edit File` button on pull request files to allow a quick edit for a file in the pull request. After the edit is finished, it will return to the viewed file position on the pull request files tab.
 
-It also use a branch view file link instead of commit link when it's a non-commit pull request files view.
+It also uses a branch view file link instead of a commit link when it's a non-commit pull request files view.
 
 ![allow quick online operation](/demos/29697/1.png)
 
@@ -255,7 +255,7 @@ Thank you to [**@lunny**](https://github.com/lunny) for contributing this enhanc
 
 Now you can set the wiki as public for a **private/limit** repository.
 
-This is very useful for those repositories would like to keep communication with users but keep code private. And you don't need another place to write your wiki. The public users can be allowed to **read** or **write** the wiki which depends on wiki part in repository setting.
+This is very useful for those repositories that would like to keep communication with users but keep code private. And you don't need another place to write your wiki. The public users can be allowed to **read** or **write** the wiki, which depends on the wiki part in the repository setting.
 
 Thank you to [**@wxiaoguang**](https://github.com/wxiaoguang) for contributing this PR.
 
@@ -314,35 +314,35 @@ Thank you to [**@wxiaoguang**](https://github.com/wxiaoguang) for contributing t
 ### :rocket: Better repo statistics ([#27882](https://github.com/go-gitea/gitea/pull/27882), [#29191](https://github.com/go-gitea/gitea/pull/29191), [#29210](https://github.com/go-gitea/gitea/pull/29210))
 
 After many years, Gitea has finally gotten a decent `Activity` tab for repos.
-This includes the following.
+This includes the following:
 
-* An overview which persons contributed how much to a repo
+* An overview of which persons contributed how much to a repo
 
 ![commit graph screenshot](/demos/27882/1.png)
 
-* An overview when a project was how active, both in terms of when how much code was changed
+* An overview of when a project was how active, both in terms of when and how much code was changed
 
 ![code frequency screenshot](/demos/29191/1.png)
 
-* As well as when how many commits were pushed
+* As well as when and how many commits were pushed
 
 ![recent commits screenshot](/demos/29210/1.png)
 
-Thank you to [**@sahinakkaya**](https://github.com/sahinakkaya) for contributing these brillient features.
+Thank you to [**@sahinakkaya**](https://github.com/sahinakkaya) for contributing these brilliant features.
 
 ### :rocket: Add user blocking ([#29028](https://github.com/go-gitea/gitea/pull/29028))
 
-Adds the abbility to block a user from a personal account or organization to restrict how the blocked user can interact with the blocker.
+Adds the ability to block a user from a personal account or organization to restrict how the blocked user can interact with the blocker.
 
-* You can block user in the profile page:
+* You can block a user from their profile page:
 
 ![block user in profile](/demos/29028/block-user.png)
 
-* You can also block user in an issue or pull request:
+* You can also block a user from an issue or pull request:
 
 ![menu](/demos/29028/menu.png)
 
-* You can check the block user list in user settings:
+* You can check the blocked users list in user settings:
 
 ![user settings](/demos/29028/user-settings.png)
 
@@ -350,7 +350,7 @@ Thank you to [**@KN4CK3R**](https://github.com/KN4CK3R) for contributing this ne
 
 ## Actions Improvements
 
-Since v1.19, Gitea introduced Actions. It becomes more and more welcome. We are continuely improving Gitea Actions. In this release, you can now use the official runner images [runner-images](https://gitea.com/gitea/runner-images) and more features listed below.
+Since v1.19, Gitea has introduced Actions. It becomes more and more welcome. We are continuously improving Gitea Actions. In this release, you can now use the official runner images [runner-images](https://gitea.com/gitea/runner-images) and more features listed below.
 
 ### :rocket: Actions Artifacts v4 backend ([#28965](https://github.com/go-gitea/gitea/pull/28965))
 
@@ -359,10 +359,10 @@ Now you can use the actions [`actions/upload-artifact@v4`](https://github.com/ac
 Thank you to [**@ChristopherHX**](https://github.com/ChristopherHX) for contributing this new protocol implementation.
 
 ::: warning
-The feature needs patched `actions/upload-artifact@v4` / `actions/download-artifact@v4`, like `christopherhx/gitea-upload-artifact@v4` and `christopherhx/gitea-download-artifact@v4`, to not return errors due to GHES not beeing supported yet.
+The feature needs patched `actions/upload-artifact@v4` / `actions/download-artifact@v4`, like `christopherhx/gitea-upload-artifact@v4` and `christopherhx/gitea-download-artifact@v4`, to not return errors due to GHES not being supported yet.
 :::
 
-### :rocket: Artifact deletion in actions ui ([#27172](https://github.com/go-gitea/gitea/pull/27172))
+### :rocket: Artifact deletion in Actions UI ([#27172](https://github.com/go-gitea/gitea/pull/27172))
 
 Now you can delete artifacts from the UI.
 
@@ -370,7 +370,7 @@ Thank you to [**@fuxiaohei**](https://github.com/fuxiaohei) for contributing thi
 
 ![artifact deletion](/demos/27172/1.png)
 
-### :rocket: Implement actions badge svgs ([#28102](https://github.com/go-gitea/gitea/pull/28102))
+### :rocket: Implement actions badge SVGs ([#28102](https://github.com/go-gitea/gitea/pull/28102))
 
 If one repository enabled actions, now a url like `https://<GITEA_INSTANCE>/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg` can be used to display a badge to indicate the commit status of the default branch.
 
@@ -406,13 +406,13 @@ Thank you to [**@lunny**](https://github.com/lunny) for contributing this enhanc
 
 ### :rocket: Cancel previous actions runs of the same PR automatically ([#29961](https://github.com/go-gitea/gitea/pull/29961))
 
-This will cancel previous runs for `pull_request_sync` events so when a new push to the pull request, previous runs will be cancelled automatically.
+This will cancel previous runs for `pull_request_sync` events, so when a new push is made to the pull request, previous runs will be cancelled automatically.
 
 Thank you to [**@wolfogre**](https://github.com/wolfogre) for contributing this enhancement.
 
 ### :rocket: Support instance-level actions variables ([#28115](https://github.com/go-gitea/gitea/pull/28115))
 
-Now you can define instance level variables so that every `orgnization`, `repository` can reuse them. The repository level same name variables will override orgnization level variables and orgnization level variables will overiride instance level variables.
+Now you can define instance-level variables so that every `organization` and `repository` can reuse them. The repository-level same-name variables will override organization-level variables, and organization-level variables will override instance-level variables.
 
 ![instance variables](/demos/28115/1.png)
 
@@ -430,7 +430,7 @@ A new option
 USER_DISABLED_FEATURES =
 ```
 
-has been added to `app.ini` to allow the site administrator to disable users visiting deletion user interface or allow. Now 3 values can be used.
+has been added to `app.ini` to allow the site administrator to deny certain user actions. Three values can be used:
 
 * `deletion`: User cannot delete their own account.
 * `manage_ssh_keys`: User cannot configure ssh keys.
@@ -440,7 +440,7 @@ Thank you to [**@lunny**](https://github.com/lunny) for contributing these featu
 
 ### :rocket: Allow to sync tags from admin dashboard ([#28045](https://github.com/go-gitea/gitea/pull/28045))
 
-Now you can manually run a task to keep the consistent of git tags between git data and database.
+Now you can manually run a task to keep the consistency of git tags between git data and database.
 
 Thank you to [**@JakobDev**](https://github.com/JakobDev) for contributing this enhancement.
 
@@ -464,7 +464,7 @@ Thank you to [**@yardenshoham**](https://github.com/yardenshoham) for contributi
 
 ### :rocket: Add admin API route for managing user's badges ([#23106](https://github.com/go-gitea/gitea/pull/23106))
 
-Administration API can now mange user's badges.
+Administration API can now manage user's badges.
 
 Thank you to [**@techknowlogick**](https://github.com/techknowlogick) for contributing this API enhancement.
 
@@ -472,33 +472,33 @@ Thank you to [**@techknowlogick**](https://github.com/techknowlogick) for contri
 
 ### :rocket: The loading performance of commit status from repository's default branch ([#29444](https://github.com/go-gitea/gitea/pull/29444), [#30223](https://github.com/go-gitea/gitea/pull/30223), [#30700](https://github.com/go-gitea/gitea/pull/30700))
 
-Now the commit status of a repository's default branch in repositories list will be very fast even in a public busy site.
+Now the commit status of a repository's default branch in the repositories list will be very fast, even on a busy public site.
 
-Thank you to [**@lunny**](https://github.com/lunny) for contributing these optimization work.
+Thank you to [**@lunny**](https://github.com/lunny) for contributing this optimization work.
 
-### :rocket: The branch list page divergence loading improvements for those repositories with over thousands branches ([#29577](https://github.com/go-gitea/gitea/pull/29577))
+### :rocket: The branch list page divergence loading improvements for those repositories with over thousands of branches ([#29577](https://github.com/go-gitea/gitea/pull/29577))
 
-Previously, the branch list page on a repository which have many branches will take seconds. Now it should be under 200ms.
+Previously, the branch list page on a repository that has many branches would take seconds. Now it should be under 200ms.
 
-Thank you to [**@lunny**](https://github.com/lunny) for contributing these optimization work.
+Thank you to [**@lunny**](https://github.com/lunny) for contributing this optimization work.
 
 ### :rocket: The issues and pulls page loading performance ([#29900](https://github.com/go-gitea/gitea/pull/29900), [#29515](https://github.com/go-gitea/gitea/pull/29515))
 
 Use batch loading instead of loading one by one to improve the performance of issues/pulls list page.
 
-Thank you to [**@lunny**](https://github.com/lunny) for contributing these optimization work.
+Thank you to [**@lunny**](https://github.com/lunny) for contributing this optimization work.
 
 ### :rocket: Dashboard loading performance improvements ([#29010](https://github.com/go-gitea/gitea/pull/29010))
 
-Do some loading speed optimization for feeds user interface pages
+Do some loading speed optimization for feed user interface pages.
 
-Thank you to [**@lunny**](https://github.com/lunny) for contributing these optimization work.
+Thank you to [**@lunny**](https://github.com/lunny) for contributing this optimization work.
 
 ### :rocket: Improve package list performance ([#30520](https://github.com/go-gitea/gitea/pull/30520))
 
-Improve the performance issue when viewing all packages of an organisation.
+Improve the performance issue when viewing all packages of an organization.
 
-Thank you to [**@KN4CK3R**](https://github.com/KN4CK3R) for contributing these optimization work.
+Thank you to [**@KN4CK3R**](https://github.com/KN4CK3R) for contributing this optimization work.
 
 ## Changelog
 
