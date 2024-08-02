@@ -16,6 +16,8 @@ We have merged [80](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%
 
 <!-- Security Thanks! -->
 
+We would like to give a special thanks to [Catalin Iovita](https://github.com/catalin-iovita) and [Alexandru Postolache](https://github.com/alex-postolache) for reporting the security issue fixed by [https://github.com/go-gitea/gitea/pull/31200](https://github.com/go-gitea/gitea/pull/31200). Thanks to [@wxiaoguang](https://github.com/wxiaoguang) for fixing the problem.
+
 Thanks to the many people who have reported the "regreSSHion" CVE with OpenSSH sshd server to us. When it was announced we investigated and found that since we are using Alpine-based Docker images which use the musl implementation of libc we are not affected. The OpenSSH package will be updated to ensure that vulnerability scanners do not present false positives.
 
 You can download one of our pre-built binaries from our [downloads page](https://dl.gitea.com/gitea/1.22.1/) - make sure to select the correct platform! For further details on how to install, follow our [installation guide](https://docs.gitea.com/installation/install-from-binary).
