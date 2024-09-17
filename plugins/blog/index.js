@@ -16,7 +16,7 @@ async function blogPluginEnhanced(context, options) {
       const { actions, content } = contentLoadedArgs[0];
       const { setGlobalData } = actions;
       const { blogTags } = content;
-      setGlobalData({tags: blogTags});	
+      setGlobalData({tags: blogTags});
     }
   };
 }

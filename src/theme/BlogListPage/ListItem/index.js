@@ -7,7 +7,7 @@ import BlogPostCoverImage from "@theme/BlogReleaseCoverImage";
 
 export const ListItem = ({ content, belowFold }) => {
   const {metadata, frontMatter} = content;
-  const {tags, permalink, authors, title, formattedDate} = metadata;
+  const {tags, permalink, authors, title} = metadata;
   const tag = tags[0] ?? {};
   const imageUrl = frontMatter.coverImage ?? "/img/blog_placeholder.png";
   const postUrl = ensureTrailingSlash(permalink);
@@ -41,7 +41,7 @@ export const ListItem = ({ content, belowFold }) => {
         <div className={styles.authors}>
           by {authors.map((author, i) => (
             <a href={author.url} className={styles.author} key={i}>{author.name}</a>
-          ))} on {formattedDate}
+          ))} on {frontMatter.date.toLocaleDateString()}
         </div>
       </div>
     </div>
