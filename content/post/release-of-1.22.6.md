@@ -10,7 +10,7 @@ coverImageRelease: 1.22.6
 
 We are excited to announce the release of **Gitea version 1.22.6**.
 
-This is an urgent update because the security bug fixes in version 1.22.6, which only addressed the Golang crypto library upgrade, are not sufficient. We strongly recommend all users upgrade to the latest version as soon as possible to ensure full protection.
+This is an urgent update because the security bug fixes in version [1.22.5](https://blog.gitea.com/release-of-1.22.5) released yesterday, which only addressed the Golang crypto library upgrade, are not sufficient. We strongly recommend all users upgrade to the latest version as soon as possible to ensure full protection.
 
 To deliver this release, we have successfully merged [4 pull requests](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.22.6+is%3Amerged).
 
