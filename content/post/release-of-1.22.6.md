@@ -16,7 +16,7 @@ To deliver this release, we have successfully merged [4 pull requests](https://g
 
 <!-- Security Thanks! -->
 
-As mentioned, the security fixes in 1.22.6 is not enough. More context: Patching PublicKeyCallback for CVE-2024-45337  https://github.com/gliderlabs/ssh/issues/242 .
+As mentioned, the security fixes in 1.22.5 is not enough. More context: Patching PublicKeyCallback for CVE-2024-45337  https://github.com/gliderlabs/ssh/issues/242 .
 
 A special thanks to [@wxiaoguang](https://github.com/wxiaoguang) for their prompt efforts in addressing these issues and ensuring the security of Gitea users.
 
