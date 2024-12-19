@@ -32,6 +32,8 @@ This release incorporates all security fixes from v1.22, along with an additiona
 
 - Use UTC as default timezone when schedule Actions cron tasks ([#31742](https://github.com/go-gitea/gitea/pull/31742))
 
+- Administration URL changed from `/admin` to `/-/admin` to allow accounts named `admin`. ([#32189](https://github.com/go-gitea/gitea/pull/32189)) This maybe a break change for those instances which have customized site header.
+
 ## Major Highlights
 
 ### Code
