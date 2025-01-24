@@ -14,7 +14,7 @@ Due to the discovery of two critical bugs in v1.23.0, we promptly released v1.23
 
 This release stands as a monumental milestone in our development journey with a record-breaking incorporation of [878](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.23.0+is%3Amerged) pull requests. It marks the second most extensive update in Gitea's history, showcasing a plethora of new features and infrastructure improvements.
 
-Following v1.22.0, this release convert most frontend code from javascript to typescript, it also includes many refactors to phase out `jquery` and `Fomantic UI`. These changes reflect our commitment to embracing modern technologies and enhancing the user experience. Especially thanks to [**@wxiaoguang**](https://github.com/wxiaoguang), [**@silverwind**](https://github.com/silverwind) and [**@yardenshoham**](https://github.com/yardenshoham) for their contributions to this work.
+Following v1.22.0, this release converted most frontend code from javascript to typescript, it also includes many refactors to phase out `jquery` and `Fomantic UI`. These changes reflect our commitment to embracing modern technologies and enhancing the user experience. Especially thanks to [**@wxiaoguang**](https://github.com/wxiaoguang), [**@silverwind**](https://github.com/silverwind) and [**@yardenshoham**](https://github.com/yardenshoham) for their contributions to this work.
 
 <!-- Security Thanks! -->
 ## Security
@@ -77,7 +77,7 @@ Thank you to [**@yp05327**](https://github.com/yp05327) for contributing this fe
 
 The Clone Panel has been redesigned for improved usability, featuring a cleaner layout and better organization of clone options. This enhances user experience by making cloning repositories more intuitive and efficient.
 
-Thank you to [**@BlenderDefender**](https://github.com/yp05327) for contributing this feature.
+Thank you to [**@BlenderDefender**](https://github.com/BlenderDefender) for contributing this feature.
 
 ![Rearrange Clone Panel](/demos/31142/1.png)
 
@@ -294,7 +294,7 @@ Thank you to [**@lucasoethe**](https://github.com/lucasoethe) for contributing t
 
 ### :rocket: Introduce globallock as distributed locks ([#31908](https://github.com/go-gitea/gitea/pull/31908) & [#31813](https://github.com/go-gitea/gitea/pull/31813))
 
-A lock machism has been introduced to allow cluster mode locks.
+A lock mechanism has been introduced to allow cluster mode locks.
 
 Thank you to [**@lucasoethe**](https://github.com/lucasoethe) for contributing this feature.
 
@@ -327,7 +327,7 @@ Added an additional index to the notification table to speed up query performanc
 
 Thank you to [**@BoYanZh**](https://github.com/BoYanZh) for contributing this feature.
 
-### :rocket: Introduce OrgList and add LoadTeams, optimaze Load teams for orgs ([#32543](https://github.com/go-gitea/gitea/pull/32543))
+### :rocket: Introduce OrgList and add LoadTeams, optimize LoadTeams for orgs ([#32543](https://github.com/go-gitea/gitea/pull/32543))
 
 Use batch queries instead of multiple database queries.
 
