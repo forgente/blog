@@ -38,7 +38,7 @@ This release includes several major dependency updates that may require attentio
 
 ## Docker Registry Updates
 
-In line with our [recent announcement](/post/docker-registry-update), the Helm chart maintenance has been updated to use our `docker.gitea.com` registry URLs. The README has also been updated with installation instructions for the new registry.
+In line with our [recent announcement](/docker-registry-update/), the Helm chart maintenance has been updated to use our `docker.gitea.com` registry URLs. The README has also been updated with installation instructions for the new registry.
 
 ## Upgrading
 
