@@ -81,14 +81,14 @@ The system has three parts:
 
 #### Requirement
 
-- [All the existing required tools to build Gitea](https://docs.gitea.io/en-us/hacking-on-gitea/)
+- [All the existing required tools to build Gitea](https://docs.gitea.com/development/hacking-on-gitea)
 - Docker: Callable docker API for running containers
 
 #### Build from source
 
 1.Start Gitea
 
-Clone the feature branch and [install from source](https://docs.gitea.io/en-us/install-from-source):
+Clone the feature branch and [install from source](https://docs.gitea.com/installation/install-from-source):
 
 ```sh
 git clone https://github.com/go-gitea/gitea.git

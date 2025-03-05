@@ -6,7 +6,7 @@ tags: ["tutorial"]
 draft: false
 ---
 
-While helping people with their upgrades [in the Gitea forum](https://discourse.gitea.io/t/migration-from-1-2-to-1-16-8/5309) or [at the Hostea clinic](https://forum.hostea.org/t/gitea-upgrade-from-1-14-1-to-1-16-8/90), I realized that few Gitea admins know about the [`gitea doctor`](https://docs.gitea.io/en-us/command-line/#doctor) command and decided to write this blog post as a gentle introduction.
+While helping people with their upgrades [in the Gitea forum](https://forum.gitea.com/t/migration-from-1-2-to-1-16-8/5309) or [at the Hostea clinic](https://forum.hostea.org/t/gitea-upgrade-from-1-14-1-to-1-16-8/90), I realized that few Gitea admins know about the [`gitea doctor`](https://docs.gitea.com/administration/command-line#doctor) command and decided to write this blog post as a gentle introduction.
 
 ### An apple a day keeps the doctor away
 
