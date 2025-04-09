@@ -6,6 +6,7 @@ title: "Gitea 1.23.7 is released"
 tags: ["release"]
 draft: false
 coverImageRelease: 1.23.7
+image: /img/logo.svg
 ---
 
 We are proud to present the release of **Gitea version 1.23.7**.

@@ -307,7 +307,8 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: ['ini'],
-      }
+      },
+      image: '/img/logo.svg'
     }),
 };
 
