@@ -308,7 +308,8 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['ini'],
       },
-      image: '/img/logo.svg'
+      image: '/img/logo.svg',
+      metadata: [{name: 'og:logo', content: '/img/logo.svg'}]
     }),
 };
 
