@@ -6,6 +6,7 @@ title: "Hallo Deutschland, Gitea gathering in Germany"
 tags: ["events"]
 draft: false
 coverImage: /img/merge_berlin.jpg
+image: /img/merge_berlin.jpg
 ---
 
 The Gitea project is excited to announce a partnership[^1] with [THE MERGE](https://merge.berlin), a developer experience conference brought to you by [GitButler](https://gitbutler.com/). Through this partnership we are able to offer **significantly** discounted tickets (€99/ticket) for the Gitea community.  Cocktails and food are all included in the ticket price!
