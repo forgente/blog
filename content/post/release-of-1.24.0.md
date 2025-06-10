@@ -100,9 +100,15 @@ Thank you to [**@kerwin612**](https://github.com/kerwin612) for contributing thi
 
 ### :rocket: Add material icons for file list ([#33837](https://github.com/go-gitea/gitea/pull/33837))
 
-Additionally to the default icon theme, the Material icon theme is now also available and can be enabled by setting `ui.FILE_ICON_THEME=material` in`app.ini`.
+Icon themes have been introduced, with the Material icon theme set as the default. To switch to the Basic icon theme, update your app.ini configuration by setting:
 
-![File Tree](/demos/32721/1.png)
+```ini
+[ui]
+; The icons for file list (basic/material)
+FILE_ICON_THEME = basic
+```
+
+![File Tree](/demos/33837/1.png)
 
 Thank you to [**@wxiaoguang**](https://github.com/wxiaoguang) for contributing this feature, and [**yardenshoham**](https://github.com/yardenshoham) for their work on the inital PR.
 
