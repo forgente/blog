@@ -35,22 +35,22 @@ Discover [Gitea Cloud](https://cloud.gitea.com) — A fully-managed, scalable pl
 
 * ENHANCEMENTS   
 
-  * Improve alignment of commit status icon on commit page (#34750) (#34757)  
-  * Support title and body query parameters for new PRs (#34537) (#34752)
+  * Improve alignment of commit status icon on commit page ([#34750](https://github.com/go-gitea/gitea/pull/34750)) ([#34757](https://github.com/go-gitea/gitea/pull/34757))  
+  * Support title and body query parameters for new PRs ([#34537](https://github.com/go-gitea/gitea/pull/34537)) ([#34752](https://github.com/go-gitea/gitea/pull/34752))
 
 * BUGFIXES
-  * When using rules to delete packages, remove unclean bugs (#34632) (#34761)
-  * Fix ghost user in feeds when pushing in an actions, it should be gitea-actions (#34703) (#34756)
-  * Prevent double markdown link brackets when pasting URL (#34745) (#34748)
-  * Prevent duplicate form submissions when creating forks (#34714) (#34735)
-  * Fix markdown wrap (#34697) (#34702)
-  * Fix pull requests API convert panic when head repository is deleted. (#34685) (#34687)
-  * Fix commit message rendering and some UI problems (#34680) (#34683)
-  * Fix container range bug (#34725) (#34732)
-  * Fix incorrect cli default values (#34765) (#34766)
-  * Fix dropdown filter (#34708) (#34711)
-  * Hide href attribute of a tag if there is no target_url (#34556) (#34684)
-  * Fix tag target (#34781) #34783
+  * When using rules to delete packages, remove unclean bugs ([#34632](https://github.com/go-gitea/gitea/pull/34632)) ([#34761](https://github.com/go-gitea/gitea/pull/34761))
+  * Fix ghost user in feeds when pushing in an actions, it should be gitea-actions ([#34703](https://github.com/go-gitea/gitea/pull/34703)) ([#34756](https://github.com/go-gitea/gitea/pull/34756))
+  * Prevent double markdown link brackets when pasting URL ([#34745](https://github.com/go-gitea/gitea/pull/34745)) ([#34748](https://github.com/go-gitea/gitea/pull/34748))
+  * Prevent duplicate form submissions when creating forks ([#34714](https://github.com/go-gitea/gitea/pull/34714)) ([#34735](https://github.com/go-gitea/gitea/pull/34735))
+  * Fix markdown wrap ([#34697](https://github.com/go-gitea/gitea/pull/34697)) ([#34702](https://github.com/go-gitea/gitea/pull/34702))
+  * Fix pull requests API convert panic when head repository is deleted. ([#34685](https://github.com/go-gitea/gitea/pull/34685)) ([#34687](https://github.com/go-gitea/gitea/pull/34687))
+  * Fix commit message rendering and some UI problems ([#34680](https://github.com/go-gitea/gitea/pull/34680)) ([#34683](https://github.com/go-gitea/gitea/pull/34683))
+  * Fix container range bug ([#34725](https://github.com/go-gitea/gitea/pull/34725)) ([#34732](https://github.com/go-gitea/gitea/pull/34732))
+  * Fix incorrect cli default values ([#34765](https://github.com/go-gitea/gitea/pull/34765)) ([#34766](https://github.com/go-gitea/gitea/pull/34766))
+  * Fix dropdown filter ([#34708](https://github.com/go-gitea/gitea/pull/34708)) ([#34711](https://github.com/go-gitea/gitea/pull/34711))
+  * Hide href attribute of a tag if there is no target_url ([#34556](https://github.com/go-gitea/gitea/pull/34556)) ([#34684](https://github.com/go-gitea/gitea/pull/34684))
+  * Fix tag target ([#34781](https://github.com/go-gitea/gitea/pull/34781)) #34783
 
 ## Contributors
 
