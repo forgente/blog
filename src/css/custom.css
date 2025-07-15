@@ -154,3 +154,11 @@ img {
     display: none;
   }
 }
+
+svg[style*="display: none"] {
+  width: 0 !important;
+  height: 0 !important;
+  position: absolute !important;
+  overflow: hidden !important;
+  display: none !important;
+}
