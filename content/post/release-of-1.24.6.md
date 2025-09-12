@@ -1,5 +1,5 @@
 ---
-date: 2025-08-13T11:43:00-7:00
+date: 2025-09-12T11:43:00-7:00
 authors: 
   - "lunny"
 title: "Gitea 1.24.6 is released"
