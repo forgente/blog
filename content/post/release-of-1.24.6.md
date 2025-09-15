@@ -29,7 +29,7 @@ Discover [Gitea Cloud](https://cloud.gitea.com) — A fully-managed, scalable pl
 
 ## Changelog
 
-## [1.24.6](https://github.com/go-gitea/gitea/releases/tag/v1.24.6) - 2025-08-12
+## [1.24.6](https://github.com/go-gitea/gitea/releases/tag/v1.24.6) - 2025-09-12
 
 * SECURITY
   * Upgrade xz to v0.5.15 ([#35385](https://github.com/go-gitea/gitea/pull/35385))
