@@ -32,6 +32,10 @@ As always, the changes are sorted descending by what we deem most important for 
 
 Deprecated authentication sources have been removed in this version. Please ensure your authentication configuration is up to date before upgrading.
 
+### :warning: Refactor and update mail templates ([#35150](https://github.com/go-gitea/gitea/pull/35150))
+
+Mail templates have been refactored to improve maintainability. If you have customized mail templates, please note that this is a breaking change.
+
 Thank you to [**@techknowlogick**](https://github.com/techknowlogick) for contributing this feature.
 
 ## Major Highlights (Code)
