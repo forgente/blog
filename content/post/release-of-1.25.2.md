@@ -30,7 +30,7 @@ We've fixed a number of permission and authentication issues to improve security
 
 - Updated golang.org/x/crypto from v0.43.0 -> v0.45.0 to address the critical security issue [GO-2025-4134](https://pkg.go.dev/vuln/GO-2025-4134).
 
-Thanks [@d3struct1v3-create](https://github.com/d3struct1v3-create) and forgejo team for the security information. Thanks @wxiaoguang and @lunny for the patches.
+Thanks [@d3struct1v3-create](https://github.com/d3struct1v3-create), [@tartas1995](https://github.com/tartas1995) and forgejo team for the security information. Thanks @wxiaoguang and @lunny for the patches.
 
 This release includes [23 merged pull requests](https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.25.2+is%3Amerged), thanks to the amazing contributions from our community.
 
