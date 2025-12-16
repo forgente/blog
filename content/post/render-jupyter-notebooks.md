@@ -152,7 +152,7 @@ I then added to `/root/custom/templates/header.tmpl`
 
 And now lets restart gitea and see what we get.
 
-Final appearance with the `.markup.jupyer` custom styling
+Final appearance with the `.markup.jupyter` custom styling
 ![20200721 after css](/demos/jupyter/after-css.png)
 
 Looks good but we are getting some problems with text over-flowing the edge of the border. This is caused by some pesky CSS at-rules, so lets delete the below from the `jupyter.less`
