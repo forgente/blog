@@ -66,7 +66,7 @@ Now lets see what we get when we restart Gitea.
 
 ![20200721 after install of nb convert](/demos/jupyter/after-install-nb.png)
 
-As you can see this is better, but not the same as when we opened our HTML file earlier. This is becasue Gitea removes the inline style sheets for security needs. What styling there is is inherited from the `markup` class in the `<div>` that wraps the code.
+As you can see this is better, but not the same as when we opened our HTML file earlier. This is because Gitea removes the inline style sheets for security needs. What styling there is is inherited from the `markup` class in the `<div>` that wraps the code.
 
 ### Getting back our styling
 
