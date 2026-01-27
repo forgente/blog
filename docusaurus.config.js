@@ -67,7 +67,6 @@ const config = {
     { "to": "/release-of-1.16.9", "from":"/2022/07/gitea-1.16.9-is-released/"},
     { "to": "/release-of-1.16.8", "from":"/2022/05/gitea-1.16.8-is-released/"},
     { "to": "/release-of-1.16.7", "from":"/2022/05/gitea-1.16.7-is-released/"},
-            { to: '/gentle-introduction-to-the-doctor',from:'/2022/06/a-gentle-introduction-to-the-gitea-doctor/',},
             { to: '/render-jupyter-notebooks',from:'/2022/04/how-to-render-jupyter-notebooks-on-gitea/',},
             { to: '/running-gitea-on-flyio',from:'/2022/04/running-gitea-on-fly.io/',},
             { "to": "/release-of-1.16.6", "from":"/2022/04/gitea-1.16.6-is-released/"},
