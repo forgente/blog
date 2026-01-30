@@ -35,7 +35,7 @@ This release includes [27 merged pull requests](https://github.com/go-gitea/gite
 
 ## How to install or update
 
-Download our pre-built binaries from the [Gitea downloads page](https://dl.gitea.com/gitea/1.25.3/) — make sure to select the version compatible with your platform. For a step-by-step guide on installation or upgrades, check out our [installation documentation](https://docs.gitea.com/category/installation)
+Download our pre-built binaries from the [Gitea downloads page](https://dl.gitea.com/gitea/1.25.4/) — make sure to select the version compatible with your platform. For a step-by-step guide on installation or upgrades, check out our [installation documentation](https://docs.gitea.com/category/installation)
 
 ## Special Thanks
 
