@@ -10,11 +10,11 @@ clean:
 
 .PHONY: server
 server: $(THEME)
-	npm run start
+	pnpm run start
 
 .PHONY: build
 build: $(THEME)
-	npm run build
+	pnpm run build
 
 .PHONY: update
 update: $(THEME)

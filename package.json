@@ -18,11 +18,13 @@
     "@docusaurus/plugin-client-redirects": "3.9.2",
     "@docusaurus/plugin-content-blog": "^3.7.0",
     "@docusaurus/preset-classic": "3.9.2",
+    "@docusaurus/theme-common": "^3.9.2",
     "@easyops-cn/docusaurus-search-local": "^0.52.3",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@mdx-js/react": "^3.0.0",
     "@mui/material": "^7.0.0",
+    "clsx": "^2.1.1",
     "docusaurus-plugin-plausible": "^0.0.5",
     "prism-react-renderer": "^2.1.0",
     "react": "^19.0.0",
@@ -46,5 +48,6 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "packageManager": "pnpm@10.28.0"
 }
