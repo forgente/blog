@@ -163,7 +163,13 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: false,
+        // Enable docs plugin minimally to satisfy search-local hooks
+        // See: https://github.com/facebook/docusaurus/issues/3360
+        docs: {
+          path: 'docs',
+          routeBasePath: 'docs',
+          sidebarPath: false,
+        },
         // blog is enabled through a custom plugin, so we disable it from preset
         // ./plugins/blog/index.js
         blog: false,
