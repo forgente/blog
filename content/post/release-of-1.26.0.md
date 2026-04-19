@@ -41,6 +41,10 @@ As always, the changes are sorted descending by what we deem most important for 
 
 ## Major Breaking Changes
 
+### :warning: Introduce "config edit-ini" sub command to help maintaining INI config file ([#35735](https://github.com/go-gitea/gitea/pull/35735))
+
+The standalone environment-to-ini tool was removed and a sub command of gitea has been introduced. If you need to re-create the configuration file with only a subset of keys, you can provide an INI template file and use the "--config-keep-keys" flag.
+
 ### :warning: Correct Swagger annotations for enums, status codes, and notification state ([#37030](https://github.com/go-gitea/gitea/pull/37030))
 
 The generated OpenAPI description is now aligned with the actual API: enum values, HTTP status codes, and notification state are documented more accurately. If you rely on the published Swagger spec for code generation or contract tests, regenerate clients and re-check any assumptions about optional fields or response shapes.
