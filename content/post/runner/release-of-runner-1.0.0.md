@@ -4,7 +4,7 @@ authors:
   - "bircni"
 title: "Gitea Runner 1.0.0 is released"
 tags: ["release", "actions", "runner"]
-draft: true
+draft: false
 coverImageRelease: 1.0.0
 ---
 
