@@ -15,6 +15,7 @@ import SearchMetadata from "@theme/SearchMetadata";
 // import BlogPostItems from "@theme/BlogPostItems";
 import { ListItem } from "./ListItem";
 import { Chips } from "./Chips";
+import { CategoryTabs } from "./CategoryTabs";
 import styles from "./styles.module.css";
 import useGlobalData from "@docusaurus/useGlobalData";
 
@@ -23,7 +24,8 @@ import useGlobalData from "@docusaurus/useGlobalData";
 // - Tags list page
 function BlogListPageMetadata(props) {
   const isTagsPage = props.tag !== undefined;
-  const metadata = isTagsPage ? props.listMetadata: props.metadata;
+  const isCategoryPage = props.category !== undefined;
+  const metadata = isTagsPage || isCategoryPage ? props.listMetadata: props.metadata;
   const {
     siteConfig: {title: siteTitle},
   } = useDocusaurusContext();
@@ -39,8 +41,9 @@ function BlogListPageMetadata(props) {
 }
 function BlogListPageContent(props) {
   const isTagsPage = props.tag !== undefined;
+  const isCategoryPage = props.category !== undefined;
   let tagPageCount = -1;
-  const metadata = isTagsPage ? props.listMetadata: props.metadata;
+  const metadata = isTagsPage || isCategoryPage ? props.listMetadata: props.metadata;
   // No official api to get all tags right now: https://github.com/facebook/docusaurus/discussions/5856
   // So used customized blog plugin which extends original blog plugin
   const globalData = useGlobalData();
@@ -53,7 +56,26 @@ function BlogListPageContent(props) {
     }
   }
   tags.sort((a,b) => a.label.localeCompare(b.label) );
+  const categories = Object.values(myPluginData.categories).map(
+    ({items, key, label, permalink}) => ({
+      key,
+      label,
+      permalink,
+      count: items.length,
+    }),
+  ).sort((a, b) => {
+    if (a.key === "others") return 1;
+    if (b.key === "others") return -1;
+    return a.label.localeCompare(b.label);
+  });
+  const activeCategoryKey = isCategoryPage ? props.category.key : null;
   const {items, sidebar} = props;
+  const postsTitle = isTagsPage
+    ? `${tagPageCount !== -1 ? `${tagPageCount} posts`: "Posts"} tagged with "${props.tag.label}"`
+    : isCategoryPage
+      ? `${props.category.count} posts in "${props.category.label}"`
+      : "Blog Posts";
+
   return (
     // <BlogLayout sidebar={sidebar}>
     //   <BlogPostItems items={items} />
@@ -61,15 +83,20 @@ function BlogListPageContent(props) {
     // </BlogLayout>
     <Layout title="Blog">
       <main className={styles.root}>
-        <h2 className={styles.title}>Filter by Tag</h2>
-        <div className={styles.categories}>
-          <Chips
-            activeChipLabel={isTagsPage? props.tag.label: null}
-            items={tags}
-          />
+        <div className={styles.tagSection}>
+          <span className={styles.eyebrow}>Browse by tag</span>
+          <div className={styles.chipRow}>
+            <Chips
+              activeChipLabel={isTagsPage? props.tag.label: null}
+              items={tags}
+            />
+          </div>
         </div>
-        <a className={styles.link} href="/">Show all posts</a>
-        <h2 className={styles.title}>{isTagsPage? `${tagPageCount !== -1 ? `${tagPageCount} posts`: "Posts"} tagged with "${props.tag.label}"`: "Blog Posts"}</h2>
+        <CategoryTabs
+          items={categories}
+          activeKey={activeCategoryKey}
+        />
+        <h2 className={styles.title}>{postsTitle}</h2>
         <div className={styles.posts}>
           {items.map(({ content }, i) => (
             <ListItem

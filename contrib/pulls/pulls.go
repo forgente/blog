@@ -26,14 +26,14 @@ func main() {
 		return
 	}
 
-	post := fmt.Sprintf("content/post/release-of-%s.md", release)
+	post := fmt.Sprintf("content/post/gitea/release-of-%s.md", release)
 	if tea {
-		post = fmt.Sprintf("content/post/release-of-tea-%s.md", release)
+		post = fmt.Sprintf("content/post/tea/release-of-tea-%s.md", release)
 	}
 
 	fi, err := os.OpenFile(post, os.O_RDWR, os.ModePerm)
 	if os.IsNotExist(err) {
-		fmt.Printf("could not find content/post/release-of-%s.md\n", release)
+		fmt.Printf("could not find %s\n", post)
 		return
 	} else if err != nil {
 		fmt.Println(err)

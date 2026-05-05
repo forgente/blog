@@ -6,8 +6,9 @@
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  font-weight: 400;
-  border: 1px solid transparent;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: 1px solid var(--ifm-color-emphasis-300);
 }
 
 .root:hover,

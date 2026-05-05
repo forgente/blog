@@ -7,7 +7,7 @@ import BlogPostCoverImage from "@theme/BlogReleaseCoverImage";
 
 export const ListItem = ({ content, belowFold }) => {
   const {metadata, frontMatter} = content;
-  const {tags, permalink, authors, title} = metadata;
+  const {tags, permalink, authors, title, category} = metadata;
   const tag = tags[0] ?? {};
   const imageUrl = frontMatter.coverImage ?? "/img/blog_placeholder.png";
   const postUrl = ensureTrailingSlash(permalink);
@@ -34,6 +34,15 @@ export const ListItem = ({ content, belowFold }) => {
             size="small"
           />
         </div>
+
+        {category && (
+          <Link
+            to={ensureTrailingSlash(category.permalink)}
+            className={styles.category}
+          >
+            {category.label}
+          </Link>
+        )}
 
         <h2 className={styles.title}>
           <Link to={postUrl}>{title}</Link>

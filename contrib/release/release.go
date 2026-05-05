@@ -56,7 +56,7 @@ func main() {
 	}
 
 	// This will truncate if you mess up the milestone, but this is in Git so just revert it. YOLO
-	fi, err := os.Create(fmt.Sprintf("content/post/release-of-%s.md", milestone))
+	fi, err := os.Create(fmt.Sprintf("content/post/gitea/release-of-%s.md", milestone))
 	if err != nil {
 		fmt.Println(err)
 		return
