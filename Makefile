@@ -2,7 +2,11 @@ THEME := themes/gitea
 ARCHIVE := https://dl.gitea.com/theme/main.tar.gz
 
 .PHONY: all
-all: build
+all: install build
+
+.PHONY: install
+install:
+	pnpm install --frozen-lockfile
 
 .PHONY: clean
 clean:
