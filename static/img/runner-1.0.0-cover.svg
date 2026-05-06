@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Gitea Runner 1.0.0 cover image</title>
+  <desc id="desc">A simplified cover image for Gitea Runner 1.0.0 with large typography and a minimal runner workflow illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b141c" />
+      <stop offset="100%" stop-color="#11281a" />
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101d28" stop-opacity="0.97" />
+      <stop offset="100%" stop-color="#0c161f" stop-opacity="0.97" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.28" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" rx="28" fill="url(#bg)" />
+
+  <g opacity="0.12" fill="#79c143">
+    <circle cx="1070" cy="110" r="110" />
+    <circle cx="120" cy="540" r="120" />
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="84" width="1056" height="462" rx="36" fill="url(#card)" stroke="#23404e" />
+  </g>
+
+  <g transform="translate(126 148)">
+    <text x="0" y="0" fill="#d9f4c9" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">
+      Gitea Runner
+    </text>
+    <text x="0" y="120" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="132" font-weight="800">
+      1.0.0
+    </text>
+
+    <g transform="translate(0 156)">
+      <rect x="0" y="0" width="250" height="52" rx="26" fill="#173222" stroke="#2d6f42" />
+      <circle cx="30" cy="26" r="9" fill="#79c143" />
+      <text x="54" y="34" fill="#ebffe1" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">
+        Stable Release
+      </text>
+    </g>
+
+    <text x="0" y="266" fill="#8ea7b7" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="500">
+      official runner for Gitea Actions
+    </text>
+  </g>
+
+  <g transform="translate(742 168)">
+    <g stroke="#79c143" stroke-width="12" stroke-linecap="round" fill="none">
+      <path d="M0 54h96" />
+      <path d="M148 54h96" />
+      <path d="M122 106v74" />
+    </g>
+
+    <g>
+      <rect x="-18" y="16" width="72" height="72" rx="20" fill="#173349" stroke="#3b6d8b" />
+      <path d="M8 36h24l12 12v12H8z" fill="#e5f2ff" />
+      <path d="M32 36v12h12" fill="none" stroke="#173349" stroke-width="4" stroke-linejoin="round" />
+    </g>
+
+    <g>
+      <circle cx="122" cy="54" r="38" fill="#204f2f" stroke="#4d9760" />
+      <path d="M103 53l12 12 25-27" fill="none" stroke="#efffe8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <g>
+      <circle cx="270" cy="54" r="38" fill="#204f2f" stroke="#4d9760" />
+      <path d="M251 53l12 12 25-27" fill="none" stroke="#efffe8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <g transform="translate(26 180)">
+      <rect x="0" y="0" width="246" height="132" rx="28" fill="#101c26" stroke="#2e556b" />
+      <rect x="0" y="0" width="246" height="30" rx="28" fill="#173243" />
+      <circle cx="24" cy="15" r="5" fill="#ff6b6b" />
+      <circle cx="42" cy="15" r="5" fill="#ffd166" />
+      <circle cx="60" cy="15" r="5" fill="#79c143" />
+      <text x="123" y="83" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="34" font-weight="700">
+        &gt;_ runner
+      </text>
+    </g>
+  </g>
+</svg>

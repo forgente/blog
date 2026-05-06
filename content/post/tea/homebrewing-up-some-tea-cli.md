@@ -4,6 +4,8 @@ authors: "techknowlogick"
 title: "(Home)brewing up some Tea (CLI)"
 tags: ["tools", "cli", "brew", "homebrew", "tea"]
 draft: false
+coverImage: /img/tea-cli.png
+image: /img/tea-cli.png
 ---
 
 Thanks to our homebrew tap maintainer [chenrui](https://gitea.com/chenrui), both Gitea and the tea cli have been added to the upstream official [homebrew-core](https://github.com/homebrew/homebrew-core) repository. This means that you can now install Gitea and the tea cli with a simple `brew install gitea` or `brew install tea` without first having to add our tap.

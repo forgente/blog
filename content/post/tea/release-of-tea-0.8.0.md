@@ -4,6 +4,8 @@ authors: "noerw"
 title: "Tea 0.8.0 is released"
 tags: ["release", "tea"]
 draft: false
+coverImage: /img/tea-cli.png
+image: /img/tea-cli.png
 ---
 
 We are proud to present the release of `tea` version 0.8.0,

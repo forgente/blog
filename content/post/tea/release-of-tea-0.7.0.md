@@ -4,6 +4,8 @@ authors: "6543"
 title: "Tea 0.7.0 is released"
 tags: ["release", "tea"]
 draft: false
+coverImage: /img/tea-cli.png
+image: /img/tea-cli.png
 ---
 
 We are proud to present the release of `tea` version 0.7.0,

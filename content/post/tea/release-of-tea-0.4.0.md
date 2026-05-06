@@ -4,6 +4,8 @@ authors: "6543"
 title: "tea 0.4.0 is released"
 tags: ["release", "tea"]
 draft: false
+coverImage: /img/tea-cli.png
+image: /img/tea-cli.png
 ---
 
 We are proud to present you `tea`, a CLI tool that allows you to work with pull requests, issues and more in your terminal.

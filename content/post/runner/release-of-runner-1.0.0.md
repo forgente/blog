@@ -1,11 +1,11 @@
 ---
-date: 2026-05-07T00:00:00+02:00
+date: 2026-05-05T23:00:00+02:00
 authors:
   - "bircni"
 title: "Gitea Runner 1.0.0 is released"
 tags: ["release", "actions", "runner"]
+coverImage: /img/runner-1.0.0-cover.svg
 draft: false
-coverImageRelease: 1.0.0
 ---
 
 We are happy to announce the release of **Gitea Runner 1.0.0**.
