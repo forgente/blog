@@ -32,6 +32,7 @@ const config = {
         blogTagsPostsComponent: require.resolve(
           "./src/theme/BlogListPage/index.js",
         ),
+        remarkPlugins: [require('./plugins/remark-github-mentions')],
       },
     ],
     [
