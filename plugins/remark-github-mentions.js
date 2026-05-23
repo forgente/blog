@@ -1,11 +1,9 @@
-'use strict';
-
 // Converts bare @username mentions in markdown text nodes to GitHub profile links.
 // Skips mentions that are already inside a link node.
 
 const MENTION_RE = /@([a-zA-Z0-9](?:[a-zA-Z0-9-]{0,37}[a-zA-Z0-9])?)/g;
 
-function remarkGithubMentions() {
+export default function remarkGithubMentions() {
   return (tree) => {
     walk(tree, null);
   };
@@ -56,4 +54,3 @@ function splitMentions(text) {
   return nodes;
 }
 
-module.exports = remarkGithubMentions;

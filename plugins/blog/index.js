@@ -1,9 +1,7 @@
-const blogPluginExports = require('@docusaurus/plugin-content-blog');
-const fs = require('fs');
-const path = require('path');
-const {normalizeUrl} = require('@docusaurus/utils');
-
-const blogPlugin = blogPluginExports.default;
+import blogPlugin from '@docusaurus/plugin-content-blog';
+import fs from 'fs';
+import path from 'path';
+import {normalizeUrl} from '@docusaurus/utils';
 
 /*
 * This plugin enhances the default '@docusaurus/plugin-content-blog' plugin with
@@ -202,7 +200,5 @@ function labelFromCategoryKey(key) {
     .join(' ');
 }
 
-module.exports = {
-  ...blogPluginExports,
-  default: blogPluginEnhanced
-};
+export {validateOptions} from '@docusaurus/plugin-content-blog';
+export default blogPluginEnhanced;

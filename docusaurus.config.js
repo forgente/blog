@@ -2,6 +2,7 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import remarkGithubMentions from './plugins/remark-github-mentions.js';
 
 const lightCodeTheme = prismThemes.github;
 const darkCodeTheme = prismThemes.dracula;
@@ -32,7 +33,7 @@ const config = {
         blogTagsPostsComponent: require.resolve(
           "./src/theme/BlogListPage/index.js",
         ),
-        remarkPlugins: [require('./plugins/remark-github-mentions')],
+        remarkPlugins: [remarkGithubMentions],
       },
     ],
     [
