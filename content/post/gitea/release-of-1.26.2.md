@@ -17,7 +17,8 @@ We are excited to announce the release of **Gitea 1.26.2**! We strongly recommen
   * CVE-2026-20706: fix: Add missed token scope checking (#37735) Thanks to geoo115 for the report. Thanks to @lunny for the fix.
   * fix(oauth): bind token exchanges to the original client request (#37704) Thanks to @lunny for the fix.
   * fix(oauth): strengthen PKCE validation and refresh token replay protection (#37706) Thanks to @lunny for the fix.
-  * fix(web): enforce token scopes on raw, media, and attachment downloads (#37698) Thanks to @lunny for the fix.
+  * fix(web): enforce token scopes on raw, media, and attachment downloads (#37698) Thanks to [@kamil-sawicki
+](https://github.com/kamil-sawicki) for the report. Thanks to @lunny for the fix.
   * fix(security): enforce wiki git writes and LFS token access at request time (#37695) Thanks to @lunny for the fix.
   * feat(api): encrypt AWS creds (#37679) Thanks to @Exgene for the report and the fix.
   * CVE-2026-27771: fix(packages): Add label for private and internal package and fix composor package source permission check (#37610) Thanks to [NoScope](https://noscope.com) for the report. Thanks to @lunny for the fix.
