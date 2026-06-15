@@ -23,7 +23,7 @@ jobs:
           pnpm install --frozen-lockfile
           pnpm run build
       - name: publish to netlify
-        uses: nwtgck/actions-netlify@v3.0
+        uses: nwtgck/actions-netlify@v4.0
         with:
           publish-dir: build
           production-branch: main
