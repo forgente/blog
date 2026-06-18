@@ -16,23 +16,23 @@
   "dependencies": {
     "@docusaurus/core": "3.10.1",
     "@docusaurus/plugin-client-redirects": "3.10.1",
-    "@docusaurus/plugin-content-blog": "^3.10.1",
+    "@docusaurus/plugin-content-blog": "3.10.1",
     "@docusaurus/preset-classic": "3.10.1",
-    "@docusaurus/theme-common": "^3.10.1",
-    "@easyops-cn/docusaurus-search-local": "^0.55.1",
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
-    "@mdx-js/react": "^3.1.1",
-    "@mui/material": "^9.0.0",
-    "clsx": "^2.1.1",
-    "docusaurus-plugin-plausible": "^0.0.5",
-    "prism-react-renderer": "^2.4.1",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "@docusaurus/theme-common": "3.10.1",
+    "@easyops-cn/docusaurus-search-local": "0.55.2",
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "@mdx-js/react": "3.1.1",
+    "@mui/material": "9.0.1",
+    "clsx": "2.1.1",
+    "docusaurus-plugin-plausible": "0.0.5",
+    "prism-react-renderer": "2.4.1",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.10.1",
-    "cross-env": "^10.1.0"
+    "cross-env": "10.1.0"
   },
   "browserslist": {
     "production": [
@@ -49,10 +49,5 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "pnpm@10.34.3",
-  "pnpm": {
-    "overrides": {
-      "serialize-javascript": "^7.0.5"
-    }
-  }
+  "packageManager": "pnpm@11.7.0"
 }
