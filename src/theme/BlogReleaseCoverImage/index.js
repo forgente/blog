@@ -2,34 +2,58 @@
 import React from "react";
 import GiteaLogo from "../../../static/img/logo.svg";
 
+const TEXT_X = 280;
+const VIEWBOX_HEIGHT = 285.75;
+
+function getTextLayout(version) {
+    const versionStr = String(version);
+    const lines = [versionStr, "Release"];
+
+    let fontSize = 54;
+    if (versionStr.length > 11) {
+        fontSize = 32;
+    } else if (versionStr.length > 9) {
+        fontSize = 36;
+    } else if (versionStr.length > 7) {
+        fontSize = 42;
+    } else if (versionStr.length > 6) {
+        fontSize = 48;
+    }
+
+    return { lines, fontSize };
+}
+
 export default function ReleaseCoverImage({ version }) {
+    const { lines, fontSize } = getTextLayout(version);
+    const lineHeight = fontSize * 1.15;
+    const blockHeight = lines.length * lineHeight;
+    const startY = (VIEWBOX_HEIGHT - blockHeight) / 2 + fontSize * 0.85;
+
     return (
         <svg
             viewBox="0 0 508 285.75"
+            width="100%"
+            height="100%"
+            preserveAspectRatio="xMidYMid slice"
             xmlSpace="preserve"
         >
             <g transform="matrix(0.6,0,0,0.6,-10,55)">
                 <GiteaLogo />
             </g>
             <text
-                xmlSpace="preserve"
-                transform="matrix(1,0,0,1.0297241,-953.18156,-310.85658)"
-                fontSize="54px"
-                whiteSpace="pre"
+                fontSize={fontSize}
                 fill="#5f9826"
                 fontWeight="bold"
                 fontFamily="var(--ifm-heading-font-family)"
-                textAlign="center"
-                textAnchor="middle"
-                x="93.893326"
-                y="0"
+                textAnchor="start"
+                x={TEXT_X}
+                y={startY}
             >
-                <tspan x="1300" y="425">
-                    <tspan>{version}</tspan>
-                </tspan>
-                <tspan x="1300" y="495">
-                    <tspan>Release</tspan>
-                </tspan>
+                {lines.map((line, index) => (
+                    <tspan key={line} x={TEXT_X} dy={index === 0 ? 0 : lineHeight}>
+                        {line}
+                    </tspan>
+                ))}
             </text>
         </svg>
     );
