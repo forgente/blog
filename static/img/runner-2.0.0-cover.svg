@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Gitea Runner 1.1.0 cover image</title>
+  <desc id="desc">Cover image for Gitea Runner 1.1.0 featuring a terminal window with a passing workflow and large version typography.</desc>
+  <defs>
+    <linearGradient id="bgA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1410" />
+      <stop offset="55%" stop-color="#0c1a13" />
+      <stop offset="100%" stop-color="#0a120e" />
+    </linearGradient>
+    <linearGradient id="termA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f2018" />
+      <stop offset="100%" stop-color="#0a1610" />
+    </linearGradient>
+    <linearGradient id="greenA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8fd64f" />
+      <stop offset="100%" stop-color="#5aa832" />
+    </linearGradient>
+    <filter id="glowA" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="20" stdDeviation="28" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgA)" />
+
+  <!-- subtle grid -->
+  <g stroke="#79c143" stroke-width="1" opacity="0.05">
+    <path d="M0 158h1200M0 316h1200M0 474h1200" />
+    <path d="M200 0v630M400 0v630M600 0v630M800 0v630M1000 0v630" />
+  </g>
+
+  <!-- glow blobs -->
+  <circle cx="1080" cy="90" r="200" fill="#79c143" opacity="0.10" />
+  <circle cx="80" cy="560" r="180" fill="#79c143" opacity="0.07" />
+
+  <!-- left copy -->
+  <g transform="translate(96 196)">
+    <text x="2" y="0" fill="#9fe07a" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="3">GITEA RUNNER</text>
+    <text x="-6" y="138" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="170" font-weight="800" letter-spacing="-4">2.0.0</text>
+    <g transform="translate(2 178)">
+      <rect x="0" y="0" width="232" height="50" rx="25" fill="#15301f" stroke="#3a7a48" />
+      <circle cx="28" cy="25" r="8" fill="#8fd64f" />
+      <text x="50" y="33" fill="#d9f4c9" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Stable Release</text>
+    </g>
+    <text x="2" y="278" fill="#7f9a89" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="500">Official runner for Gitea Actions</text>
+  </g>
+
+  <!-- terminal -->
+  <g transform="translate(708 168)" filter="url(#glowA)">
+    <rect x="0" y="0" width="404" height="294" rx="20" fill="url(#termA)" stroke="#27513a" />
+    <rect x="0" y="0" width="404" height="42" rx="20" fill="#12281c" />
+    <rect x="0" y="22" width="404" height="20" fill="#12281c" />
+    <circle cx="26" cy="21" r="6" fill="#ff6b6b" />
+    <circle cx="48" cy="21" r="6" fill="#ffd166" />
+    <circle cx="70" cy="21" r="6" fill="#8fd64f" />
+    <text x="202" y="27" text-anchor="middle" fill="#5d7567" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="600">gitea-runner</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">
+      <text x="26" y="88" fill="#8fd64f" font-weight="700">$</text>
+      <text x="46" y="88" fill="#cfe0d4">act_runner daemon</text>
+
+      <text x="26" y="128" fill="#7f9a89">›</text>
+      <text x="46" y="128" fill="#a9bdb0">picking up job</text>
+      <text x="290" y="128" fill="#8fd64f" font-weight="700">✓</text>
+
+      <text x="26" y="164" fill="#7f9a89">›</text>
+      <text x="46" y="164" fill="#a9bdb0">build</text>
+      <text x="290" y="164" fill="#8fd64f" font-weight="700">✓</text>
+
+      <text x="26" y="200" fill="#7f9a89">›</text>
+      <text x="46" y="200" fill="#a9bdb0">test</text>
+      <text x="290" y="200" fill="#8fd64f" font-weight="700">✓</text>
+
+      <text x="26" y="236" fill="#7f9a89">›</text>
+      <text x="46" y="236" fill="#a9bdb0">job summary</text>
+      <text x="290" y="236" fill="#8fd64f" font-weight="700">✓</text>
+
+      <text x="26" y="272" fill="#8fd64f" font-weight="700">$</text>
+      <rect x="46" y="258" width="13" height="20" fill="#8fd64f" opacity="0.9" />
+    </g>
+  </g>
+</svg>
