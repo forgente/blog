@@ -9,10 +9,10 @@ const darkCodeTheme = prismThemes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Gitea Blog',
+  title: 'Forgente Blog',
   tagline: 'Git with a cup of tea',
   favicon: 'img/favicon.svg',
-  url: 'https://blog.gitea.com',
+  url: 'https://blog.forgente.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -27,7 +27,7 @@ const config = {
       {
         showReadingTime: true,
         routeBasePath: '/',
-        editUrl: 'https://gitea.com/gitea/blog/src/branch/main/',
+        editUrl: 'https://github.com/forgente/blog/blob/main/',
         postsPerPage: 12,
         path: 'content/post',
         blogTagsPostsComponent: require.resolve(
