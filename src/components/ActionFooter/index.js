@@ -15,7 +15,7 @@ export const ActionFooter = () => (
       }
       svgBackgroundColor="#ffffff"
       title="Join our community"
-      description="Forgente is open source. Star the repo on GitHub!"
+      description="Forgente is open source. Star the repo on GitHub, and join our community on Discord!"
     >
       <a
         className={footerCss.card__link}
@@ -24,6 +24,14 @@ export const ActionFooter = () => (
         target="_blank"
       >
         Go to GitHub&nbsp;&nbsp;&gt;
+      </a>
+      <a
+        className={footerCss.card__link}
+        href={'https://discord.gg/nsvJVRbfg'}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Join Discord&nbsp;&nbsp;&gt;
       </a>
     </ActionCard>
   </div>
