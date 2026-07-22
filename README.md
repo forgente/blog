@@ -1,42 +1,36 @@
-# Gitea: Blog
+# Forgente: Blog
 
-[![Join the chat at https://img.shields.io/discord/322538954119184384.svg](https://img.shields.io/discord/322538954119184384.svg)](https://discord.gg/Gitea)
+Source for [blog.forgente.com](https://blog.forgente.com) — news and release
+announcements from the [Forgente](https://forgente.com) project.
+
+## Content policy
+
+This blog publishes Forgente's own writing only. It is **not** a mirror of the
+upstream Gitea blog: Forgente hard-forked from Gitea in 2026-07, and while the
+forge tracks upstream security fixes, this blog does not republish upstream
+posts. Gitea's blog lives at [blog.gitea.com](https://blog.gitea.com).
+
+Posts live under `content/post/<category>/`, where the folder name becomes the
+category tab on the site (e.g. `content/post/releases/` → "Releases").
 
 ## Hosting
 
-This page is hosted on our infrastructure within Docker containers, it gets
-automcatically updated on every push to the `main` branch.
-
-## Install
-
-This website uses the [Docusaurus](https://docusaurus.io/) static site
-generator. If you are planning to contribute you'll want to install
-Docusaurus on your local machine.
-
-The installation of Docusaurus is out of the scope of this document, so please take
-the [official install instructions](https://docusaurus.io/docs/installation) to
-get Docusaurus up and running.
+The site is a static [Docusaurus](https://docusaurus.io/) build. Pushing to
+`main` runs the publish workflow, which builds the site and deploys it to the
+S3 + CloudFront distribution behind blog.forgente.com.
 
 ## Development
 
-To generate the website and serve it on [localhost:1313](http://localhost:1313)
-just execute this command and stop it with `Ctrl+C`:
+Serve the site locally with hot reload:
 
 ```
+pnpm install
 pnpm run start
 ```
-
-When you are done with your changes just create a pull request, after merging
-the pull request the website will be updated automatically.
 
 ## Contributing
 
 Fork -> Patch -> Push -> Pull Request
-
-## Authors
-
-* [Maintainers](https://github.com/orgs/go-gitea/people)
-* [Contributors](https://github.com/go-gitea/blog/graphs/contributors)
 
 ## License
 
@@ -46,5 +40,5 @@ for the full license text.
 ## Copyright
 
 ```
-Copyright (c) 2016 The Gitea Authors <https://about.gitea.com>
+Copyright (c) 2026 The Forgente Authors <https://forgente.com>
 ```
