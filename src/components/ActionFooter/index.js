@@ -1,8 +1,6 @@
 import footerCss from "./footer.module.css";
 import ActionCard from "../ActionCard";
 import FossIcon from "./foss.svg";
-import SubscribeIcon from "./subscribeIcon.svg";
-import Subscribe from "../Subscribe";
 import React from "react";
 import SvgImage from "../SvgImage";
 
@@ -17,37 +15,16 @@ export const ActionFooter = () => (
       }
       svgBackgroundColor="#ffffff"
       title="Join our community"
-      description="Gitea is open source. Star our GitHub repo, and join our community on Discord!"
+      description="Forgente is open source. Star the repo on GitHub!"
     >
       <a
         className={footerCss.card__link}
-        href={'https://github.com/go-gitea/gitea'}
+        href={'https://github.com/forgente/forgente'}
         rel="noopener noreferrer"
         target="_blank"
       >
         Go to GitHub&nbsp;&nbsp;&gt;
       </a>
-      <a className={footerCss.card__link} href={'https://discord.com/invite/gitea'}>
-        Join Discord&nbsp;&nbsp;&gt;
-      </a>
-    </ActionCard>
-
-    <ActionCard
-      title="Subscribe to our newsletter"
-      description="Stay up to date with all things Gitea"
-      svgBackgroundColor="#1E1F27"
-      icon={
-        <SvgImage
-          image={<SubscribeIcon />}
-          title="An icon showing a paper plane"
-        />
-      }
-      skin="primary"
-    >
-      <Subscribe
-        placeholder="Email address"
-        submitButtonText = "Subscribe"
-      />
     </ActionCard>
   </div>
 )
